@@ -1,0 +1,1151 @@
+[
+  {
+    "id": "aleki-s-nifty-ships",
+    "name": "Aleki's Nifty Ships",
+    "description": "Sloops, rowboats and sailing vehicles, with local NeoForge 1.21.1 fixes.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/aleki-ships-1.21.1",
+    "branch": "dev/1.21",
+    "source_url": "https://github.com/ashleywr/aleki-ships-1.21.1",
+    "upstream": "https://gitlab.com/alekiponi1/alekiships",
+    "license": "MIT",
+    "status": "published"
+  },
+  {
+    "id": "alex-s-caves",
+    "name": "Alex's Caves",
+    "description": "Maintenance build of the unofficial NeoForge 1.21.1 port, including the pack branch fixes and integrated TACT changes.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/AlexsCaves-1.21.1",
+    "branch": "pack",
+    "source_url": "https://github.com/ashleywr/AlexsCaves-1.21.1",
+    "upstream": "https://github.com/Raguto/AlexsCaves-1.21.1",
+    "license": "GPL-3.0",
+    "status": "published",
+    "notes": [
+      "This JAR also contains the TACT mod. Do not add a separate copy of TACT alongside this combined build. Minecraft is not declared in this JAR dependency list; this maintained build targets NeoForge 1.21.1."
+    ]
+  },
+  {
+    "id": "alex-s-caves-exemplified",
+    "name": "Alex's Caves Exemplified",
+    "description": "NeoForge 1.21.1 port of the Alex's Caves addon.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/AlexsCavesExemplified-Neoforge",
+    "branch": "master",
+    "source_url": "https://github.com/ashleywr/AlexsCavesExemplified-Neoforge",
+    "upstream": "https://github.com/CrimsonCrips/AlexsCavesExemplified",
+    "license": "MIT",
+    "status": "published"
+  },
+  {
+    "id": "automated-materials-index",
+    "name": "Automated Materials Index",
+    "description": "Browse materials and their uses across installed Minecraft mods.",
+    "kind": "Original mod / tool",
+    "repository": "ashleywr/AutomatedMaterialsIndex",
+    "branch": "main",
+    "source_url": "https://github.com/ashleywr/AutomatedMaterialsIndex",
+    "upstream": null,
+    "license": "MIT",
+    "status": "published"
+  },
+  {
+    "id": "automine-testing",
+    "name": "AutoMine Testing",
+    "description": "Development helper for deterministic Minecraft UI and world-generation checks; Fabric and NeoForge 1.21.1.",
+    "kind": "Original mod / tool",
+    "repository": "ashleywr/automine-testing",
+    "branch": "main",
+    "source_url": "https://github.com/ashleywr/automine-testing",
+    "upstream": null,
+    "license": "MIT",
+    "status": "published"
+  },
+  {
+    "id": "autoturgy",
+    "name": "Autoturgy",
+    "description": "Original magical automation addon for NeoForge 1.21.1 and Thaumaturge.",
+    "kind": "Original mod / tool",
+    "repository": "ashleywr/Autoturgy",
+    "branch": "master",
+    "source_url": "https://github.com/ashleywr/Autoturgy",
+    "upstream": null,
+    "license": "MIT",
+    "status": "published",
+    "notes": [
+      "Requires Thaumaturge [1.0.4,). The reviewed Thaumaturge fork is source-only; obtain an authorized build that meets this requirement."
+    ]
+  },
+  {
+    "id": "botania",
+    "name": "Botania",
+    "description": "Official upstream NeoForge 1.21.1 porting-branch snapshot, built locally without source changes.",
+    "kind": "Upstream snapshot build",
+    "repository": "VazkiiMods/Botania",
+    "branch": "1.21.1-porting",
+    "source_url": "https://github.com/VazkiiMods/Botania/tree/1.21.1-porting",
+    "upstream": "https://github.com/VazkiiMods/Botania",
+    "license": "Botania license; separate component terms apply",
+    "status": "local-build",
+    "publication_note": "457-SNAPSHOT was built from the official porting branch. No public JAR was published as part of this work; the source link is provided for provenance.",
+    "snapshot": {
+      "built_at": "2026-10-25",
+      "commit": "be17ee934e58444a12eb31824c6e45505b5349d1",
+      "artifacts": [
+        {
+          "name": "botania-neoforge-1.21.1-457-SNAPSHOT.jar",
+          "sha256": "b5c0790c1c3b68b5678e28b131a6fb40aa888d70df4091b43bae63865e1d5739",
+          "bytes": 21120051,
+          "variants": [
+            {
+              "loader": "NeoForge",
+              "mod_ids": [
+                "botania"
+              ],
+              "version": "457-SNAPSHOT",
+              "minecraft": "1.21.1",
+              "environment": "see dependency sides",
+              "dependencies": [
+                {
+                  "id": "neoforge",
+                  "version": "[21.1.262,)",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "minecraft",
+                  "version": "1.21.1",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "patchouli",
+                  "version": "*",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "curios",
+                  "version": "*",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "gardenofglass",
+                  "version": "[14,)",
+                  "kind": "optional",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "ears",
+                  "version": "*",
+                  "kind": "optional",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "fastitemframes",
+                  "version": "*",
+                  "kind": "discouraged",
+                  "side": "BOTH",
+                  "reason": "Breaks Botania's various item frame-based filtering functionalities",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "openpartiesandclaims",
+                  "version": "*",
+                  "kind": "discouraged",
+                  "side": "BOTH",
+                  "reason": "Default claiming behavior breaks basic Botania automation (e.g. mana spreaders)",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "productivebees",
+                  "version": "[1.21.1-13.8.0,1.21.1-13.13.4)",
+                  "kind": "incompatible",
+                  "side": "BOTH",
+                  "reason": "These versions cause a crash in Botania due to a ClassCastException. This is fixed in later versions of Productive Bees.",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "java",
+                  "version": ">=21",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "runtime class-file version",
+                  "bundled": false
+                }
+              ],
+              "bundled_mods": []
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "This snapshot requires Patchouli and Curios. Upstream discourages Fast Item Frames and Open Parties and Claims and declares a Productive Bees version conflict; see the JAR metadata below. Full-modpack runtime compatibility was not tested."
+    ]
+  },
+  {
+    "id": "cobblecuisine",
+    "name": "CobbleCuisine",
+    "description": "Cobblemon 1.8 integration and maintenance changes for CobbleCuisine.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/CobbleCuisine-1.8",
+    "branch": "main",
+    "source_url": "https://github.com/ashleywr/CobbleCuisine-1.8",
+    "upstream": "https://github.com/Fyre520/CobbleCuisine-Java",
+    "license": "MIT",
+    "status": "published",
+    "additional_requirements": [
+      {
+        "id": "fabric-api",
+        "version": "*",
+        "kind": "required",
+        "side": "BOTH",
+        "reason": "",
+        "evidence": "build.gradle / README"
+      },
+      {
+        "id": "cobblemon",
+        "version": "1.8.0+1.21.1",
+        "kind": "required",
+        "side": "BOTH",
+        "reason": "",
+        "evidence": "build.gradle compile target; runtime range not declared"
+      }
+    ],
+    "notes": [
+      "This maintenance branch targets Cobblemon 1.8. The inherited README still mentions 1.6.1, and fabric.mod.json omits Fabric API and Cobblemon. Both are listed here from the build/source requirements; the exact compatible runtime range is not declared."
+    ]
+  },
+  {
+    "id": "create-factory-controller",
+    "name": "Create Factory Controller",
+    "description": "Create factory controllers and shared dashboard panels for NeoForge 1.21.1.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/create-factory-controller",
+    "branch": "main",
+    "source_url": "https://github.com/ashleywr/create-factory-controller",
+    "upstream": "https://github.com/nbcss/create-factory-controller",
+    "license": "MIT",
+    "status": "published"
+  },
+  {
+    "id": "create-little-networks",
+    "name": "Create: Little Networks",
+    "description": "Create package couriers, Little Logistics network charts and mimic panels for NeoForge 1.21.1.",
+    "kind": "Original mod / tool",
+    "repository": "ashleywr/create-little-networks",
+    "branch": "master",
+    "source_url": "https://github.com/ashleywr/create-little-networks",
+    "upstream": null,
+    "license": "MIT",
+    "status": "published",
+    "notes": [
+      "Requires the matching Little Logistics fork/API. The current Little Logistics build is source-only in this index, so this addon download alone does not provide that dependency."
+    ]
+  },
+  {
+    "id": "create-love-and-war",
+    "name": "Create: Love and War",
+    "description": "Recovered experimental NeoForge 1.21.1 maintenance port.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/create-love-and-war",
+    "branch": "main",
+    "source_url": "https://github.com/ashleywr/create-love-and-war",
+    "upstream": "https://www.curseforge.com/minecraft/mc-mods/create-love-war",
+    "license": "MIT",
+    "status": "published"
+  },
+  {
+    "id": "hexalia-patchouli-fix",
+    "name": "Hexalia Patchouli Fix",
+    "description": "Hexalia NeoForge 1.21.1 maintenance build with the local Patchouli book fix.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/Hexalia",
+    "branch": "release/2026-10-25-d0945cb8",
+    "source_url": "https://github.com/ashleywr/Hexalia",
+    "upstream": "https://github.com/AstralyaStudios/Hexalia",
+    "license": "MIT",
+    "status": "published"
+  },
+  {
+    "id": "iceberg-azurelib-fix",
+    "name": "Iceberg AzureLib Fix",
+    "description": "Iceberg 1.21.1 maintenance build with AzureLib armor compatibility fixes.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/Iceberg",
+    "branch": "1.21.1-multi",
+    "source_url": "https://github.com/ashleywr/Iceberg",
+    "upstream": "https://github.com/AHilyard/Iceberg",
+    "license": "upstream LICENSE",
+    "status": "published"
+  },
+  {
+    "id": "kaleidoscope-compat",
+    "name": "Kaleidoscope Compat",
+    "description": "Minecraft 1.21.1 compatibility fork for Kaleidoscope Cookery.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/Kaleidoscope-Compat",
+    "branch": "fix/kaleidoscope-cookery-1.6",
+    "source_url": "https://github.com/ashleywr/Kaleidoscope-Compat",
+    "upstream": "https://github.com/SShakusora/Kaleidoscope-Compat",
+    "license": "MIT + CC BY-NC-SA 4.0",
+    "status": "published"
+  },
+  {
+    "id": "keybind-bundles-fabric",
+    "name": "KeyBind Bundles Fabric",
+    "description": "Fabric port of KeyBind Bundles for Minecraft 1.21.1.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/KeyBindBundlesFabric",
+    "branch": "main",
+    "source_url": "https://github.com/ashleywr/KeyBindBundlesFabric",
+    "upstream": "https://github.com/MatyrobbrtMods/KeyBindBundles",
+    "license": "MIT",
+    "status": "published"
+  },
+  {
+    "id": "league-orchestrator",
+    "name": "League Orchestrator",
+    "description": "Deterministic league, town and trainer planning for Fabric 1.21.1.",
+    "kind": "Original mod / tool",
+    "repository": "ashleywr/league-orchestrator",
+    "branch": "master",
+    "source_url": "https://github.com/ashleywr/league-orchestrator",
+    "upstream": null,
+    "license": "MIT",
+    "status": "published"
+  },
+  {
+    "id": "little-logistics",
+    "name": "Little Logistics",
+    "description": "NeoForge 1.21.1 logistics fork with docking fixes and shared network transport support.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/LittleLogistics",
+    "branch": "fix/docking-station-pickup",
+    "source_url": "https://github.com/ashleywr/LittleLogistics/tree/fix/docking-station-pickup",
+    "upstream": "https://github.com/muradakh/LittleLogistics",
+    "license": "LGPL-3.0 code; artwork and name reserved; Little Contraptions MIT",
+    "status": "source-only",
+    "publication_note": "README reserves rights in artwork/textures/models and the mod name; public full-JAR redistribution permission is not recorded. Use the upstream project for its author-provided downloads; this entry does not advertise a binary of the current fork build.",
+    "snapshot": {
+      "built_at": "2026-10-25",
+      "commit": "f2067cd91ceeb75f910c5e24e4a0b823d79badc5",
+      "artifacts": [
+        {
+          "name": "littlelogistics-mc1.21.1-v1.21.1.1-beta.5.jar",
+          "sha256": "2722346a5ec9a9fd43adeea8c90505e944d75035b575ba86096eda408394238b",
+          "bytes": 2515110,
+          "variants": [
+            {
+              "loader": "NeoForge",
+              "mod_ids": [
+                "littlelogistics"
+              ],
+              "version": "1.21.1.1-beta.5",
+              "minecraft": "[1.21,1.22)",
+              "environment": "see dependency sides",
+              "dependencies": [
+                {
+                  "id": "neoforge",
+                  "version": "[21.1,)",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "minecraft",
+                  "version": "[1.21,1.22)",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "ponder",
+                  "version": "[1.0.82+mc1.21.1,)",
+                  "kind": "required",
+                  "side": "CLIENT",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": true
+                },
+                {
+                  "id": "java",
+                  "version": ">=21",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "runtime class-file version",
+                  "bundled": false
+                }
+              ],
+              "bundled_mods": [
+                "flywheel",
+                "ponder"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "littlecontraptions-mc1.21.1-v1.21.1.0.jar",
+          "sha256": "16aa91ef9cab3c1d4b0d688a602542d17237bc0261139bb00fdba6e203f790fb",
+          "bytes": 119162,
+          "variants": [
+            {
+              "loader": "NeoForge",
+              "mod_ids": [
+                "littlecontraptions"
+              ],
+              "version": "1.21.1.0",
+              "minecraft": "[1.21,1.22)",
+              "environment": "see dependency sides",
+              "dependencies": [
+                {
+                  "id": "neoforge",
+                  "version": "[21.1,)",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "minecraft",
+                  "version": "[1.21,1.22)",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "littlelogistics",
+                  "version": "[1.21.1,)",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "create",
+                  "version": "[6.0,)",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "java",
+                  "version": ">=21",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "runtime class-file version",
+                  "bundled": false
+                }
+              ],
+              "bundled_mods": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "magitema-ocean",
+    "name": "Magitema Ocean",
+    "description": "Original expanded-depth ocean Overworld presets for NeoForge 1.21.1.",
+    "kind": "Original mod / tool",
+    "repository": "ashleywr/magitema-ocean",
+    "branch": "master",
+    "source_url": "https://github.com/ashleywr/magitema-ocean",
+    "upstream": null,
+    "license": "MIT",
+    "status": "published"
+  },
+  {
+    "id": "musubi",
+    "name": "Musubi",
+    "description": "Sewing, needles and thread crafting for Minecraft 1.21.1 on NeoForge.",
+    "kind": "Original mod / tool",
+    "repository": "ashleywr/musubi",
+    "branch": "master",
+    "source_url": "https://github.com/ashleywr/musubi",
+    "upstream": null,
+    "license": "MIT",
+    "status": "published"
+  },
+  {
+    "id": "mutil",
+    "name": "MUtil",
+    "description": "NeoForge 1.21.1 library port used by Tetra addons.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/mutil",
+    "branch": "pr-17",
+    "source_url": "https://github.com/ashleywr/mutil",
+    "upstream": "https://github.com/mickelus/mutil",
+    "license": "MIT",
+    "status": "published"
+  },
+  {
+    "id": "neomantle",
+    "name": "NeoMantle",
+    "description": "NeoForge 1.21.1 port and maintenance fixes for Mantle.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/neomantle",
+    "branch": "port-fixes",
+    "source_url": "https://github.com/ashleywr/neomantle",
+    "upstream": "https://github.com/vancevoj/neomantle",
+    "license": "MIT",
+    "status": "published"
+  },
+  {
+    "id": "neotinkers",
+    "name": "NeoTinkers",
+    "description": "NeoForge 1.21.1 port and maintenance fixes for Tinkers' Construct.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/neotinkers",
+    "branch": "port-fixes",
+    "source_url": "https://github.com/ashleywr/neotinkers",
+    "upstream": "https://github.com/vancevoj/neotinkers",
+    "license": "MIT (code); preserve asset notices",
+    "status": "published"
+  },
+  {
+    "id": "nukateam-gun-library",
+    "name": "NukaTeam Gun Library",
+    "description": "NeoForge 1.21.1 gun library maintenance fork with resource loading improvements.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/NukaTeamGunLib",
+    "branch": "perf/single-resource-walk",
+    "source_url": "https://github.com/ashleywr/NukaTeamGunLib",
+    "upstream": "https://github.com/Jetug/NukaTeamGunLib",
+    "license": "LGPL-2.1",
+    "status": "published"
+  },
+  {
+    "id": "pack-log-doctor",
+    "name": "Pack Log Doctor",
+    "description": "Log grouping and diagnostic reports for NeoForge 1.21.1 modpacks.",
+    "kind": "Original mod / tool",
+    "repository": "ashleywr/pack-log-doctor",
+    "branch": "master",
+    "source_url": "https://github.com/ashleywr/pack-log-doctor",
+    "upstream": null,
+    "license": "MIT",
+    "status": "published"
+  },
+  {
+    "id": "pack-repairs",
+    "name": "Pack Repairs",
+    "description": "Optional, targeted compatibility and data repairs for NeoForge 1.21.1 modpacks.",
+    "kind": "Original mod / tool",
+    "repository": "ashleywr/pack-repairs",
+    "branch": "main",
+    "source_url": "https://github.com/ashleywr/pack-repairs",
+    "upstream": null,
+    "license": "MIT",
+    "status": "published"
+  },
+  {
+    "id": "rats",
+    "name": "Rats",
+    "description": "NeoForge 1.21.1 maintenance port with local rat AI, inventory and navigation repairs.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/Rats-Fix-Port--1.21.1",
+    "branch": "Rats-8.2.3B02",
+    "source_url": "https://github.com/ashleywr/Rats-Fix-Port--1.21.1",
+    "upstream": "https://github.com/eba67/Rats-Fix-Port--1.21.1",
+    "license": "LGPL-3.0",
+    "status": "published"
+  },
+  {
+    "id": "rechanted",
+    "name": "Rechanted",
+    "description": "NeoForge 1.21.1 enchanting fork with book operations and recipe viewer integration.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/Rechanted",
+    "branch": "compat/enchantment-power-providers",
+    "source_url": "https://github.com/ashleywr/Rechanted",
+    "upstream": "https://github.com/Rechanted-Team/Rechanted",
+    "license": "MIT (as declared in the original source snapshot)",
+    "status": "published"
+  },
+  {
+    "id": "roadweaver",
+    "name": "RoadWeaver",
+    "description": "Minecraft 1.21.1 road generation maintenance fork.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/RoadWeaver",
+    "branch": "1.21.1-Architectury",
+    "source_url": "https://github.com/ashleywr/RoadWeaver",
+    "upstream": "https://github.com/shiroha-233/RoadWeaver",
+    "license": "upstream LICENSE and NOTICE",
+    "status": "published"
+  },
+  {
+    "id": "scorched-guns-emf-fix",
+    "name": "Scorched Guns EMF Fix",
+    "description": "NeoForge 1.21.1 Scorched Guns fork with Entity Model Features compatibility changes.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/ScorchedGunsNeoforge",
+    "branch": "main",
+    "source_url": "https://github.com/ashleywr/ScorchedGunsNeoforge",
+    "upstream": "https://github.com/sadeast69/ScorchedGunsNeoforge",
+    "license": "GPL-3.0-or-later",
+    "status": "published"
+  },
+  {
+    "id": "silent-s-gems",
+    "name": "Silent's Gems",
+    "description": "NeoForge 1.21.1 maintenance fork with Curios integration.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/SilentGems",
+    "branch": "curios-integration",
+    "source_url": "https://github.com/ashleywr/SilentGems",
+    "upstream": "https://github.com/SilentChaos512/SilentGems",
+    "license": "MIT",
+    "status": "published",
+    "additional_requirements": [
+      {
+        "id": "silentlib",
+        "version": "[10.5,)",
+        "kind": "required",
+        "side": "BOTH",
+        "reason": "",
+        "evidence": "gradle.properties / build.gradle"
+      }
+    ],
+    "notes": [
+      "Silent Lib is used directly by the source and the build pins 10.5.1, but the packaged dependency list omits it. Install compatible Silent Lib; its source-declared range is included here. Silent Gear is an optional integration."
+    ]
+  },
+  {
+    "id": "spice-of-life-classic",
+    "name": "Spice of Life: Classic",
+    "description": "Minecraft 1.21.1 maintenance fork for Fabric and NeoForge.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/solclassic_v2",
+    "branch": "1.21.1",
+    "source_url": "https://github.com/ashleywr/solclassic_v2",
+    "upstream": "https://github.com/leopoko/solclassic_v2",
+    "license": "upstream LICENSE.txt",
+    "status": "published"
+  },
+  {
+    "id": "tact",
+    "name": "TACT",
+    "description": "NeoForge 1.21.1 targeted Alex's Caves compatibility tweaks.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/TACT",
+    "branch": "1.21.1",
+    "source_url": "https://github.com/ashleywr/TACT",
+    "upstream": "https://github.com/TelepathicGrunt/TACT",
+    "license": "MIT",
+    "status": "published",
+    "notes": [
+      "The Alex's Caves build linked in this index already includes TACT. Use this standalone JAR only with an Alex's Caves build that does not already contain it."
+    ]
+  },
+  {
+    "id": "tag-lens",
+    "name": "Tag Lens",
+    "description": "Client-side inventory tag summaries and copying for NeoForge 1.21.1.",
+    "kind": "Original mod / tool",
+    "repository": "ashleywr/tag-lens",
+    "branch": "main",
+    "source_url": "https://github.com/ashleywr/tag-lens",
+    "upstream": null,
+    "license": "MIT",
+    "status": "published"
+  },
+  {
+    "id": "tetra",
+    "name": "Tetra",
+    "description": "Local NeoForge 1.21.1 port and fixes.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": null,
+    "branch": "pr-931",
+    "source_url": "https://github.com/mickelus/tetra",
+    "upstream": "https://github.com/mickelus/tetra",
+    "license": "Restricted: README forbids redistribution",
+    "status": "source-only",
+    "publication_note": "Restricted: README forbids redistribution Use the upstream project for its author-provided downloads; this entry does not advertise a binary of the current fork build.",
+    "source_update": {
+      "date": "2026-10-25T14:35:31+09:00",
+      "sha": "db387be754964f7b6c669cf74013475f18e91414",
+      "url": null
+    },
+    "notes": [
+      "The reviewed port is committed locally; there is no published Ashley fork for this entry. The Source link opens upstream."
+    ],
+    "snapshot": {
+      "built_at": "2026-10-25",
+      "commit": "db387be754964f7b6c669cf74013475f18e91414",
+      "artifacts": [
+        {
+          "name": "tetra-1.21.1-6.13.0.jar",
+          "sha256": "3259c4e73817a90c53b9dcb6c0e5f5a2fabf6a30e470b61814eca26530c9a0da",
+          "bytes": 4034956,
+          "variants": [
+            {
+              "loader": "NeoForge",
+              "mod_ids": [
+                "tetra"
+              ],
+              "version": "6.13.0",
+              "minecraft": "[1.21.1]",
+              "environment": "see dependency sides",
+              "dependencies": [
+                {
+                  "id": "neoforge",
+                  "version": "[21.1.0,)",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "minecraft",
+                  "version": "[1.21.1]",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "mutil",
+                  "version": "[6.3.1,]",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "curios",
+                  "version": "[9.5.1+1.21.1,]",
+                  "kind": "optional",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "java",
+                  "version": ">=21",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "runtime class-file version",
+                  "bundled": false
+                }
+              ],
+              "bundled_mods": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "tetranomicon",
+    "name": "Tetranomicon",
+    "description": "NeoForge 1.21.1 port of the Tetra materials addon.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/Tetranomicon1.21.1",
+    "branch": "main",
+    "source_url": "https://github.com/ashleywr/Tetranomicon1.21.1",
+    "upstream": "https://github.com/Syrikal/Tetranomicon",
+    "license": "LGPL-3.0; preserve Tetra notices",
+    "status": "published",
+    "notes": [
+      "Requires a compatible NeoForge 1.21.1 Tetra build. The reviewed Tetra port is source-only here; its older author releases are not a substitute for this required port version."
+    ]
+  },
+  {
+    "id": "tetratic-combat-expanded",
+    "name": "Tetratic Combat Expanded",
+    "description": "NeoForge 1.21.1 Tetra and Better Combat integration port.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/TetraticCombatExpanded-1.21.1",
+    "branch": "main",
+    "source_url": "https://github.com/ashleywr/TetraticCombatExpanded-1.21.1",
+    "upstream": "https://github.com/ForestWolf99/TetraticCombatExpanded",
+    "license": "MIT",
+    "status": "published",
+    "notes": [
+      "Requires a compatible NeoForge 1.21.1 Tetra build. The reviewed Tetra port is source-only here; its older author releases are not a substitute for this required port version."
+    ]
+  },
+  {
+    "id": "thaumaturge",
+    "name": "Thaumaturge",
+    "description": "Local NeoForge 1.21.1 compatibility changes.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/Thaumaturge",
+    "branch": "fix/jei-search-reindex-compat",
+    "source_url": "https://github.com/ashleywr/Thaumaturge/tree/fix/jei-search-reindex-compat",
+    "upstream": "https://github.com/Leclowndu93150/Thaumaturge",
+    "license": "Restricted: LICENSE section 3.1 forbids fork releases",
+    "status": "source-only",
+    "publication_note": "Restricted: LICENSE section 3.1 forbids fork releases Use the upstream project for its author-provided downloads; this entry does not advertise a binary of the current fork build.",
+    "snapshot": {
+      "built_at": "2026-10-25",
+      "commit": "5d0511487d4de4ba504c8b1e1f63e43090fef47d",
+      "artifacts": [
+        {
+          "name": "thaumaturge-1.21.1-NeoForge-1.0.0.jar",
+          "sha256": "40f28fed26e7add1bfba635f94cc7f737cfb9d06ff31d1763df8988dfb365cbd",
+          "bytes": 29066773,
+          "variants": [
+            {
+              "loader": "NeoForge",
+              "mod_ids": [
+                "thaumaturge"
+              ],
+              "version": "1.0.0",
+              "minecraft": "[1.21.1,1.21.2)",
+              "environment": "see dependency sides",
+              "dependencies": [
+                {
+                  "id": "neoforge",
+                  "version": "[21.1,)",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "minecraft",
+                  "version": "[1.21.1,1.21.2)",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "lithostitched",
+                  "version": "[1.8.0,)",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "curios",
+                  "version": "[9.0.0,)",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "jade",
+                  "version": "[15.0.0,)",
+                  "kind": "optional",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "dynamictrees",
+                  "version": "[1.7.2,)",
+                  "kind": "optional",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "java",
+                  "version": ">=21",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "runtime class-file version",
+                  "bundled": false
+                }
+              ],
+              "bundled_mods": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "via-romana",
+    "name": "Via Romana",
+    "description": "Minecraft 1.21.1 destination icon compatibility fork.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/Via_Romana",
+    "branch": "feature/destination-icon-registry",
+    "source_url": "https://github.com/ashleywr/Via_Romana/tree/feature/destination-icon-registry",
+    "upstream": "https://github.com/RasaNovum/Via_Romana",
+    "license": "Restricted: RSL-1.0 public binary distribution requires permission",
+    "status": "source-only",
+    "publication_note": "Restricted: RSL-1.0 public binary distribution requires permission Use the upstream project for its author-provided downloads; this entry does not advertise a binary of the current fork build.",
+    "snapshot": {
+      "built_at": "2026-10-25",
+      "commit": "0acad74431ec2d9ec258bbb1a2796b7262020995",
+      "artifacts": [
+        {
+          "name": "via_romana-2.2.3+1.21.1-fabric.jar",
+          "sha256": "4847dc7597219380957f3fbfe45843e42a4c369d979ad7dc56876525fe585359",
+          "bytes": 1288414,
+          "variants": [
+            {
+              "loader": "Fabric",
+              "mod_ids": [
+                "via_romana"
+              ],
+              "version": "2.2.3+1.21.1-fabric",
+              "minecraft": ">=1.21.1",
+              "environment": "*",
+              "dependencies": [
+                {
+                  "id": "minecraft",
+                  "version": ">=1.21.1",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "fabricloader",
+                  "version": ">=0.16.7",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "fabric-api",
+                  "version": ">=0.116.6+1.21.1",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "moonlight",
+                  "version": "*",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "midnightlib",
+                  "version": ">=1.9.0",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "dataanchor",
+                  "version": ">=2.0.0.16",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "java",
+                  "version": ">=21",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "runtime class-file version",
+                  "bundled": false
+                }
+              ],
+              "bundled_mods": []
+            }
+          ]
+        },
+        {
+          "name": "via_romana-2.2.3+1.21.1-neoforge.jar",
+          "sha256": "a5010fb3155e4a8d092fdcff69f408fc4f2dd927ba64ba0334798e520695c6c3",
+          "bytes": 1283721,
+          "variants": [
+            {
+              "loader": "NeoForge",
+              "mod_ids": [
+                "via_romana"
+              ],
+              "version": "2.2.3+1.21.1-neoforge",
+              "minecraft": "[1.21.1,)",
+              "environment": "see dependency sides",
+              "dependencies": [
+                {
+                  "id": "neoforge",
+                  "version": "[21.1.209,)",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "minecraft",
+                  "version": "[1.21.1,)",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "moonlight",
+                  "version": "*",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "midnightlib",
+                  "version": "[1.9.0,)",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "dataanchor",
+                  "version": "[2.0.0.16,)",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "java",
+                  "version": ">=21",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "runtime class-file version",
+                  "bundled": false
+                }
+              ],
+              "bundled_mods": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "xaero-seedmap",
+    "name": "Xaero Seedmap",
+    "description": "Fabric 1.21.1 seed map maintenance fork.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/xaero-seedmap",
+    "branch": "main",
+    "source_url": "https://github.com/ashleywr/xaero-seedmap",
+    "upstream": "https://github.com/TGGamesYT/xaero-seedmap",
+    "license": "upstream LICENSE.txt and cubiomes LICENSE",
+    "status": "published"
+  },
+  {
+    "id": "youkai-s-homecoming",
+    "name": "Youkai's Homecoming",
+    "description": "NeoForge 1.21.1 unofficial port with local recipe fixes.",
+    "kind": "Unofficial port / maintenance fork",
+    "repository": "ashleywr/Youkaishomecoming-1.21.1-Unofficial-Port",
+    "branch": "fix/stale-kettle-tea-recipes",
+    "source_url": "https://github.com/ashleywr/Youkaishomecoming-1.21.1-Unofficial-Port",
+    "upstream": "https://github.com/yinyuze/Youkaishomecoming-1.21.1-Unofficial-Port",
+    "license": "LGPL-2.1",
+    "status": "published"
+  },
+  {
+    "id": "zen-amphibia",
+    "name": "Zen Amphibia",
+    "description": "Amphibians, wetland wildlife and related content for NeoForge 1.21.1.",
+    "kind": "Original mod / tool",
+    "repository": "ashleywr/zen-amphibia",
+    "branch": "main",
+    "source_url": "https://github.com/ashleywr/zen-amphibia",
+    "upstream": null,
+    "license": "MIT",
+    "status": "published",
+    "notes": [
+      "This build targets Create 6 on NeoForge 1.21.1; the packaged minimum says [0.6.0,), which is broader than that tested build target."
+    ]
+  },
+  {
+    "id": "zen-atelier",
+    "name": "Zen Atelier",
+    "description": "A peaceful content mod for Minecraft 1.21.1 on NeoForge.",
+    "kind": "Original mod / tool",
+    "repository": "ashleywr/zen-atelier",
+    "branch": "main",
+    "source_url": "https://github.com/ashleywr/zen-atelier",
+    "upstream": null,
+    "license": "MIT",
+    "status": "published"
+  },
+  {
+    "id": "zen-diorama",
+    "name": "Zen Diorama",
+    "description": "Minecraft 1.21.1 building content for Fabric and NeoForge.",
+    "kind": "Original mod / tool",
+    "repository": "ashleywr/zen-diorama",
+    "branch": "main",
+    "source_url": "https://github.com/ashleywr/zen-diorama",
+    "upstream": null,
+    "license": "MIT",
+    "status": "published"
+  }
+]

@@ -1,0 +1,488 @@
+{
+  "accessories": {
+    "name": "Accessories",
+    "url": "https://modrinth.com/mod/accessories",
+    "verified_at": "2026-10-25"
+  },
+  "advancementplaques": {
+    "name": "Advancement Plaques",
+    "url": "https://modrinth.com/mod/advancement-plaques",
+    "verified_at": "2026-10-25"
+  },
+  "alekiships": {
+    "name": "Aleki's Nifty Ships",
+    "url": "#aleki-s-nifty-ships"
+  },
+  "alexscaves": {
+    "name": "Alex's Caves",
+    "url": "#alex-s-caves"
+  },
+  "alexscavesexemplified": {
+    "name": "Alex's Caves Exemplified",
+    "url": "#alex-s-caves-exemplified"
+  },
+  "ami": {
+    "name": "Automated Materials Index",
+    "url": "#automated-materials-index"
+  },
+  "architectury": {
+    "name": "Architectury API",
+    "url": "https://modrinth.com/mod/architectury-api",
+    "verified_at": "2026-10-25"
+  },
+  "artifacts": {
+    "name": "Artifacts",
+    "url": "https://modrinth.com/mod/artifacts",
+    "verified_at": "2026-10-25"
+  },
+  "automine_testing": {
+    "name": "AutoMine Testing",
+    "url": "#automine-testing"
+  },
+  "autoturgy": {
+    "name": "Autoturgy",
+    "url": "#autoturgy"
+  },
+  "bettercombat": {
+    "name": "Better Combat",
+    "url": "https://modrinth.com/mod/better-combat",
+    "verified_at": "2026-10-25"
+  },
+  "botania": {
+    "name": "Botania",
+    "url": "#botania"
+  },
+  "carryon": {
+    "name": "Carryon",
+    "url": "https://modrinth.com/mod/carryon",
+    "verified_at": "2026-10-25"
+  },
+  "citadel": {
+    "name": "Citadel",
+    "url": "https://modrinth.com/mod/citadel",
+    "verified_at": "2026-10-25"
+  },
+  "cloth-config2": {
+    "name": "Cloth Config API",
+    "url": "https://modrinth.com/mod/cloth-config",
+    "verified_at": "2026-10-25"
+  },
+  "cobblecuisine": {
+    "name": "CobbleCuisine",
+    "url": "#cobblecuisine"
+  },
+  "cobblemon": {
+    "name": "Cobblemon",
+    "url": "https://modrinth.com/mod/cobblemon",
+    "verified_at": "2026-10-25"
+  },
+  "controlling": {
+    "name": "Controlling",
+    "url": "https://modrinth.com/mod/controlling",
+    "verified_at": "2026-10-25"
+  },
+  "create": {
+    "name": "Create",
+    "url": "https://modrinth.com/mod/create",
+    "verified_at": "2026-10-25"
+  },
+  "create_little_networks": {
+    "name": "Create: Little Networks",
+    "url": "#create-little-networks"
+  },
+  "createfactorycontroller": {
+    "name": "Create Factory Controller",
+    "url": "#create-factory-controller"
+  },
+  "createloveandwar": {
+    "name": "Create: Love and War",
+    "url": "#create-love-and-war"
+  },
+  "curios": {
+    "name": "Curios API",
+    "url": "https://modrinth.com/mod/curios",
+    "verified_at": "2026-10-25"
+  },
+  "dataanchor": {
+    "name": "Data Anchor",
+    "url": "https://modrinth.com/mod/data-anchor",
+    "verified_at": "2026-10-25"
+  },
+  "deployer": {
+    "name": "Create: Deployer API",
+    "url": "https://modrinth.com/mod/deployer",
+    "verified_at": "2026-10-25"
+  },
+  "dynamictrees": {
+    "name": "Dynamic Trees",
+    "url": "https://modrinth.com/mod/dynamictrees",
+    "verified_at": "2026-10-25"
+  },
+  "ears": {
+    "name": "Ears",
+    "url": "https://modrinth.com/mod/ears",
+    "verified_at": "2026-10-25"
+  },
+  "emi": {
+    "name": "EMI",
+    "url": "https://modrinth.com/mod/emi",
+    "verified_at": "2026-10-25"
+  },
+  "equipmentcompare": {
+    "name": "Equipment Compare",
+    "url": "https://modrinth.com/mod/equipment-compare",
+    "verified_at": "2026-10-25"
+  },
+  "fabric": {
+    "name": "Fabric API",
+    "url": "https://modrinth.com/mod/fabric-api",
+    "verified_at": "2026-10-25"
+  },
+  "fabric-api": {
+    "name": "Fabric API",
+    "url": "https://modrinth.com/mod/fabric-api",
+    "verified_at": "2026-10-25"
+  },
+  "fabricloader": {
+    "name": "Fabric Loader",
+    "url": "https://fabricmc.net/use/installer/"
+  },
+  "farmersdelight": {
+    "name": "Farmer's Delight",
+    "url": "https://modrinth.com/mod/farmers-delight",
+    "verified_at": "2026-10-25"
+  },
+  "fastitemframes": {
+    "name": "Fast Item Frames",
+    "url": "https://modrinth.com/mod/fast-item-frames",
+    "verified_at": "2026-10-25"
+  },
+  "forge": {
+    "name": "Forge",
+    "url": "https://files.minecraftforge.net/"
+  },
+  "framework": {
+    "name": "Framework",
+    "url": "https://github.com/MrCrayfish/Framework/releases",
+    "verified_at": "2026-10-25"
+  },
+  "gardenofglass": {
+    "name": "Botania: Garden of Glass",
+    "url": "https://modrinth.com/mod/gardenofglass",
+    "verified_at": "2026-10-25"
+  },
+  "geckolib": {
+    "name": "Geckolib",
+    "url": "https://modrinth.com/mod/geckolib",
+    "verified_at": "2026-10-25"
+  },
+  "glitchcore": {
+    "name": "GlitchCore",
+    "url": "https://modrinth.com/mod/glitchcore",
+    "verified_at": "2026-10-25"
+  },
+  "hexalia": {
+    "name": "Hexalia Patchouli Fix",
+    "url": "#hexalia-patchouli-fix"
+  },
+  "iceberg": {
+    "name": "Iceberg AzureLib Fix",
+    "url": "#iceberg-azurelib-fix"
+  },
+  "immersiveengineering": {
+    "name": "Immersive Engineering",
+    "url": "https://modrinth.com/mod/immersiveengineering",
+    "verified_at": "2026-10-25"
+  },
+  "itemborders": {
+    "name": "Item Borders",
+    "url": "https://modrinth.com/mod/item-borders",
+    "verified_at": "2026-10-25"
+  },
+  "jade": {
+    "name": "Jade 🔍",
+    "url": "https://modrinth.com/mod/jade",
+    "verified_at": "2026-10-25"
+  },
+  "java": {
+    "name": "Java",
+    "url": "https://adoptium.net/temurin/releases/"
+  },
+  "jei": {
+    "name": "Just Enough Items (JEI)",
+    "url": "https://modrinth.com/mod/jei",
+    "verified_at": "2026-10-25"
+  },
+  "kaleidoscope_compat": {
+    "name": "Kaleidoscope Compat",
+    "url": "#kaleidoscope-compat"
+  },
+  "kaleidoscope_cookery": {
+    "name": "Kaleidoscope Cookery",
+    "url": "https://modrinth.com/mod/kaleidoscope-cookery",
+    "verified_at": "2026-10-25"
+  },
+  "kaleidoscope_doll": {
+    "name": "Kaleidoscope Doll",
+    "url": "https://modrinth.com/mod/kaleidoscope-doll",
+    "verified_at": "2026-10-25"
+  },
+  "keybindbundles": {
+    "name": "KeyBind Bundles Fabric",
+    "url": "#keybind-bundles-fabric"
+  },
+  "league_orchestrator": {
+    "name": "League Orchestrator",
+    "url": "#league-orchestrator"
+  },
+  "legendarytooltips": {
+    "name": "Legendary Tooltips",
+    "url": "https://modrinth.com/mod/legendary-tooltips",
+    "verified_at": "2026-10-25"
+  },
+  "lithostitched": {
+    "name": "Lithostitched",
+    "url": "https://modrinth.com/mod/lithostitched",
+    "verified_at": "2026-10-25"
+  },
+  "littlecontraptions": {
+    "name": "Little Logistics",
+    "url": "#little-logistics"
+  },
+  "littlelogistics": {
+    "name": "Little Logistics",
+    "url": "#little-logistics"
+  },
+  "magitema_ocean": {
+    "name": "Magitema Ocean",
+    "url": "#magitema-ocean"
+  },
+  "mantle": {
+    "name": "NeoMantle",
+    "url": "#neomantle"
+  },
+  "mekanism": {
+    "name": "Mekanism",
+    "url": "https://modrinth.com/mod/mekanism",
+    "verified_at": "2026-10-25"
+  },
+  "merchantmarkers": {
+    "name": "Merchant Markers",
+    "url": "https://modrinth.com/mod/merchant-markers",
+    "verified_at": "2026-10-25"
+  },
+  "midnightlib": {
+    "name": "MidnightLib",
+    "url": "https://modrinth.com/mod/midnightlib",
+    "verified_at": "2026-10-25"
+  },
+  "minecolonies": {
+    "name": "Minecolonies",
+    "url": "https://modrinth.com/mod/minecolonies",
+    "verified_at": "2026-10-25"
+  },
+  "minecraft": {
+    "name": "Minecraft",
+    "url": "https://www.minecraft.net/"
+  },
+  "modmenu": {
+    "name": "Mod Menu",
+    "url": "https://modrinth.com/mod/modmenu",
+    "verified_at": "2026-10-25"
+  },
+  "moonlight": {
+    "name": "Moonlight Lib",
+    "url": "https://modrinth.com/mod/moonlight",
+    "verified_at": "2026-10-25"
+  },
+  "musubi": {
+    "name": "Musubi",
+    "url": "#musubi"
+  },
+  "mutil": {
+    "name": "MUtil",
+    "url": "#mutil"
+  },
+  "neoforge": {
+    "name": "NeoForge",
+    "url": "https://neoforged.net/"
+  },
+  "ntgl": {
+    "name": "NukaTeam Gun Library",
+    "url": "#nukateam-gun-library"
+  },
+  "openpartiesandclaims": {
+    "name": "Open Parties and Claims",
+    "url": "https://modrinth.com/mod/open-parties-and-claims",
+    "verified_at": "2026-10-25"
+  },
+  "packlogdoctor": {
+    "name": "Pack Log Doctor",
+    "url": "#pack-log-doctor"
+  },
+  "packrepairs": {
+    "name": "Pack Repairs",
+    "url": "#pack-repairs"
+  },
+  "patchouli": {
+    "name": "Patchouli",
+    "url": "https://modrinth.com/mod/patchouli",
+    "verified_at": "2026-10-25"
+  },
+  "playerrevive": {
+    "name": "PlayerRevive",
+    "url": "https://modrinth.com/mod/playerrevive",
+    "verified_at": "2026-10-25"
+  },
+  "ponder": {
+    "name": "Ponder for KubeJS",
+    "url": "https://modrinth.com/mod/ponder",
+    "verified_at": "2026-10-25"
+  },
+  "prism": {
+    "name": "prism",
+    "url": "https://modrinth.com/mod/prism",
+    "verified_at": "2026-10-25"
+  },
+  "productivebees": {
+    "name": "Productive Bees",
+    "url": "https://modrinth.com/mod/productivebees",
+    "verified_at": "2026-10-25"
+  },
+  "rats": {
+    "name": "Rats",
+    "url": "#rats"
+  },
+  "rctapi": {
+    "name": "Radical Cobblemon Trainers API",
+    "url": "https://modrinth.com/mod/rctapi",
+    "verified_at": "2026-10-25"
+  },
+  "rctmod": {
+    "name": "Radical Cobblemon Trainers",
+    "url": "https://modrinth.com/mod/rctmod",
+    "verified_at": "2026-10-25"
+  },
+  "rechanted": {
+    "name": "Rechanted",
+    "url": "#rechanted"
+  },
+  "roadweaver": {
+    "name": "RoadWeaver",
+    "url": "#roadweaver"
+  },
+  "roughlyenoughitems": {
+    "name": "Roughly Enough Items (REI)",
+    "url": "https://modrinth.com/mod/rei",
+    "verified_at": "2026-10-25"
+  },
+  "scguns": {
+    "name": "Scorched Guns EMF Fix",
+    "url": "#scorched-guns-emf-fix"
+  },
+  "sculkhorde": {
+    "name": "Sculk Horde",
+    "url": "https://modrinth.com/mod/sculk-horde",
+    "verified_at": "2026-10-25"
+  },
+  "silentgear": {
+    "name": "Silent Gear",
+    "url": "https://modrinth.com/mod/silent-gear",
+    "verified_at": "2026-10-25"
+  },
+  "silentgems": {
+    "name": "Silent's Gems",
+    "url": "#silent-s-gems"
+  },
+  "silentlib": {
+    "name": "Silent Lib",
+    "url": "https://modrinth.com/mod/silent-lib",
+    "verified_at": "2026-10-25"
+  },
+  "sodium": {
+    "name": "Sodium",
+    "url": "https://modrinth.com/mod/sodium",
+    "verified_at": "2026-10-25"
+  },
+  "solclassic": {
+    "name": "Spice of Life: Classic",
+    "url": "#spice-of-life-classic"
+  },
+  "sophisticatedbackpacks": {
+    "name": "Sophisticated Backpacks",
+    "url": "https://modrinth.com/mod/sophisticated-backpacks",
+    "verified_at": "2026-10-25"
+  },
+  "supplementaries": {
+    "name": "Supplementaries",
+    "url": "https://modrinth.com/mod/supplementaries",
+    "verified_at": "2026-10-25"
+  },
+  "tact": {
+    "name": "TACT",
+    "url": "#tact"
+  },
+  "taglens": {
+    "name": "Tag Lens",
+    "url": "#tag-lens"
+  },
+  "tconstruct": {
+    "name": "NeoTinkers",
+    "url": "#neotinkers"
+  },
+  "tetra": {
+    "name": "Tetra",
+    "url": "#tetra"
+  },
+  "tetranomicon": {
+    "name": "Tetranomicon",
+    "url": "#tetranomicon"
+  },
+  "tetratic_combat_expanded": {
+    "name": "Tetratic Combat Expanded",
+    "url": "#tetratic-combat-expanded"
+  },
+  "thaumaturge": {
+    "name": "Thaumaturge",
+    "url": "#thaumaturge"
+  },
+  "thirst": {
+    "name": "Thirst",
+    "url": "https://modrinth.com/mod/thirst",
+    "verified_at": "2026-10-25"
+  },
+  "valkyrienskies": {
+    "name": "Valkyrien Skies",
+    "url": "https://modrinth.com/mod/valkyrien-skies",
+    "verified_at": "2026-10-25"
+  },
+  "via_romana": {
+    "name": "Via Romana",
+    "url": "#via-romana"
+  },
+  "xaeroseedmap": {
+    "name": "Xaero Seedmap",
+    "url": "#xaero-seedmap"
+  },
+  "xaeroworldmap": {
+    "name": "Xaero's World Map",
+    "url": "https://modrinth.com/mod/xaeros-world-map",
+    "verified_at": "2026-10-25"
+  },
+  "youkaishomecoming": {
+    "name": "Youkai's Homecoming",
+    "url": "#youkai-s-homecoming"
+  },
+  "zen_amphibia": {
+    "name": "Zen Amphibia",
+    "url": "#zen-amphibia"
+  },
+  "zen_atelier": {
+    "name": "Zen Atelier",
+    "url": "#zen-atelier"
+  },
+  "zen_diorama": {
+    "name": "Zen Diorama",
+    "url": "#zen-diorama"
+  }
+}
