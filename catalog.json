@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-27T05:27:13+00:00",
+  "checked_at": "2026-10-27T05:31:27+00:00",
   "projects": [
     {
       "id": "aleki-s-nifty-ships",
@@ -2333,6 +2333,132 @@
                 {
                   "id": "create",
                   "version": "[6.0,)",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "java",
+                  "version": ">=21",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "runtime class-file version",
+                  "bundled": false
+                }
+              ],
+              "bundled_mods": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "magitech",
+      "name": "Magitech",
+      "description": "NeoForge 1.21.1 maintenance fork with the upstream guidebook fix and preserved surface-ore/worldgen optimizations.",
+      "kind": "Unofficial maintenance fork",
+      "repository": "ashleywr/Magitech-Neoforge-1.21.1",
+      "branch": "optimize-surface-ore",
+      "source_url": "https://github.com/ashleywr/Magitech-Neoforge-1.21.1",
+      "upstream": "https://github.com/STLN-S1NcLair/Magitech-Neoforge-1.21.1",
+      "license": "MIT code; CC BY-SA 4.0 assets",
+      "status": "published",
+      "source_update": {
+        "date": "2026-10-27T05:02:20Z",
+        "sha": "afdc1251a958f8b7494a0e95212b443ae6a5bfa1",
+        "url": "https://github.com/ashleywr/Magitech-Neoforge-1.21.1/commit/afdc1251a958f8b7494a0e95212b443ae6a5bfa1"
+      },
+      "release": {
+        "tag": "ashley-2026.10.27-afdc1251",
+        "date": "2026-10-27T05:02:34Z",
+        "url": "https://github.com/ashleywr/Magitech-Neoforge-1.21.1/releases/tag/ashley-2026.10.27-afdc1251",
+        "prerelease": false
+      },
+      "artifacts": [
+        {
+          "name": "magitech-2.4.5-ashley.1.jar",
+          "url": "https://github.com/ashleywr/Magitech-Neoforge-1.21.1/releases/download/ashley-2026.10.27-afdc1251/magitech-2.4.5-ashley.1.jar",
+          "bytes": 10851996,
+          "sha256": "0a0e8431ced5a9f1b7e5261cbc40059c583033b7aa7e74ea9d50a7e5b0dc8793",
+          "variants": [
+            {
+              "loader": "NeoForge",
+              "mod_ids": [
+                "magitech"
+              ],
+              "version": "2.4.5-ashley.1",
+              "minecraft": "[1.21.1]",
+              "environment": "see dependency sides",
+              "dependencies": [
+                {
+                  "id": "neoforge",
+                  "version": "[21.1.0,)",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "modonomicon",
+                  "version": "*",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "lodestone",
+                  "version": "*",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "geckolib",
+                  "version": "*",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "curios",
+                  "version": "*",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "playeranimator",
+                  "version": "*",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "terrablender",
+                  "version": "*",
+                  "kind": "required",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "minecraft",
+                  "version": "[1.21.1]",
                   "kind": "required",
                   "side": "BOTH",
                   "reason": "",

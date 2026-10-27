@@ -2,7 +2,7 @@
 
 Automation-assisted Minecraft mod ports, upgrades, compatibility fixes and original mods — in one searchable place.
 
-**42 projects · 38 with public JAR downloads · 4 source-only entries · 0 local snapshots without public JARs.**
+**43 projects · 39 with public JAR downloads · 4 source-only entries · 0 local snapshots without public JARs.**
 
 Index checked: **2026-10-27 (UTC)**. Source dates are the latest commits on the listed maintained branches; release dates are when GitHub published the selected JAR release. A documentation-only commit can change a source date. Dates do not promise ongoing maintenance.
 
@@ -33,6 +33,7 @@ Choose the exact Minecraft version and loader in the JAR details. Required depen
 | [KeyBind Bundles Fabric](#keybind-bundles-fabric) | Fabric 1.21.1 | [2026-10-25](https://github.com/ashleywr/KeyBindBundlesFabric/commit/93a8c810285816b0f660011f35eb62707aff9845) | [2026-10-25](https://github.com/ashleywr/KeyBindBundlesFabric/releases/tag/ashley-2026.10.25-93a8c810) | [JARs + dependencies](#keybind-bundles-fabric) |
 | [League Orchestrator](#league-orchestrator) | Fabric ~1.21.1 | [2026-10-25](https://github.com/ashleywr/league-orchestrator/commit/304be140276fd73d646bc56e8476cd3d7de149fa) | [2026-10-25](https://github.com/ashleywr/league-orchestrator/releases/tag/ashley-2026.10.25-304be140) | [JARs + dependencies](#league-orchestrator) |
 | [Little Logistics](#little-logistics) | NeoForge [1.21,1.22) | [2026-10-25](https://github.com/ashleywr/LittleLogistics/commit/f2067cd91ceeb75f910c5e24e4a0b823d79badc5) | No public build of this work | [Source only](#little-logistics) |
+| [Magitech](#magitech) | NeoForge [1.21.1] | [2026-10-27](https://github.com/ashleywr/Magitech-Neoforge-1.21.1/commit/afdc1251a958f8b7494a0e95212b443ae6a5bfa1) | [2026-10-27](https://github.com/ashleywr/Magitech-Neoforge-1.21.1/releases/tag/ashley-2026.10.27-afdc1251) | [JARs + dependencies](#magitech) |
 | [Magitema Ocean](#magitema-ocean) | NeoForge [1.21.1] | [2026-10-25](https://github.com/ashleywr/magitema-ocean/commit/81fb9884a4690b7683a03e35e55f5e8a37223cbb) | [2026-10-25](https://github.com/ashleywr/magitema-ocean/releases/tag/ashley-2026.10.25-81fb9884) | [JARs + dependencies](#magitema-ocean) |
 | [Musubi](#musubi) | NeoForge [1.21.1] | [2026-10-25](https://github.com/ashleywr/musubi/commit/da90604c706509ea260f8a185650bb523729627d) | [2026-10-25](https://github.com/ashleywr/musubi/releases/tag/ashley-2026.10.25-da90604c) | [JARs + dependencies](#musubi) |
 | [MUtil](#mutil) | NeoForge [1.21.1] | [2026-10-25](https://github.com/ashleywr/mutil/commit/dfcb2cbb865b758f25f84d4e5d0ab09e822c3527) | [2026-10-25](https://github.com/ashleywr/mutil/releases/tag/ashley-2026.10.25-dfcb2cbb) | [JARs + dependencies](#mutil) |
@@ -503,6 +504,27 @@ SHA-256: `2722346a5ec9a9fd43adeea8c90505e944d75035b575ba86096eda408394238b`.
 - **Required mods:** [Little Logistics](#little-logistics) `[1.21.1,)`; [Create](https://modrinth.com/mod/create) `[6.0,)`.
 
 SHA-256: `16aa91ef9cab3c1d4b0d688a602542d17237bc0261139bb00fdba6e203f790fb`.
+
+<a id="magitech"></a>
+
+### Magitech
+
+NeoForge 1.21.1 maintenance fork with the upstream guidebook fix and preserved surface-ore/worldgen optimizations.
+
+**Unofficial maintenance fork.** [Source](https://github.com/ashleywr/Magitech-Neoforge-1.21.1) · [Upstream](https://github.com/STLN-S1NcLair/Magitech-Neoforge-1.21.1) · License: **MIT code; CC BY-SA 4.0 assets**.
+
+Source updated: **2026-10-27 UTC**; commit [afdc1251](https://github.com/ashleywr/Magitech-Neoforge-1.21.1/commit/afdc1251a958f8b7494a0e95212b443ae6a5bfa1).
+
+JAR release: **2026-10-27 UTC** · [ashley-2026.10.27-afdc1251](https://github.com/ashleywr/Magitech-Neoforge-1.21.1/releases/tag/ashley-2026.10.27-afdc1251).
+
+#### [magitech-2.4.5-ashley.1.jar](https://github.com/ashleywr/Magitech-Neoforge-1.21.1/releases/download/ashley-2026.10.27-afdc1251/magitech-2.4.5-ashley.1.jar)
+
+**NeoForge · Minecraft `[1.21.1]` · Mod `2.4.5-ashley.1`**
+
+- **Runtime:** [NeoForge](https://neoforged.net/) `[21.1.0,)`; [Minecraft](https://www.minecraft.net/) `[1.21.1]`; [Java](https://adoptium.net/temurin/releases/) `>=21` (runtime class-file version).
+- **Required mods:** `modonomicon` `*`; `lodestone` `*`; [Geckolib](https://modrinth.com/mod/geckolib) `*`; [Curios API](https://modrinth.com/mod/curios) `*`; `playeranimator` `*`; `terrablender` `*`.
+
+SHA-256: `0a0e8431ced5a9f1b7e5261cbc40059c583033b7aa7e74ea9d50a7e5b0dc8793`.
 
 <a id="magitema-ocean"></a>
 

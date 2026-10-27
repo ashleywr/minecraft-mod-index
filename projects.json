@@ -1019,5 +1019,17 @@
     "upstream": null,
     "license": "MIT",
     "status": "published"
+  },
+  {
+    "id": "magitech",
+    "name": "Magitech",
+    "description": "NeoForge 1.21.1 maintenance fork with the upstream guidebook fix and preserved surface-ore/worldgen optimizations.",
+    "kind": "Unofficial maintenance fork",
+    "repository": "ashleywr/Magitech-Neoforge-1.21.1",
+    "branch": "optimize-surface-ore",
+    "source_url": "https://github.com/ashleywr/Magitech-Neoforge-1.21.1",
+    "upstream": "https://github.com/STLN-S1NcLair/Magitech-Neoforge-1.21.1",
+    "license": "MIT code; CC BY-SA 4.0 assets",
+    "status": "published"
   }
 ]
