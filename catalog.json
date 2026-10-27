@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-25T07:39:12+00:00",
+  "checked_at": "2026-10-27T05:27:13+00:00",
   "projects": [
     {
       "id": "aleki-s-nifty-ships",
@@ -180,29 +180,29 @@
       "license": "MIT",
       "status": "published",
       "source_update": {
-        "date": "2026-10-25T05:20:43Z",
-        "sha": "58e5e58c80718d8acb6fed1c78654d87dfd2837b",
-        "url": "https://github.com/ashleywr/AlexsCavesExemplified-Neoforge/commit/58e5e58c80718d8acb6fed1c78654d87dfd2837b"
+        "date": "2026-10-27T05:23:52Z",
+        "sha": "0d8a145444073227c9d2ad977fb2bd00dcdfc47b",
+        "url": "https://github.com/ashleywr/AlexsCavesExemplified-Neoforge/commit/0d8a145444073227c9d2ad977fb2bd00dcdfc47b"
       },
       "release": {
-        "tag": "ashley-2026.10.25-58e5e58c",
-        "date": "2026-10-25T05:20:55Z",
-        "url": "https://github.com/ashleywr/AlexsCavesExemplified-Neoforge/releases/tag/ashley-2026.10.25-58e5e58c",
-        "prerelease": false
+        "tag": "ashley-2026.10.27-0d8a1454",
+        "date": "2026-10-27T05:24:05Z",
+        "url": "https://github.com/ashleywr/AlexsCavesExemplified-Neoforge/releases/tag/ashley-2026.10.27-0d8a1454",
+        "prerelease": true
       },
       "artifacts": [
         {
-          "name": "alexscavesexemplified-2.2.1+1.21.1.jar",
-          "url": "https://github.com/ashleywr/AlexsCavesExemplified-Neoforge/releases/download/ashley-2026.10.25-58e5e58c/alexscavesexemplified-2.2.1%2B1.21.1.jar",
-          "bytes": 2030058,
-          "sha256": "45893f84e95b7090e4f7709b4829b20a92b27bdd84ab9bcfa7d30a4da368ecf5",
+          "name": "alexscavesexemplified-2.3.0-ashley.1+1.21.1.jar",
+          "url": "https://github.com/ashleywr/AlexsCavesExemplified-Neoforge/releases/download/ashley-2026.10.27-0d8a1454/alexscavesexemplified-2.3.0-ashley.1%2B1.21.1.jar",
+          "bytes": 2192229,
+          "sha256": "ac63b399f3e0f8ef4848b24fff0c9fb34326df5787410c52986aba2f46544dae",
           "variants": [
             {
               "loader": "NeoForge",
               "mod_ids": [
                 "alexscavesexemplified"
               ],
-              "version": "2.2.1",
+              "version": "2.3.0-ashley.1",
               "minecraft": "[1.21.1,1.22)",
               "environment": "see dependency sides",
               "dependencies": [
@@ -738,143 +738,34 @@
     {
       "id": "botania",
       "name": "Botania",
-      "description": "Official upstream NeoForge 1.21.1 porting-branch snapshot, built locally without source changes.",
-      "kind": "Upstream snapshot build",
-      "repository": "VazkiiMods/Botania",
+      "description": "Unofficial NeoForge 1.21.1 build of the reviewed upstream porting snapshot, with license packaging and an accidentally committed log omitted.",
+      "kind": "Unofficial upstream snapshot build",
+      "repository": "ashleywr/Botania",
       "branch": "1.21.1-porting",
-      "source_url": "https://github.com/VazkiiMods/Botania/tree/1.21.1-porting",
+      "source_url": "https://github.com/ashleywr/Botania",
       "upstream": "https://github.com/VazkiiMods/Botania",
       "license": "Botania license; separate component terms apply",
-      "status": "local-build",
-      "publication_note": "457-SNAPSHOT was built from the official porting branch. No public JAR was published as part of this work; the source link is provided for provenance.",
-      "snapshot": {
-        "built_at": "2026-10-25",
-        "commit": "be17ee934e58444a12eb31824c6e45505b5349d1",
-        "artifacts": [
-          {
-            "name": "botania-neoforge-1.21.1-457-SNAPSHOT.jar",
-            "sha256": "b5c0790c1c3b68b5678e28b131a6fb40aa888d70df4091b43bae63865e1d5739",
-            "bytes": 21120051,
-            "variants": [
-              {
-                "loader": "NeoForge",
-                "mod_ids": [
-                  "botania"
-                ],
-                "version": "457-SNAPSHOT",
-                "minecraft": "1.21.1",
-                "environment": "see dependency sides",
-                "dependencies": [
-                  {
-                    "id": "neoforge",
-                    "version": "[21.1.262,)",
-                    "kind": "required",
-                    "side": "BOTH",
-                    "reason": "",
-                    "evidence": "JAR metadata",
-                    "bundled": false
-                  },
-                  {
-                    "id": "minecraft",
-                    "version": "1.21.1",
-                    "kind": "required",
-                    "side": "BOTH",
-                    "reason": "",
-                    "evidence": "JAR metadata",
-                    "bundled": false
-                  },
-                  {
-                    "id": "patchouli",
-                    "version": "*",
-                    "kind": "required",
-                    "side": "BOTH",
-                    "reason": "",
-                    "evidence": "JAR metadata",
-                    "bundled": false
-                  },
-                  {
-                    "id": "curios",
-                    "version": "*",
-                    "kind": "required",
-                    "side": "BOTH",
-                    "reason": "",
-                    "evidence": "JAR metadata",
-                    "bundled": false
-                  },
-                  {
-                    "id": "gardenofglass",
-                    "version": "[14,)",
-                    "kind": "optional",
-                    "side": "BOTH",
-                    "reason": "",
-                    "evidence": "JAR metadata",
-                    "bundled": false
-                  },
-                  {
-                    "id": "ears",
-                    "version": "*",
-                    "kind": "optional",
-                    "side": "BOTH",
-                    "reason": "",
-                    "evidence": "JAR metadata",
-                    "bundled": false
-                  },
-                  {
-                    "id": "fastitemframes",
-                    "version": "*",
-                    "kind": "discouraged",
-                    "side": "BOTH",
-                    "reason": "Breaks Botania's various item frame-based filtering functionalities",
-                    "evidence": "JAR metadata",
-                    "bundled": false
-                  },
-                  {
-                    "id": "openpartiesandclaims",
-                    "version": "*",
-                    "kind": "discouraged",
-                    "side": "BOTH",
-                    "reason": "Default claiming behavior breaks basic Botania automation (e.g. mana spreaders)",
-                    "evidence": "JAR metadata",
-                    "bundled": false
-                  },
-                  {
-                    "id": "productivebees",
-                    "version": "[1.21.1-13.8.0,1.21.1-13.13.4)",
-                    "kind": "incompatible",
-                    "side": "BOTH",
-                    "reason": "These versions cause a crash in Botania due to a ClassCastException. This is fixed in later versions of Productive Bees.",
-                    "evidence": "JAR metadata",
-                    "bundled": false
-                  },
-                  {
-                    "id": "java",
-                    "version": ">=21",
-                    "kind": "required",
-                    "side": "BOTH",
-                    "reason": "",
-                    "evidence": "runtime class-file version",
-                    "bundled": false
-                  }
-                ],
-                "bundled_mods": []
-              }
-            ]
-          }
-        ]
-      },
+      "status": "published",
       "notes": [
         "This snapshot requires Patchouli and Curios. Upstream discourages Fast Item Frames and Open Parties and Claims and declares a Productive Bees version conflict; see the JAR metadata below. Full-modpack runtime compatibility was not tested."
       ],
       "source_update": {
-        "date": "2026-10-23T16:53:08Z",
-        "sha": "be17ee934e58444a12eb31824c6e45505b5349d1",
-        "url": "https://github.com/VazkiiMods/Botania/commit/be17ee934e58444a12eb31824c6e45505b5349d1"
+        "date": "2026-10-26T19:47:23Z",
+        "sha": "fa83dccfc5c9f8803c60147cdbe417a301fb01e0",
+        "url": "https://github.com/ashleywr/Botania/commit/fa83dccfc5c9f8803c60147cdbe417a301fb01e0"
+      },
+      "release": {
+        "tag": "ashley-2026.10.27-de47e50e",
+        "date": "2026-10-27T05:07:00Z",
+        "url": "https://github.com/ashleywr/Botania/releases/tag/ashley-2026.10.27-de47e50e",
+        "prerelease": true
       },
       "artifacts": [
         {
           "name": "botania-neoforge-1.21.1-457-SNAPSHOT.jar",
-          "sha256": "b5c0790c1c3b68b5678e28b131a6fb40aa888d70df4091b43bae63865e1d5739",
-          "bytes": 21120051,
+          "url": "https://github.com/ashleywr/Botania/releases/download/ashley-2026.10.27-de47e50e/botania-neoforge-1.21.1-457-SNAPSHOT.jar",
+          "bytes": 21130773,
+          "sha256": "846c2599668ccc2d1d04e0907c913df1e7a7fae4a5a36f120d7ef2141a812e7e",
           "variants": [
             {
               "loader": "NeoForge",
@@ -1015,29 +906,29 @@
         "This maintenance branch targets Cobblemon 1.8. The inherited README still mentions 1.6.1, and fabric.mod.json omits Fabric API and Cobblemon. Both are listed here from the build/source requirements; the exact compatible runtime range is not declared."
       ],
       "source_update": {
-        "date": "2026-10-25T05:33:15Z",
-        "sha": "7d8794029252373731787f1af4ad1d14a28ae7af",
-        "url": "https://github.com/ashleywr/CobbleCuisine-1.8/commit/7d8794029252373731787f1af4ad1d14a28ae7af"
+        "date": "2026-10-27T05:08:45Z",
+        "sha": "d114e556388b74b44ed9a9d9ecc8c0494fd3ca2b",
+        "url": "https://github.com/ashleywr/CobbleCuisine-1.8/commit/d114e556388b74b44ed9a9d9ecc8c0494fd3ca2b"
       },
       "release": {
-        "tag": "ashley-2026.10.25-7d879402",
-        "date": "2026-10-25T05:33:30Z",
-        "url": "https://github.com/ashleywr/CobbleCuisine-1.8/releases/tag/ashley-2026.10.25-7d879402",
+        "tag": "ashley-2026.10.27-d114e556",
+        "date": "2026-10-27T05:08:57Z",
+        "url": "https://github.com/ashleywr/CobbleCuisine-1.8/releases/tag/ashley-2026.10.27-d114e556",
         "prerelease": false
       },
       "artifacts": [
         {
-          "name": "cobblecuisine-3.0.0.jar",
-          "url": "https://github.com/ashleywr/CobbleCuisine-1.8/releases/download/ashley-2026.10.25-7d879402/cobblecuisine-3.0.0.jar",
-          "bytes": 539905,
-          "sha256": "435841c2b928478488cf5fbd7fe9ca9a91e1eaff6181d0ff3a0e0773ffec8cd8",
+          "name": "cobblecuisine-3.0.1.jar",
+          "url": "https://github.com/ashleywr/CobbleCuisine-1.8/releases/download/ashley-2026.10.27-d114e556/cobblecuisine-3.0.1.jar",
+          "bytes": 553589,
+          "sha256": "ef26d853da44c0ef8d2260db6913efc49b6bd23990e73114fd6ecac25ce09187",
           "variants": [
             {
               "loader": "Fabric",
               "mod_ids": [
                 "cobblecuisine"
               ],
-              "version": "3.0.0",
+              "version": "3.0.1",
               "minecraft": "1.21.1",
               "environment": "*",
               "dependencies": [
@@ -1060,9 +951,9 @@
                   "bundled": false
                 },
                 {
-                  "id": "modmenu",
-                  "version": ">=11.0.3",
-                  "kind": "optional",
+                  "id": "cobblemon",
+                  "version": ">=1.8.1 <1.9.0",
+                  "kind": "required",
                   "side": "BOTH",
                   "reason": "",
                   "evidence": "JAR metadata",
@@ -1074,7 +965,7 @@
                   "kind": "required",
                   "side": "BOTH",
                   "reason": "",
-                  "evidence": "runtime class-file version",
+                  "evidence": "JAR metadata",
                   "bundled": false
                 },
                 {
@@ -1083,16 +974,25 @@
                   "kind": "required",
                   "side": "BOTH",
                   "reason": "",
-                  "evidence": "build.gradle / README",
+                  "evidence": "JAR metadata",
                   "bundled": false
                 },
                 {
-                  "id": "cobblemon",
-                  "version": "1.8.0+1.21.1",
+                  "id": "fabric-language-kotlin",
+                  "version": ">=1.13.6+kotlin.2.2.20",
                   "kind": "required",
                   "side": "BOTH",
                   "reason": "",
-                  "evidence": "build.gradle compile target; runtime range not declared",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "modmenu",
+                  "version": ">=11.0.3",
+                  "kind": "optional",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
                   "bundled": false
                 }
               ],
@@ -1114,29 +1014,29 @@
       "license": "MIT",
       "status": "published",
       "source_update": {
-        "date": "2026-10-25T05:25:53Z",
-        "sha": "ed4532d70cced16a1e4d2aa71cf0003aa73d1dd5",
-        "url": "https://github.com/ashleywr/create-factory-controller/commit/ed4532d70cced16a1e4d2aa71cf0003aa73d1dd5"
+        "date": "2026-10-27T05:02:34Z",
+        "sha": "97b4bf9535cf05208da833d7ce9e4afd09e66166",
+        "url": "https://github.com/ashleywr/create-factory-controller/commit/97b4bf9535cf05208da833d7ce9e4afd09e66166"
       },
       "release": {
-        "tag": "ashley-2026.10.25-ed4532d7",
-        "date": "2026-10-25T05:26:05Z",
-        "url": "https://github.com/ashleywr/create-factory-controller/releases/tag/ashley-2026.10.25-ed4532d7",
+        "tag": "ashley-2026.10.27-97b4bf95",
+        "date": "2026-10-27T05:02:48Z",
+        "url": "https://github.com/ashleywr/create-factory-controller/releases/tag/ashley-2026.10.27-97b4bf95",
         "prerelease": false
       },
       "artifacts": [
         {
-          "name": "createfactorycontroller-1.2.2-neoforge-1.21.1-SNAPSHOT.jar",
-          "url": "https://github.com/ashleywr/create-factory-controller/releases/download/ashley-2026.10.25-ed4532d7/createfactorycontroller-1.2.2-neoforge-1.21.1-SNAPSHOT.jar",
-          "bytes": 2316213,
-          "sha256": "07096eb0646efee8caaf4367c34fcc8c7ab81d37294d96178ec9ffda18fcb94b",
+          "name": "createfactorycontroller-1.2.2-neoforge-1.21.1-SNAPSHOT-ashley.1.jar",
+          "url": "https://github.com/ashleywr/create-factory-controller/releases/download/ashley-2026.10.27-97b4bf95/createfactorycontroller-1.2.2-neoforge-1.21.1-SNAPSHOT-ashley.1.jar",
+          "bytes": 2316225,
+          "sha256": "a56f843d36574b418c81c14fcd4dbd21b85316772fa19eb1d67fe61ca6ef80df",
           "variants": [
             {
               "loader": "NeoForge",
               "mod_ids": [
                 "createfactorycontroller"
               ],
-              "version": "1.2.2-neoforge-1.21.1-SNAPSHOT",
+              "version": "1.2.2-neoforge-1.21.1-SNAPSHOT-ashley.1",
               "minecraft": "[1.21.1]",
               "environment": "see dependency sides",
               "dependencies": [
@@ -1395,24 +1295,24 @@
         "url": "https://github.com/ashleywr/Hexalia/commit/d0945cb8279c2b305f56f5c055304e68464182cf"
       },
       "release": {
-        "tag": "ashley-2026.10.25-d0945cb8",
-        "date": "2026-10-25T07:13:16Z",
-        "url": "https://github.com/ashleywr/Hexalia/releases/tag/ashley-2026.10.25-d0945cb8",
+        "tag": "ashley-2026.10.27-0a72308a",
+        "date": "2026-10-27T04:57:17Z",
+        "url": "https://github.com/ashleywr/Hexalia/releases/tag/ashley-2026.10.27-0a72308a",
         "prerelease": false
       },
       "artifacts": [
         {
-          "name": "hexalia-neoforge-1.3.7.jar",
-          "url": "https://github.com/ashleywr/Hexalia/releases/download/ashley-2026.10.25-d0945cb8/hexalia-neoforge-1.3.7.jar",
-          "bytes": 1890509,
-          "sha256": "4f29e0d25fd5d7ba91a029d0364ab94c4a80f37bd82fa04587959dfcde80637f",
+          "name": "hexalia-neoforge-1.3.8.1.jar",
+          "url": "https://github.com/ashleywr/Hexalia/releases/download/ashley-2026.10.27-0a72308a/hexalia-neoforge-1.3.8.1.jar",
+          "bytes": 3254465,
+          "sha256": "a7e082ce2d382379016ae23facc37b8f5cde29843ecc675942c4bbc972a89c8c",
           "variants": [
             {
               "loader": "NeoForge",
               "mod_ids": [
                 "hexalia"
               ],
-              "version": "1.3.7",
+              "version": "1.3.8.1",
               "minecraft": "[1.21.1,)",
               "environment": "see dependency sides",
               "dependencies": [
@@ -1454,6 +1354,15 @@
                 },
                 {
                   "id": "accessories",
+                  "version": "*",
+                  "kind": "optional",
+                  "side": "BOTH",
+                  "reason": "",
+                  "evidence": "JAR metadata",
+                  "bundled": false
+                },
+                {
+                  "id": "curios",
                   "version": "*",
                   "kind": "optional",
                   "side": "BOTH",
@@ -2782,29 +2691,29 @@
       "license": "MIT (code); preserve asset notices",
       "status": "published",
       "source_update": {
-        "date": "2026-10-25T05:22:50Z",
-        "sha": "6246bcab38c472c296d25d6963351c0c7e1cbb8e",
-        "url": "https://github.com/ashleywr/neotinkers/commit/6246bcab38c472c296d25d6963351c0c7e1cbb8e"
+        "date": "2026-10-27T04:56:47Z",
+        "sha": "4ed4d56ffd760ab0667bdb3f09081945918ab9fc",
+        "url": "https://github.com/ashleywr/neotinkers/commit/4ed4d56ffd760ab0667bdb3f09081945918ab9fc"
       },
       "release": {
-        "tag": "ashley-2026.10.25-6246bcab",
-        "date": "2026-10-25T05:23:05Z",
-        "url": "https://github.com/ashleywr/neotinkers/releases/tag/ashley-2026.10.25-6246bcab",
+        "tag": "ashley-2026.10.27-4ed4d56f",
+        "date": "2026-10-27T04:57:01Z",
+        "url": "https://github.com/ashleywr/neotinkers/releases/tag/ashley-2026.10.27-4ed4d56f",
         "prerelease": false
       },
       "artifacts": [
         {
-          "name": "NeoTinkers-1.21.1-3.11.2-v1.29.jar",
-          "url": "https://github.com/ashleywr/neotinkers/releases/download/ashley-2026.10.25-6246bcab/NeoTinkers-1.21.1-3.11.2-v1.29.jar",
-          "bytes": 22021866,
-          "sha256": "8f78d60c8225519328137d5c81816e418169e6bc8f1dda9e97bf4a3bfbc823c9",
+          "name": "NeoTinkers-1.21.1-3.11.2-v1.31.jar",
+          "url": "https://github.com/ashleywr/neotinkers/releases/download/ashley-2026.10.27-4ed4d56f/NeoTinkers-1.21.1-3.11.2-v1.31.jar",
+          "bytes": 22023465,
+          "sha256": "6d3205493748617478411ece9d20f3ac4d7f88319e4570d442d9a43b559d7643",
           "variants": [
             {
               "loader": "NeoForge",
               "mod_ids": [
                 "tconstruct"
               ],
-              "version": "1.21.1-3.11.2-v1.29",
+              "version": "1.21.1-3.11.2-v1.31",
               "minecraft": "[1.21.1,1.21.2)",
               "environment": "see dependency sides",
               "dependencies": [
@@ -3108,29 +3017,29 @@
       "license": "LGPL-3.0",
       "status": "published",
       "source_update": {
-        "date": "2026-10-25T05:26:08Z",
-        "sha": "1d08198c34bdb31ec60f430167d352e3caa4ccd1",
-        "url": "https://github.com/ashleywr/Rats-Fix-Port--1.21.1/commit/1d08198c34bdb31ec60f430167d352e3caa4ccd1"
+        "date": "2026-10-27T05:19:24Z",
+        "sha": "ab73288a6df8cf782e66c8ec06cac54916bb0948",
+        "url": "https://github.com/ashleywr/Rats-Fix-Port--1.21.1/commit/ab73288a6df8cf782e66c8ec06cac54916bb0948"
       },
       "release": {
-        "tag": "ashley-2026.10.25-1d08198c",
-        "date": "2026-10-25T07:14:06Z",
-        "url": "https://github.com/ashleywr/Rats-Fix-Port--1.21.1/releases/tag/ashley-2026.10.25-1d08198c",
+        "tag": "ashley-2026.10.27-ab73288a",
+        "date": "2026-10-27T05:19:37Z",
+        "url": "https://github.com/ashleywr/Rats-Fix-Port--1.21.1/releases/tag/ashley-2026.10.27-ab73288a",
         "prerelease": false
       },
       "artifacts": [
         {
-          "name": "Rats-Unofficial-Port-Fixed--1.21.1-8.2.3B01.jar",
-          "url": "https://github.com/ashleywr/Rats-Fix-Port--1.21.1/releases/download/ashley-2026.10.25-1d08198c/Rats-Unofficial-Port-Fixed--1.21.1-8.2.3B01.jar",
-          "bytes": 8365949,
-          "sha256": "42cd4b2eb21ca44788fe4be08a8bd2298545308d8d16c9ce70ee782b43a13f3a",
+          "name": "Rats-Unofficial-Port-Fixed--1.21.1-8.2.3B03-ashley.1.jar",
+          "url": "https://github.com/ashleywr/Rats-Fix-Port--1.21.1/releases/download/ashley-2026.10.27-ab73288a/Rats-Unofficial-Port-Fixed--1.21.1-8.2.3B03-ashley.1.jar",
+          "bytes": 8366774,
+          "sha256": "d609369279caa302105b9b30a833c98736afc22b4c4ad306f2ad535020606423",
           "variants": [
             {
               "loader": "NeoForge",
               "mod_ids": [
                 "rats"
               ],
-              "version": "8.2.3B01",
+              "version": "8.2.3B03-ashley.1",
               "minecraft": "[1.21.1, 1.21.2)",
               "environment": "see dependency sides",
               "dependencies": [
@@ -3231,32 +3140,32 @@
       "branch": "compat/enchantment-power-providers",
       "source_url": "https://github.com/ashleywr/Rechanted",
       "upstream": "https://github.com/Rechanted-Team/Rechanted",
-      "license": "MIT (as declared in the original source snapshot)",
+      "license": "GPL-3.0-only for the current integration; earlier MIT snapshot notice retained",
       "status": "published",
       "source_update": {
-        "date": "2026-10-25T05:18:24Z",
-        "sha": "aa24f976b40d0793158e5a511f94df29e588edd8",
-        "url": "https://github.com/ashleywr/Rechanted/commit/aa24f976b40d0793158e5a511f94df29e588edd8"
+        "date": "2026-10-27T05:05:51Z",
+        "sha": "5108ab61a29222234914a84c5bbda9b73741ab36",
+        "url": "https://github.com/ashleywr/Rechanted/commit/5108ab61a29222234914a84c5bbda9b73741ab36"
       },
       "release": {
-        "tag": "ashley-2026.10.25-aa24f976",
-        "date": "2026-10-25T05:18:37Z",
-        "url": "https://github.com/ashleywr/Rechanted/releases/tag/ashley-2026.10.25-aa24f976",
+        "tag": "ashley-2026.10.27-5108ab61",
+        "date": "2026-10-27T05:06:07Z",
+        "url": "https://github.com/ashleywr/Rechanted/releases/tag/ashley-2026.10.27-5108ab61",
         "prerelease": false
       },
       "artifacts": [
         {
-          "name": "rechanted-1.0.0.jar",
-          "url": "https://github.com/ashleywr/Rechanted/releases/download/ashley-2026.10.25-aa24f976/rechanted-1.0.0.jar",
-          "bytes": 1542799,
-          "sha256": "a2eb43d7d4266e92093bba813c3b2161cae351cbae116485c865bda1409db5d5",
+          "name": "rechanted-1.0.1-ashley.1.jar",
+          "url": "https://github.com/ashleywr/Rechanted/releases/download/ashley-2026.10.27-5108ab61/rechanted-1.0.1-ashley.1.jar",
+          "bytes": 1561822,
+          "sha256": "f7ee60af744be9e4ee7d83e15795c3f70c899e565c381ba4714eb4d66b5da248",
           "variants": [
             {
               "loader": "NeoForge",
               "mod_ids": [
                 "rechanted"
               ],
-              "version": "1.0.0",
+              "version": "1.0.1-ashley.1",
               "minecraft": "[1.21.1]",
               "environment": "see dependency sides",
               "dependencies": [
@@ -3307,178 +3216,6 @@
                 }
               ],
               "bundled_mods": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "roadweaver",
-      "name": "RoadWeaver",
-      "description": "Minecraft 1.21.1 road generation maintenance fork.",
-      "kind": "Unofficial port / maintenance fork",
-      "repository": "ashleywr/RoadWeaver",
-      "branch": "1.21.1-Architectury",
-      "source_url": "https://github.com/ashleywr/RoadWeaver",
-      "upstream": "https://github.com/shiroha-233/RoadWeaver",
-      "license": "upstream LICENSE and NOTICE",
-      "status": "published",
-      "source_update": {
-        "date": "2026-10-25T05:23:38Z",
-        "sha": "8501beac4a9b58661602fcb56116d99607b56f2c",
-        "url": "https://github.com/ashleywr/RoadWeaver/commit/8501beac4a9b58661602fcb56116d99607b56f2c"
-      },
-      "release": {
-        "tag": "ashley-2026.10.25-8501beac",
-        "date": "2026-10-25T05:23:51Z",
-        "url": "https://github.com/ashleywr/RoadWeaver/releases/tag/ashley-2026.10.25-8501beac",
-        "prerelease": false
-      },
-      "artifacts": [
-        {
-          "name": "roadweaver-fabric-2.3.1-1.21.1.jar",
-          "url": "https://github.com/ashleywr/RoadWeaver/releases/download/ashley-2026.10.25-8501beac/roadweaver-fabric-2.3.1-1.21.1.jar",
-          "bytes": 5213118,
-          "sha256": "a01110101ef068d870c70cba1d0926a3670a266e56598b0b84d18a46bd7e0866",
-          "variants": [
-            {
-              "loader": "Fabric",
-              "mod_ids": [
-                "roadweaver"
-              ],
-              "version": "2.3.1-1.21.1",
-              "minecraft": "~1.21.1",
-              "environment": "*",
-              "dependencies": [
-                {
-                  "id": "fabricloader",
-                  "version": ">=0.16.10",
-                  "kind": "required",
-                  "side": "BOTH",
-                  "reason": "",
-                  "evidence": "JAR metadata",
-                  "bundled": false
-                },
-                {
-                  "id": "minecraft",
-                  "version": "~1.21.1",
-                  "kind": "required",
-                  "side": "BOTH",
-                  "reason": "",
-                  "evidence": "JAR metadata",
-                  "bundled": false
-                },
-                {
-                  "id": "java",
-                  "version": ">=21",
-                  "kind": "required",
-                  "side": "BOTH",
-                  "reason": "",
-                  "evidence": "JAR metadata",
-                  "bundled": false
-                },
-                {
-                  "id": "fabric-api",
-                  "version": "*",
-                  "kind": "required",
-                  "side": "BOTH",
-                  "reason": "",
-                  "evidence": "JAR metadata",
-                  "bundled": false
-                },
-                {
-                  "id": "cloth-config2",
-                  "version": "*",
-                  "kind": "required",
-                  "side": "BOTH",
-                  "reason": "",
-                  "evidence": "JAR metadata",
-                  "bundled": false
-                },
-                {
-                  "id": "another-mod",
-                  "version": "*",
-                  "kind": "optional",
-                  "side": "BOTH",
-                  "reason": "",
-                  "evidence": "JAR metadata",
-                  "bundled": false
-                },
-                {
-                  "id": "sereneseasons",
-                  "version": "*",
-                  "kind": "optional",
-                  "side": "BOTH",
-                  "reason": "",
-                  "evidence": "JAR metadata",
-                  "bundled": false
-                },
-                {
-                  "id": "glitchcore",
-                  "version": "*",
-                  "kind": "optional",
-                  "side": "BOTH",
-                  "reason": "",
-                  "evidence": "JAR metadata",
-                  "bundled": false
-                }
-              ],
-              "bundled_mods": [
-                "architectury",
-                "cloth-config",
-                "org_lwjgl_lwjgl",
-                "org_lwjgl_lwjgl-opencl"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "roadweaver-neoforge-2.3.1-1.21.1.jar",
-          "url": "https://github.com/ashleywr/RoadWeaver/releases/download/ashley-2026.10.25-8501beac/roadweaver-neoforge-2.3.1-1.21.1.jar",
-          "bytes": 3898284,
-          "sha256": "c5c2ed6e093e92f68cee3ff8598a1ba9fcc023358e53bd5d83515969b1c52f22",
-          "variants": [
-            {
-              "loader": "NeoForge",
-              "mod_ids": [
-                "roadweaver"
-              ],
-              "version": "2.3.1-1.21.1",
-              "minecraft": "[1.21.1,1.22)",
-              "environment": "see dependency sides",
-              "dependencies": [
-                {
-                  "id": "neoforge",
-                  "version": "[21.1,)",
-                  "kind": "required",
-                  "side": "BOTH",
-                  "reason": "",
-                  "evidence": "JAR metadata",
-                  "bundled": false
-                },
-                {
-                  "id": "minecraft",
-                  "version": "[1.21.1,1.22)",
-                  "kind": "required",
-                  "side": "BOTH",
-                  "reason": "",
-                  "evidence": "JAR metadata",
-                  "bundled": false
-                },
-                {
-                  "id": "java",
-                  "version": ">=21",
-                  "kind": "required",
-                  "side": "BOTH",
-                  "reason": "",
-                  "evidence": "runtime class-file version",
-                  "bundled": false
-                }
-              ],
-              "bundled_mods": [
-                "architectury",
-                "cloth_config"
-              ]
             }
           ]
         }
@@ -3788,29 +3525,29 @@
       "license": "upstream LICENSE.txt",
       "status": "published",
       "source_update": {
-        "date": "2026-10-25T05:23:53Z",
-        "sha": "a5bcd66196bbcd0e3c2a9164aa219b1c94e41bd7",
-        "url": "https://github.com/ashleywr/solclassic_v2/commit/a5bcd66196bbcd0e3c2a9164aa219b1c94e41bd7"
+        "date": "2026-10-27T04:56:21Z",
+        "sha": "6b678d0a268bdc7910ef27c631ee03713ec1ca09",
+        "url": "https://github.com/ashleywr/solclassic_v2/commit/6b678d0a268bdc7910ef27c631ee03713ec1ca09"
       },
       "release": {
-        "tag": "ashley-2026.10.25-a5bcd661",
-        "date": "2026-10-25T05:24:06Z",
-        "url": "https://github.com/ashleywr/solclassic_v2/releases/tag/ashley-2026.10.25-a5bcd661",
+        "tag": "ashley-2026.10.27-6b678d0a",
+        "date": "2026-10-27T04:56:34Z",
+        "url": "https://github.com/ashleywr/solclassic_v2/releases/tag/ashley-2026.10.27-6b678d0a",
         "prerelease": false
       },
       "artifacts": [
         {
-          "name": "spiceoflife_classic-fabric-2.13+1.21.1.jar",
-          "url": "https://github.com/ashleywr/solclassic_v2/releases/download/ashley-2026.10.25-a5bcd661/spiceoflife_classic-fabric-2.13%2B1.21.1.jar",
-          "bytes": 925636,
-          "sha256": "32b5d043385df9944475a65effd998397272eacab7c5311f7375c11f383208e9",
+          "name": "spiceoflife_classic-fabric-2.15+1.21.1.jar",
+          "url": "https://github.com/ashleywr/solclassic_v2/releases/download/ashley-2026.10.27-6b678d0a/spiceoflife_classic-fabric-2.15%2B1.21.1.jar",
+          "bytes": 935248,
+          "sha256": "f5af1e9b178e308e588a1e8c1b320d75e85ae9bc028584adbb449211e2b3bc52",
           "variants": [
             {
               "loader": "Fabric",
               "mod_ids": [
                 "solclassic"
               ],
-              "version": "2.13+1.21.1",
+              "version": "2.15+1.21.1",
               "minecraft": "~1.21.1",
               "environment": "*",
               "dependencies": [
@@ -3868,17 +3605,17 @@
           ]
         },
         {
-          "name": "spiceoflife_classic-neoforge-2.13+1.21.1.jar",
-          "url": "https://github.com/ashleywr/solclassic_v2/releases/download/ashley-2026.10.25-a5bcd661/spiceoflife_classic-neoforge-2.13%2B1.21.1.jar",
-          "bytes": 105322,
-          "sha256": "a34bfeebb13437fb3457b9029d9af18807d24291e201764217bee66f7db57e54",
+          "name": "spiceoflife_classic-neoforge-2.15+1.21.1.jar",
+          "url": "https://github.com/ashleywr/solclassic_v2/releases/download/ashley-2026.10.27-6b678d0a/spiceoflife_classic-neoforge-2.15%2B1.21.1.jar",
+          "bytes": 115485,
+          "sha256": "4ffedbf989b713d536186cf3596f5bef7adee248cdce58f2f85311e6d8d1b51e",
           "variants": [
             {
               "loader": "NeoForge",
               "mod_ids": [
                 "solclassic"
               ],
-              "version": "2.13+1.21.1",
+              "version": "2.15+1.21.1",
               "minecraft": "[1.21.1,)",
               "environment": "see dependency sides",
               "dependencies": [
@@ -4453,22 +4190,22 @@
       "upstream": "https://github.com/Leclowndu93150/Thaumaturge",
       "license": "Restricted: LICENSE section 3.1 forbids fork releases",
       "status": "source-only",
-      "publication_note": "Restricted: LICENSE section 3.1 forbids fork releases Use the upstream project for its author-provided downloads; this entry does not advertise a binary of the current fork build.",
+      "publication_note": "Current 1.0.8 integration is built and tested locally. LICENSE 3.1 requires prior written author permission for modified source and binary publication; neither is uploaded. The linked branch is the earlier public fork.",
       "snapshot": {
-        "built_at": "2026-10-25",
-        "commit": "5d0511487d4de4ba504c8b1e1f63e43090fef47d",
+        "built_at": "2026-10-27",
+        "commit": "3393411675140d8a6df5df8a5165d137c465613d",
         "artifacts": [
           {
-            "name": "thaumaturge-1.21.1-NeoForge-1.0.0.jar",
-            "sha256": "40f28fed26e7add1bfba635f94cc7f737cfb9d06ff31d1763df8988dfb365cbd",
-            "bytes": 29066773,
+            "name": "thaumaturge-1.21.1-NeoForge-1.0.8.jar",
+            "sha256": "cc4db6c418f941f085c6dafd23e9b2b6a575a758c4afc276efbb9bc45eed247d",
+            "bytes": 33566772,
             "variants": [
               {
                 "loader": "NeoForge",
                 "mod_ids": [
                   "thaumaturge"
                 ],
-                "version": "1.0.0",
+                "version": "1.0.8",
                 "minecraft": "[1.21.1,1.21.2)",
                 "environment": "see dependency sides",
                 "dependencies": [
@@ -4549,16 +4286,16 @@
       },
       "artifacts": [
         {
-          "name": "thaumaturge-1.21.1-NeoForge-1.0.0.jar",
-          "sha256": "40f28fed26e7add1bfba635f94cc7f737cfb9d06ff31d1763df8988dfb365cbd",
-          "bytes": 29066773,
+          "name": "thaumaturge-1.21.1-NeoForge-1.0.8.jar",
+          "sha256": "cc4db6c418f941f085c6dafd23e9b2b6a575a758c4afc276efbb9bc45eed247d",
+          "bytes": 33566772,
           "variants": [
             {
               "loader": "NeoForge",
               "mod_ids": [
                 "thaumaturge"
               ],
-              "version": "1.0.0",
+              "version": "1.0.8",
               "minecraft": "[1.21.1,1.21.2)",
               "environment": "see dependency sides",
               "dependencies": [

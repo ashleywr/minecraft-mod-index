@@ -80,130 +80,14 @@
   {
     "id": "botania",
     "name": "Botania",
-    "description": "Official upstream NeoForge 1.21.1 porting-branch snapshot, built locally without source changes.",
-    "kind": "Upstream snapshot build",
-    "repository": "VazkiiMods/Botania",
+    "description": "Unofficial NeoForge 1.21.1 build of the reviewed upstream porting snapshot, with license packaging and an accidentally committed log omitted.",
+    "kind": "Unofficial upstream snapshot build",
+    "repository": "ashleywr/Botania",
     "branch": "1.21.1-porting",
-    "source_url": "https://github.com/VazkiiMods/Botania/tree/1.21.1-porting",
+    "source_url": "https://github.com/ashleywr/Botania",
     "upstream": "https://github.com/VazkiiMods/Botania",
     "license": "Botania license; separate component terms apply",
-    "status": "local-build",
-    "publication_note": "457-SNAPSHOT was built from the official porting branch. No public JAR was published as part of this work; the source link is provided for provenance.",
-    "snapshot": {
-      "built_at": "2026-10-25",
-      "commit": "be17ee934e58444a12eb31824c6e45505b5349d1",
-      "artifacts": [
-        {
-          "name": "botania-neoforge-1.21.1-457-SNAPSHOT.jar",
-          "sha256": "b5c0790c1c3b68b5678e28b131a6fb40aa888d70df4091b43bae63865e1d5739",
-          "bytes": 21120051,
-          "variants": [
-            {
-              "loader": "NeoForge",
-              "mod_ids": [
-                "botania"
-              ],
-              "version": "457-SNAPSHOT",
-              "minecraft": "1.21.1",
-              "environment": "see dependency sides",
-              "dependencies": [
-                {
-                  "id": "neoforge",
-                  "version": "[21.1.262,)",
-                  "kind": "required",
-                  "side": "BOTH",
-                  "reason": "",
-                  "evidence": "JAR metadata",
-                  "bundled": false
-                },
-                {
-                  "id": "minecraft",
-                  "version": "1.21.1",
-                  "kind": "required",
-                  "side": "BOTH",
-                  "reason": "",
-                  "evidence": "JAR metadata",
-                  "bundled": false
-                },
-                {
-                  "id": "patchouli",
-                  "version": "*",
-                  "kind": "required",
-                  "side": "BOTH",
-                  "reason": "",
-                  "evidence": "JAR metadata",
-                  "bundled": false
-                },
-                {
-                  "id": "curios",
-                  "version": "*",
-                  "kind": "required",
-                  "side": "BOTH",
-                  "reason": "",
-                  "evidence": "JAR metadata",
-                  "bundled": false
-                },
-                {
-                  "id": "gardenofglass",
-                  "version": "[14,)",
-                  "kind": "optional",
-                  "side": "BOTH",
-                  "reason": "",
-                  "evidence": "JAR metadata",
-                  "bundled": false
-                },
-                {
-                  "id": "ears",
-                  "version": "*",
-                  "kind": "optional",
-                  "side": "BOTH",
-                  "reason": "",
-                  "evidence": "JAR metadata",
-                  "bundled": false
-                },
-                {
-                  "id": "fastitemframes",
-                  "version": "*",
-                  "kind": "discouraged",
-                  "side": "BOTH",
-                  "reason": "Breaks Botania's various item frame-based filtering functionalities",
-                  "evidence": "JAR metadata",
-                  "bundled": false
-                },
-                {
-                  "id": "openpartiesandclaims",
-                  "version": "*",
-                  "kind": "discouraged",
-                  "side": "BOTH",
-                  "reason": "Default claiming behavior breaks basic Botania automation (e.g. mana spreaders)",
-                  "evidence": "JAR metadata",
-                  "bundled": false
-                },
-                {
-                  "id": "productivebees",
-                  "version": "[1.21.1-13.8.0,1.21.1-13.13.4)",
-                  "kind": "incompatible",
-                  "side": "BOTH",
-                  "reason": "These versions cause a crash in Botania due to a ClassCastException. This is fixed in later versions of Productive Bees.",
-                  "evidence": "JAR metadata",
-                  "bundled": false
-                },
-                {
-                  "id": "java",
-                  "version": ">=21",
-                  "kind": "required",
-                  "side": "BOTH",
-                  "reason": "",
-                  "evidence": "runtime class-file version",
-                  "bundled": false
-                }
-              ],
-              "bundled_mods": []
-            }
-          ]
-        }
-      ]
-    },
+    "status": "published",
     "notes": [
       "This snapshot requires Patchouli and Curios. Upstream discourages Fast Item Frames and Open Parties and Claims and declares a Productive Bees version conflict; see the JAR metadata below. Full-modpack runtime compatibility was not tested."
     ]
@@ -598,19 +482,7 @@
     "branch": "compat/enchantment-power-providers",
     "source_url": "https://github.com/ashleywr/Rechanted",
     "upstream": "https://github.com/Rechanted-Team/Rechanted",
-    "license": "MIT (as declared in the original source snapshot)",
-    "status": "published"
-  },
-  {
-    "id": "roadweaver",
-    "name": "RoadWeaver",
-    "description": "Minecraft 1.21.1 road generation maintenance fork.",
-    "kind": "Unofficial port / maintenance fork",
-    "repository": "ashleywr/RoadWeaver",
-    "branch": "1.21.1-Architectury",
-    "source_url": "https://github.com/ashleywr/RoadWeaver",
-    "upstream": "https://github.com/shiroha-233/RoadWeaver",
-    "license": "upstream LICENSE and NOTICE",
+    "license": "GPL-3.0-only for the current integration; earlier MIT snapshot notice retained",
     "status": "published"
   },
   {
@@ -821,22 +693,22 @@
     "upstream": "https://github.com/Leclowndu93150/Thaumaturge",
     "license": "Restricted: LICENSE section 3.1 forbids fork releases",
     "status": "source-only",
-    "publication_note": "Restricted: LICENSE section 3.1 forbids fork releases Use the upstream project for its author-provided downloads; this entry does not advertise a binary of the current fork build.",
+    "publication_note": "Current 1.0.8 integration is built and tested locally. LICENSE 3.1 requires prior written author permission for modified source and binary publication; neither is uploaded. The linked branch is the earlier public fork.",
     "snapshot": {
-      "built_at": "2026-10-25",
-      "commit": "5d0511487d4de4ba504c8b1e1f63e43090fef47d",
+      "built_at": "2026-10-27",
+      "commit": "3393411675140d8a6df5df8a5165d137c465613d",
       "artifacts": [
         {
-          "name": "thaumaturge-1.21.1-NeoForge-1.0.0.jar",
-          "sha256": "40f28fed26e7add1bfba635f94cc7f737cfb9d06ff31d1763df8988dfb365cbd",
-          "bytes": 29066773,
+          "name": "thaumaturge-1.21.1-NeoForge-1.0.8.jar",
+          "sha256": "cc4db6c418f941f085c6dafd23e9b2b6a575a758c4afc276efbb9bc45eed247d",
+          "bytes": 33566772,
           "variants": [
             {
               "loader": "NeoForge",
               "mod_ids": [
                 "thaumaturge"
               ],
-              "version": "1.0.0",
+              "version": "1.0.8",
               "minecraft": "[1.21.1,1.21.2)",
               "environment": "see dependency sides",
               "dependencies": [

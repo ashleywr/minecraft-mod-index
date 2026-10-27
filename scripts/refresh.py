@@ -192,12 +192,13 @@ def render(catalog, links):
     projects = catalog["projects"]
     published = sum(p["status"] == "published" for p in projects)
     held = sum(p["status"] == "source-only" for p in projects)
+    local_builds = sum(p["status"] == "local-build" for p in projects)
     lines = ["# Ashley's Minecraft Mod Index", "",
              "Automation-assisted Minecraft mod ports, upgrades, compatibility fixes and original mods — in one searchable place.", "",
-             f"**{len(projects)} projects · {published} with public JAR downloads · {held} source-only entries · 1 upstream snapshot built locally.**", "",
+             f"**{len(projects)} projects · {published} with public JAR downloads · {held} source-only entries · {local_builds} local snapshots without public JARs.**", "",
              "Index checked: **" + catalog["checked_at"][:10] + " (UTC)**. Source dates are the latest commits on the listed maintained branches; release dates are when GitHub published the selected JAR release. A documentation-only commit can change a source date. Dates do not promise ongoing maintenance.", "",
              "Search this page with your browser's Find, or search this repository on GitHub for a mod name, dependency ID, Minecraft version or loader. Each entry has exact JAR links and version-specific requirements. [Machine-readable catalog](catalog.json) · [Project list](projects.json) · [Refresh instructions](#updating-this-index).", "",
-             "Forks and ports are unofficial. Original authors retain credit and ownership; listing a project here does not mean I created the original mod or its original port. The automation-assisted work includes builds and fixes as well as ports. Botania is an unmodified upstream snapshot build.", "",
+             "Forks and ports are unofficial. Original authors retain credit and ownership; listing a project here does not mean I created the original mod or its original port. The work includes builds, compatibility fixes and ports. Botania is an unofficial build of the upstream porting snapshot; see its prerelease notes.", "",
              "## Downloads at a glance", "",
              "Choose the exact Minecraft version and loader in the JAR details. Required dependency links lead to the project or its releases; select a compatible file there. Optional integrations are listed separately. Embedded mods are marked **included**; they usually need no separate download. Dependencies can have their own dependencies.", "",
              "| Mod | Minecraft / loader | Source updated (UTC) | JAR release (UTC) | Downloads and requirements |",
