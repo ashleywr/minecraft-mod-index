@@ -1,4 +1,4 @@
-# Ashley's Minecraft Mod Index
+# My Minecraft Mod Index
 
 Automation-assisted Minecraft mod ports, upgrades, compatibility fixes and original mods — in one searchable place.
 
@@ -17,48 +17,48 @@ Choose the exact Minecraft version and loader in the JAR details. Required depen
 | Mod | Minecraft / loader | Source updated (UTC) | JAR release (UTC) | Downloads and requirements |
 | --- | --- | --- | --- | --- |
 | [Aleki's Nifty Ships](#aleki-s-nifty-ships) | NeoForge [1.21.1] | [2026-10-25](https://github.com/ashleywr/aleki-ships-1.21.1/commit/85f239510872fc5e4bd61dbe8f9489bb34ac38fb) | [2026-10-25](https://github.com/ashleywr/aleki-ships-1.21.1/releases/tag/ashley-2026.10.25-85f23951) | [JARs + dependencies](#aleki-s-nifty-ships) |
-| [Alex's Caves](#alex-s-caves) | NeoForge not declared | [2026-10-25](https://github.com/ashleywr/AlexsCaves-1.21.1/commit/01aca2c4bd1df935260158db8a6040c505e97554) | [2026-10-25](https://github.com/ashleywr/AlexsCaves-1.21.1/releases/tag/ashley-2026.10.25-01aca2c4) | [JARs + dependencies](#alex-s-caves) |
-| [Alex's Caves Exemplified](#alex-s-caves-exemplified) | NeoForge [1.21.1,1.22) | [2026-10-27](https://github.com/ashleywr/AlexsCavesExemplified-Neoforge/commit/0d8a145444073227c9d2ad977fb2bd00dcdfc47b) | [2026-10-27](https://github.com/ashleywr/AlexsCavesExemplified-Neoforge/releases/tag/ashley-2026.10.27-0d8a1454) (prerelease) | [JARs + dependencies](#alex-s-caves-exemplified) |
-| [Automated Materials Index](#automated-materials-index) | Fabric ~1.21.1; Forge [1.20.1, 1.21); NeoForge [1.21.1] | [2026-10-25](https://github.com/ashleywr/AutomatedMaterialsIndex/commit/dc5f40f661fabf696e552385f6b8e42a99793388) | [2026-10-25](https://github.com/ashleywr/AutomatedMaterialsIndex/releases/tag/ashley-2026.10.25-dc5f40f6) | [JARs + dependencies](#automated-materials-index) |
-| [AutoMine Testing](#automine-testing) | Fabric ~1.21.1; NeoForge [1.21.1] | [2026-10-25](https://github.com/ashleywr/automine-testing/commit/c0df04e9466fcd0bead128cf442f13fb1ebb0692) | [2026-10-25](https://github.com/ashleywr/automine-testing/releases/tag/ashley-2026.10.25-c0df04e9) | [JARs + dependencies](#automine-testing) |
-| [Autoturgy](#autoturgy) | NeoForge [1.21.1,1.21.2) | [2026-10-25](https://github.com/ashleywr/Autoturgy/commit/dd27d5d5632aed2506c1d1f387a3fa4b99ab9042) | [2026-10-25](https://github.com/ashleywr/Autoturgy/releases/tag/ashley-2026.10.25-dd27d5d5) | [JARs + dependencies](#autoturgy) |
-| [Botania](#botania) | NeoForge 1.21.1 | [2026-10-26](https://github.com/ashleywr/Botania/commit/fa83dccfc5c9f8803c60147cdbe417a301fb01e0) | [2026-10-27](https://github.com/ashleywr/Botania/releases/tag/ashley-2026.10.27-de47e50e) (prerelease) | [JARs + dependencies](#botania) |
-| [CobbleCuisine](#cobblecuisine) | Fabric 1.21.1 | [2026-10-27](https://github.com/ashleywr/CobbleCuisine-1.8/commit/d114e556388b74b44ed9a9d9ecc8c0494fd3ca2b) | [2026-10-27](https://github.com/ashleywr/CobbleCuisine-1.8/releases/tag/ashley-2026.10.27-d114e556) | [JARs + dependencies](#cobblecuisine) |
-| [Create Factory Controller](#create-factory-controller) | NeoForge [1.21.1] | [2026-10-27](https://github.com/ashleywr/create-factory-controller/commit/97b4bf9535cf05208da833d7ce9e4afd09e66166) | [2026-10-27](https://github.com/ashleywr/create-factory-controller/releases/tag/ashley-2026.10.27-97b4bf95) | [JARs + dependencies](#create-factory-controller) |
-| [Create: Little Networks](#create-little-networks) | NeoForge [1.21.1,1.22) | [2026-10-25](https://github.com/ashleywr/create-little-networks/commit/9335ca41da630b77e96fb6cce5f696a739608bb6) | [2026-10-25](https://github.com/ashleywr/create-little-networks/releases/tag/ashley-2026.10.25-9335ca41) | [JARs + dependencies](#create-little-networks) |
-| [Create: Love and War](#create-love-and-war) | NeoForge [1.21.1,1.22) | [2026-10-25](https://github.com/ashleywr/create-love-and-war/commit/f8728a527a1126d9e87ec5dacbb3138772c2b6cb) | [2026-10-25](https://github.com/ashleywr/create-love-and-war/releases/tag/ashley-2026.10.25-f8728a52) | [JARs + dependencies](#create-love-and-war) |
-| [Hexalia Patchouli Fix](#hexalia-patchouli-fix) | NeoForge [1.21.1,) | [2026-10-25](https://github.com/ashleywr/Hexalia/commit/d0945cb8279c2b305f56f5c055304e68464182cf) | [2026-10-27](https://github.com/ashleywr/Hexalia/releases/tag/ashley-2026.10.27-0a72308a) | [JARs + dependencies](#hexalia-patchouli-fix) |
-| [Iceberg AzureLib Fix](#iceberg-azurelib-fix) | Fabric 1.21.1; Forge [1.21.1]; NeoForge [1.21.1] | [2026-10-25](https://github.com/ashleywr/Iceberg/commit/f782c00b5341da80f07732151522b30330226980) | [2026-10-25](https://github.com/ashleywr/Iceberg/releases/tag/ashley-2026.10.25-f782c00b) | [JARs + dependencies](#iceberg-azurelib-fix) |
-| [Kaleidoscope Compat](#kaleidoscope-compat) | NeoForge [1.21.1] | [2026-10-25](https://github.com/ashleywr/Kaleidoscope-Compat/commit/842598bff2ca4fc0a0b75bc35dec1f8397692f91) | [2026-10-25](https://github.com/ashleywr/Kaleidoscope-Compat/releases/tag/ashley-2026.10.25-842598bf) | [JARs + dependencies](#kaleidoscope-compat) |
-| [KeyBind Bundles Fabric](#keybind-bundles-fabric) | Fabric 1.21.1 | [2026-10-25](https://github.com/ashleywr/KeyBindBundlesFabric/commit/93a8c810285816b0f660011f35eb62707aff9845) | [2026-10-25](https://github.com/ashleywr/KeyBindBundlesFabric/releases/tag/ashley-2026.10.25-93a8c810) | [JARs + dependencies](#keybind-bundles-fabric) |
-| [League Orchestrator](#league-orchestrator) | Fabric ~1.21.1 | [2026-10-25](https://github.com/ashleywr/league-orchestrator/commit/304be140276fd73d646bc56e8476cd3d7de149fa) | [2026-10-25](https://github.com/ashleywr/league-orchestrator/releases/tag/ashley-2026.10.25-304be140) | [JARs + dependencies](#league-orchestrator) |
-| [Little Logistics](#little-logistics) | NeoForge [1.21,1.22) | [2026-10-25](https://github.com/ashleywr/LittleLogistics/commit/f2067cd91ceeb75f910c5e24e4a0b823d79badc5) | No public build of this work | [Source only](#little-logistics) |
+| [Alex's Caves](#alex-s-caves) | NeoForge not declared | [2026-10-27](https://github.com/ashleywr/alexs-caves-neoforge-1.21.1/commit/437806419e8e06ab43513736f0455cee848ca2b6) | [2026-10-25](https://github.com/ashleywr/alexs-caves-neoforge-1.21.1/releases/tag/ashley-2026.10.25-01aca2c4) | [JARs + dependencies](#alex-s-caves) |
+| [Alex's Caves Exemplified](#alex-s-caves-exemplified) | NeoForge [1.21.1,1.22) | [2026-10-27](https://github.com/ashleywr/AlexsCavesExemplified-Neoforge/commit/0a8917f8787787872dc52a007e9b74464f21277e) | [2026-10-27](https://github.com/ashleywr/AlexsCavesExemplified-Neoforge/releases/tag/ashley-2026.10.27-0d8a1454) (prerelease) | [JARs + dependencies](#alex-s-caves-exemplified) |
+| [Automated Materials Index](#automated-materials-index) | Fabric ~1.21.1; Forge [1.20.1, 1.21); NeoForge [1.21.1] | [2026-10-27](https://github.com/ashleywr/AutomatedMaterialsIndex/commit/912d85d6f038512cc0d04ecf8165a25dda0810f1) | [2026-10-25](https://github.com/ashleywr/AutomatedMaterialsIndex/releases/tag/ashley-2026.10.25-dc5f40f6) | [JARs + dependencies](#automated-materials-index) |
+| [AutoMine Testing](#automine-testing) | Fabric ~1.21.1; NeoForge [1.21.1] | [2026-10-27](https://github.com/ashleywr/automine-testing/commit/45d325dd7db330d4a391eb5744788e6d72cb5e00) | [2026-10-25](https://github.com/ashleywr/automine-testing/releases/tag/ashley-2026.10.25-c0df04e9) | [JARs + dependencies](#automine-testing) |
+| [Autoturgy](#autoturgy) | NeoForge [1.21.1,1.21.2) | [2026-10-27](https://github.com/ashleywr/Autoturgy/commit/aaa0485f4c4819358cd03032342e2c5e4b2780a0) | [2026-10-25](https://github.com/ashleywr/Autoturgy/releases/tag/ashley-2026.10.25-dd27d5d5) | [JARs + dependencies](#autoturgy) |
+| [Botania](#botania) | NeoForge 1.21.1 | [2026-10-27](https://github.com/ashleywr/Botania/commit/f8530a65fc4bb4d0258270fbf4bae13b44088ee9) | [2026-10-27](https://github.com/ashleywr/Botania/releases/tag/ashley-2026.10.27-de47e50e) (prerelease) | [JARs + dependencies](#botania) |
+| [CobbleCuisine](#cobblecuisine) | Fabric 1.21.1 | [2026-10-27](https://github.com/ashleywr/CobbleCuisine-1.8/commit/d50114717d3e72bc54196e4056224d7788beb288) | [2026-10-27](https://github.com/ashleywr/CobbleCuisine-1.8/releases/tag/ashley-2026.10.27-d114e556) | [JARs + dependencies](#cobblecuisine) |
+| [Create Factory Controller](#create-factory-controller) | NeoForge [1.21.1] | [2026-10-27](https://github.com/ashleywr/create-factory-controller/commit/7c3169fe22f758d41c92d54b93d7b3e8b495e143) | [2026-10-27](https://github.com/ashleywr/create-factory-controller/releases/tag/ashley-2026.10.27-97b4bf95) | [JARs + dependencies](#create-factory-controller) |
+| [Create: Little Networks](#create-little-networks) | NeoForge [1.21.1,1.22) | [2026-10-27](https://github.com/ashleywr/create-little-networks/commit/bb9c8473b6dde1c3abf9860ef4aef02d07aabb88) | [2026-10-25](https://github.com/ashleywr/create-little-networks/releases/tag/ashley-2026.10.25-9335ca41) | [JARs + dependencies](#create-little-networks) |
+| [Create: Love and War](#create-love-and-war) | NeoForge [1.21.1,1.22) | [2026-10-27](https://github.com/ashleywr/create-love-and-war/commit/c9f22ca06a1a2e7303898cb10d5cfdc7837c5363) | [2026-10-25](https://github.com/ashleywr/create-love-and-war/releases/tag/ashley-2026.10.25-f8728a52) | [JARs + dependencies](#create-love-and-war) |
+| [Hexalia Patchouli Fix](#hexalia-patchouli-fix) | NeoForge [1.21.1,) | [2026-10-27](https://github.com/ashleywr/Hexalia/commit/407a5d12dc8b2263a6a63543fe727b3d721e44cc) | [2026-10-27](https://github.com/ashleywr/Hexalia/releases/tag/ashley-2026.10.27-0a72308a) | [JARs + dependencies](#hexalia-patchouli-fix) |
+| [Iceberg AzureLib Fix](#iceberg-azurelib-fix) | Fabric 1.21.1; Forge [1.21.1]; NeoForge [1.21.1] | [2026-10-27](https://github.com/ashleywr/Iceberg/commit/4771bcc9ba2c8d4a518a6d99a9ade464985a7385) | [2026-10-25](https://github.com/ashleywr/Iceberg/releases/tag/ashley-2026.10.25-f782c00b) | [JARs + dependencies](#iceberg-azurelib-fix) |
+| [Kaleidoscope Compat](#kaleidoscope-compat) | NeoForge [1.21.1] | [2026-10-27](https://github.com/ashleywr/Kaleidoscope-Compat/commit/e42fd28f9d1a0eacd9f3bf209601a61a45490be2) | [2026-10-25](https://github.com/ashleywr/Kaleidoscope-Compat/releases/tag/ashley-2026.10.25-842598bf) | [JARs + dependencies](#kaleidoscope-compat) |
+| [KeyBind Bundles Fabric](#keybind-bundles-fabric) | Fabric 1.21.1 | [2026-10-27](https://github.com/ashleywr/KeyBindBundlesFabric/commit/8fb23d40899052fc3651ee494dabb9a798ff4bff) | [2026-10-25](https://github.com/ashleywr/KeyBindBundlesFabric/releases/tag/ashley-2026.10.25-93a8c810) | [JARs + dependencies](#keybind-bundles-fabric) |
+| [League Orchestrator](#league-orchestrator) | Fabric ~1.21.1 | [2026-10-27](https://github.com/ashleywr/league-orchestrator/commit/923c9e59d8e38392b9be4b1b4d49de60eb5cadfd) | [2026-10-25](https://github.com/ashleywr/league-orchestrator/releases/tag/ashley-2026.10.25-304be140) | [JARs + dependencies](#league-orchestrator) |
+| [Little Logistics](#little-logistics) | NeoForge [1.21,1.22) | [2026-10-27](https://github.com/ashleywr/LittleLogistics/commit/dcba9fe407ecacf4e39198d0fe2ff44d886c68d7) | No public build of this work | [Source only](#little-logistics) |
 | [Magitech](#magitech) | NeoForge [1.21.1] | [2026-10-27](https://github.com/ashleywr/Magitech-Neoforge-1.21.1/commit/afdc1251a958f8b7494a0e95212b443ae6a5bfa1) | [2026-10-27](https://github.com/ashleywr/Magitech-Neoforge-1.21.1/releases/tag/ashley-2026.10.27-afdc1251) | [JARs + dependencies](#magitech) |
-| [Magitema Ocean](#magitema-ocean) | NeoForge [1.21.1] | [2026-10-25](https://github.com/ashleywr/magitema-ocean/commit/81fb9884a4690b7683a03e35e55f5e8a37223cbb) | [2026-10-25](https://github.com/ashleywr/magitema-ocean/releases/tag/ashley-2026.10.25-81fb9884) | [JARs + dependencies](#magitema-ocean) |
-| [Musubi](#musubi) | NeoForge [1.21.1] | [2026-10-25](https://github.com/ashleywr/musubi/commit/da90604c706509ea260f8a185650bb523729627d) | [2026-10-25](https://github.com/ashleywr/musubi/releases/tag/ashley-2026.10.25-da90604c) | [JARs + dependencies](#musubi) |
-| [MUtil](#mutil) | NeoForge [1.21.1] | [2026-10-25](https://github.com/ashleywr/mutil/commit/dfcb2cbb865b758f25f84d4e5d0ab09e822c3527) | [2026-10-25](https://github.com/ashleywr/mutil/releases/tag/ashley-2026.10.25-dfcb2cbb) | [JARs + dependencies](#mutil) |
-| [NeoMantle](#neomantle) | NeoForge [1.21.1,1.21.2) | [2026-10-25](https://github.com/ashleywr/neomantle/commit/9f47d2010cc04b79803c212f33166d0c99391b18) | [2026-10-25](https://github.com/ashleywr/neomantle/releases/tag/ashley-2026.10.25-9f47d201) | [JARs + dependencies](#neomantle) |
-| [NeoTinkers](#neotinkers) | NeoForge [1.21.1,1.21.2) | [2026-10-27](https://github.com/ashleywr/neotinkers/commit/4ed4d56ffd760ab0667bdb3f09081945918ab9fc) | [2026-10-27](https://github.com/ashleywr/neotinkers/releases/tag/ashley-2026.10.27-4ed4d56f) | [JARs + dependencies](#neotinkers) |
-| [NukaTeam Gun Library](#nukateam-gun-library) | NeoForge [1.21.1, 1.21.2) | [2026-10-25](https://github.com/ashleywr/NukaTeamGunLib/commit/165ce0e2455d8c2feb62b8057c2b9c332c8e8c7f) | [2026-10-25](https://github.com/ashleywr/NukaTeamGunLib/releases/tag/ashley-2026.10.25-165ce0e2) | [JARs + dependencies](#nukateam-gun-library) |
-| [Pack Log Doctor](#pack-log-doctor) | NeoForge [1.21.1] | [2026-10-25](https://github.com/ashleywr/pack-log-doctor/commit/371c345e6e2899b4b7af20f9e2de4a7a7541f408) | [2026-10-25](https://github.com/ashleywr/pack-log-doctor/releases/tag/ashley-2026.10.25-371c345e) | [JARs + dependencies](#pack-log-doctor) |
-| [Pack Repairs](#pack-repairs) | NeoForge [1.21.1] | [2026-10-25](https://github.com/ashleywr/pack-repairs/commit/3aba7136d0bad4414fd794635d360eecf7a7c58e) | [2026-10-25](https://github.com/ashleywr/pack-repairs/releases/tag/ashley-2026.10.25-3aba7136) | [JARs + dependencies](#pack-repairs) |
-| [Rats](#rats) | NeoForge [1.21.1, 1.21.2) | [2026-10-27](https://github.com/ashleywr/Rats-Fix-Port--1.21.1/commit/ab73288a6df8cf782e66c8ec06cac54916bb0948) | [2026-10-27](https://github.com/ashleywr/Rats-Fix-Port--1.21.1/releases/tag/ashley-2026.10.27-ab73288a) | [JARs + dependencies](#rats) |
-| [Rechanted](#rechanted) | NeoForge [1.21.1] | [2026-10-27](https://github.com/ashleywr/Rechanted/commit/5108ab61a29222234914a84c5bbda9b73741ab36) | [2026-10-27](https://github.com/ashleywr/Rechanted/releases/tag/ashley-2026.10.27-5108ab61) | [JARs + dependencies](#rechanted) |
-| [Scorched Guns EMF Fix](#scorched-guns-emf-fix) | NeoForge [1.21.1,1.22) | [2026-10-25](https://github.com/ashleywr/ScorchedGunsNeoforge/commit/ed8e14876f75084b9bcff370f45c14d1b4567356) | [2026-10-25](https://github.com/ashleywr/ScorchedGunsNeoforge/releases/tag/ashley-2026.10.25-ed8e1487) | [JARs + dependencies](#scorched-guns-emf-fix) |
-| [Silent's Gems](#silent-s-gems) | NeoForge [1.21,1.21.2) | [2026-10-25](https://github.com/ashleywr/SilentGems/commit/1a2ebf0ece68e4f8933471d0b1622a4c108d4f18) | [2026-10-25](https://github.com/ashleywr/SilentGems/releases/tag/ashley-2026.10.25-1a2ebf0e) | [JARs + dependencies](#silent-s-gems) |
-| [Spice of Life: Classic](#spice-of-life-classic) | Fabric ~1.21.1; NeoForge [1.21.1,) | [2026-10-27](https://github.com/ashleywr/solclassic_v2/commit/6b678d0a268bdc7910ef27c631ee03713ec1ca09) | [2026-10-27](https://github.com/ashleywr/solclassic_v2/releases/tag/ashley-2026.10.27-6b678d0a) | [JARs + dependencies](#spice-of-life-classic) |
-| [TACT](#tact) | NeoForge [1.21.1,1.22) | [2026-10-25](https://github.com/ashleywr/TACT/commit/0d1eb7b7df6a81da6c983d9e0232a295a44ca54a) | [2026-10-25](https://github.com/ashleywr/TACT/releases/tag/ashley-2026.10.25-0d1eb7b7) | [JARs + dependencies](#tact) |
+| [Magitema Ocean](#magitema-ocean) | NeoForge [1.21.1] | [2026-10-27](https://github.com/ashleywr/magitema-ocean/commit/7c55ef2342c3ff52783cafa13b5ff89dcd66b9c7) | [2026-10-25](https://github.com/ashleywr/magitema-ocean/releases/tag/ashley-2026.10.25-81fb9884) | [JARs + dependencies](#magitema-ocean) |
+| [Musubi](#musubi) | NeoForge [1.21.1] | [2026-10-27](https://github.com/ashleywr/musubi/commit/3a2ec20e6f300cbb4d457f29dbf601ea3bb06961) | [2026-10-25](https://github.com/ashleywr/musubi/releases/tag/ashley-2026.10.25-da90604c) | [JARs + dependencies](#musubi) |
+| [MUtil](#mutil) | NeoForge [1.21.1] | [2026-10-27](https://github.com/ashleywr/mutil/commit/735ff7cd85bc47b8a55980c4db74892fe91fa9aa) | [2026-10-25](https://github.com/ashleywr/mutil/releases/tag/ashley-2026.10.25-dfcb2cbb) | [JARs + dependencies](#mutil) |
+| [NeoMantle](#neomantle) | NeoForge [1.21.1,1.21.2) | [2026-10-27](https://github.com/ashleywr/neomantle/commit/b0b0511eac6456d5987b6e865460835c4a2fa4f6) | [2026-10-25](https://github.com/ashleywr/neomantle/releases/tag/ashley-2026.10.25-9f47d201) | [JARs + dependencies](#neomantle) |
+| [NeoTinkers](#neotinkers) | NeoForge [1.21.1,1.21.2) | [2026-10-27](https://github.com/ashleywr/neotinkers/commit/d5b8499c9e660c61b69215f64c666ce3819934e1) | [2026-10-27](https://github.com/ashleywr/neotinkers/releases/tag/ashley-2026.10.27-4ed4d56f) | [JARs + dependencies](#neotinkers) |
+| [NukaTeam Gun Library](#nukateam-gun-library) | NeoForge [1.21.1, 1.21.2) | [2026-10-27](https://github.com/ashleywr/NukaTeamGunLib/commit/c52a8073903c9f6d92f3ff8a68bb4c6473f22dea) | [2026-10-25](https://github.com/ashleywr/NukaTeamGunLib/releases/tag/ashley-2026.10.25-165ce0e2) | [JARs + dependencies](#nukateam-gun-library) |
+| [Pack Log Doctor](#pack-log-doctor) | NeoForge [1.21.1] | [2026-10-27](https://github.com/ashleywr/pack-log-doctor/commit/b44bef7b5da4b4f0c835125e284108074cb653d5) | [2026-10-25](https://github.com/ashleywr/pack-log-doctor/releases/tag/ashley-2026.10.25-371c345e) | [JARs + dependencies](#pack-log-doctor) |
+| [Pack Repairs](#pack-repairs) | NeoForge [1.21.1] | [2026-10-27](https://github.com/ashleywr/pack-repairs/commit/ef817235286fd5ccd783f1396b40863722a92151) | [2026-10-25](https://github.com/ashleywr/pack-repairs/releases/tag/ashley-2026.10.25-3aba7136) | [JARs + dependencies](#pack-repairs) |
+| [Rats](#rats) | NeoForge [1.21.1, 1.21.2) | [2026-10-27](https://github.com/ashleywr/rats-neoforge-1.21.1/commit/6f3b2a08d93b8f92b9f3fe4133b6eb2d3b684640) | [2026-10-27](https://github.com/ashleywr/rats-neoforge-1.21.1/releases/tag/ashley-2026.10.27-ab73288a) | [JARs + dependencies](#rats) |
+| [Rechanted](#rechanted) | NeoForge [1.21.1] | [2026-10-27](https://github.com/ashleywr/Rechanted/commit/e7ddc3bc15318215a6f7e1aa96945b0796da6d45) | [2026-10-27](https://github.com/ashleywr/Rechanted/releases/tag/ashley-2026.10.27-5108ab61) | [JARs + dependencies](#rechanted) |
+| [Scorched Guns EMF Fix](#scorched-guns-emf-fix) | NeoForge [1.21.1,1.22) | [2026-10-27](https://github.com/ashleywr/ScorchedGunsNeoforge/commit/0b888ad3170c5559b8e410fbd6c2e38f28f3ba7a) | [2026-10-25](https://github.com/ashleywr/ScorchedGunsNeoforge/releases/tag/ashley-2026.10.25-ed8e1487) | [JARs + dependencies](#scorched-guns-emf-fix) |
+| [Silent's Gems](#silent-s-gems) | NeoForge [1.21,1.21.2) | [2026-10-27](https://github.com/ashleywr/SilentGems/commit/19197a18893804b7cf53b08a93c9d32657aee8fd) | [2026-10-25](https://github.com/ashleywr/SilentGems/releases/tag/ashley-2026.10.25-1a2ebf0e) | [JARs + dependencies](#silent-s-gems) |
+| [Spice of Life: Classic](#spice-of-life-classic) | Fabric ~1.21.1; NeoForge [1.21.1,) | [2026-10-27](https://github.com/ashleywr/solclassic_v2/commit/3420346d7b260cee73520180f37737dd67646162) | [2026-10-27](https://github.com/ashleywr/solclassic_v2/releases/tag/ashley-2026.10.27-6b678d0a) | [JARs + dependencies](#spice-of-life-classic) |
+| [TACT](#tact) | NeoForge [1.21.1,1.22) | [2026-10-27](https://github.com/ashleywr/TACT/commit/8a27091b5a9dff7a87837f882d93c62d0f0b4aba) | [2026-10-25](https://github.com/ashleywr/TACT/releases/tag/ashley-2026.10.25-0d1eb7b7) | [JARs + dependencies](#tact) |
 | [Tag Lens](#tag-lens) | NeoForge [1.21.1] | [2026-10-25](https://github.com/ashleywr/tag-lens/commit/aea1ef78c71f689f2f64e5d8367929029075df4d) | [2026-10-25](https://github.com/ashleywr/tag-lens/releases/tag/ashley-2026.10.25-aea1ef78) | [JARs + dependencies](#tag-lens) |
 | [Tetra](#tetra) | NeoForge [1.21.1] | 2026-10-25 | No public build of this work | [Source only](#tetra) |
-| [Tetranomicon](#tetranomicon) | NeoForge [1.21.1] | [2026-10-25](https://github.com/ashleywr/Tetranomicon1.21.1/commit/181771529a79d3b0bdd149e8ed68f971a81534d3) | [2026-10-25](https://github.com/ashleywr/Tetranomicon1.21.1/releases/tag/ashley-2026.10.25-18177152) | [JARs + dependencies](#tetranomicon) |
-| [Tetratic Combat Expanded](#tetratic-combat-expanded) | NeoForge [1.21.1] | [2026-10-25](https://github.com/ashleywr/TetraticCombatExpanded-1.21.1/commit/d955a1d0b1d6a2c5be012a953b8ea08fe3e904ae) | [2026-10-25](https://github.com/ashleywr/TetraticCombatExpanded-1.21.1/releases/tag/ashley-2026.10.25-d955a1d0) | [JARs + dependencies](#tetratic-combat-expanded) |
+| [Tetranomicon](#tetranomicon) | NeoForge [1.21.1] | [2026-10-27](https://github.com/ashleywr/Tetranomicon1.21.1/commit/c9b035a26618d45b2b904672b6b8ae9769f8e409) | [2026-10-25](https://github.com/ashleywr/Tetranomicon1.21.1/releases/tag/ashley-2026.10.25-18177152) | [JARs + dependencies](#tetranomicon) |
+| [Tetratic Combat Expanded](#tetratic-combat-expanded) | NeoForge [1.21.1] | [2026-10-27](https://github.com/ashleywr/TetraticCombatExpanded-1.21.1/commit/cc7da146ed4ddddb6ff3750dc619f12624095287) | [2026-10-25](https://github.com/ashleywr/TetraticCombatExpanded-1.21.1/releases/tag/ashley-2026.10.25-d955a1d0) | [JARs + dependencies](#tetratic-combat-expanded) |
 | [Thaumaturge](#thaumaturge) | NeoForge [1.21.1,1.21.2) | [2026-10-25](https://github.com/ashleywr/Thaumaturge/commit/5d0511487d4de4ba504c8b1e1f63e43090fef47d) | No public build of this work | [Source only](#thaumaturge) |
-| [Via Romana](#via-romana) | Fabric >=1.21.1; NeoForge [1.21.1,) | [2026-10-25](https://github.com/ashleywr/Via_Romana/commit/0acad74431ec2d9ec258bbb1a2796b7262020995) | No public build of this work | [Source only](#via-romana) |
+| [Via Romana](#via-romana) | Fabric >=1.21.1; NeoForge [1.21.1,) | [2026-10-27](https://github.com/ashleywr/Via_Romana/commit/3fbe895185b0cf598a8280b4764d08631e24576f) | No public build of this work | [Source only](#via-romana) |
 | [Xaero Seedmap](#xaero-seedmap) | Fabric 1.21.1 | [2026-10-25](https://github.com/ashleywr/xaero-seedmap/commit/e4b254b6b46298ffe2490e98dcb12618fbd6bac4) | [2026-10-25](https://github.com/ashleywr/xaero-seedmap/releases/tag/ashley-2026.10.25-e4b254b6) | [JARs + dependencies](#xaero-seedmap) |
 | [Youkai's Homecoming](#youkai-s-homecoming) | NeoForge [1.21.1,1.22) | [2026-10-25](https://github.com/ashleywr/Youkaishomecoming-1.21.1-Unofficial-Port/commit/42c8771b7f6fbe6b4436cb5a7fed924d1dba9b8c) | [2026-10-25](https://github.com/ashleywr/Youkaishomecoming-1.21.1-Unofficial-Port/releases/tag/ashley-2026.10.25-42c8771b) | [JARs + dependencies](#youkai-s-homecoming) |
-| [Zen Amphibia](#zen-amphibia) | NeoForge [1.21.1] | [2026-10-25](https://github.com/ashleywr/zen-amphibia/commit/04a7e19da2989de47fd206cb847b1bcb15e6bea4) | [2026-10-25](https://github.com/ashleywr/zen-amphibia/releases/tag/ashley-2026.10.25-04a7e19d) | [JARs + dependencies](#zen-amphibia) |
-| [Zen Atelier](#zen-atelier) | NeoForge [1.21.1] | [2026-10-25](https://github.com/ashleywr/zen-atelier/commit/0490910e7981ad69847b683ac1cecde93dae9ccb) | [2026-10-25](https://github.com/ashleywr/zen-atelier/releases/tag/ashley-2026.10.25-0490910e) | [JARs + dependencies](#zen-atelier) |
-| [Zen Diorama](#zen-diorama) | Fabric ~1.21.1; NeoForge [1.21.1] | [2026-10-25](https://github.com/ashleywr/zen-diorama/commit/4a317b0feead4c8162aec133dc454a3db895f7ff) | [2026-10-25](https://github.com/ashleywr/zen-diorama/releases/tag/ashley-2026.10.25-4a317b0f) | [JARs + dependencies](#zen-diorama) |
+| [Zen Amphibia](#zen-amphibia) | NeoForge [1.21.1] | [2026-10-27](https://github.com/ashleywr/zen-amphibia/commit/1e1d16bf47ad1125b5ad487ec772f54368a1a204) | [2026-10-25](https://github.com/ashleywr/zen-amphibia/releases/tag/ashley-2026.10.25-04a7e19d) | [JARs + dependencies](#zen-amphibia) |
+| [Zen Atelier](#zen-atelier) | NeoForge [1.21.1] | [2026-10-27](https://github.com/ashleywr/zen-atelier/commit/f15863fe59999304ff5a96c960890f7600bca924) | [2026-10-25](https://github.com/ashleywr/zen-atelier/releases/tag/ashley-2026.10.25-0490910e) | [JARs + dependencies](#zen-atelier) |
+| [Zen Diorama](#zen-diorama) | Fabric ~1.21.1; NeoForge [1.21.1] | [2026-10-27](https://github.com/ashleywr/zen-diorama/commit/7031537e944909aee70315eb6a6c7942d90db3af) | [2026-10-25](https://github.com/ashleywr/zen-diorama/releases/tag/ashley-2026.10.25-4a317b0f) | [JARs + dependencies](#zen-diorama) |
 
 ## Mod details
 
@@ -90,17 +90,17 @@ SHA-256: `2eed62564a2bfb9426c2d716b502e875bcba8439b884f3b01406087f6d2e97cf`.
 
 ### Alex's Caves
 
-Maintenance build of the unofficial NeoForge 1.21.1 port, including the pack branch fixes and integrated TACT changes.
+My feature and maintenance fork of Raguto's unofficial NeoForge 1.21.1 port, with integrated TACT and additional repairs.
 
-**Unofficial port / maintenance fork.** [Source](https://github.com/ashleywr/AlexsCaves-1.21.1) · [Upstream](https://github.com/Raguto/AlexsCaves-1.21.1) · License: **GPL-3.0**.
+**Feature and maintenance fork of an unofficial port.** [Source](https://github.com/ashleywr/alexs-caves-neoforge-1.21.1) · [Upstream](https://github.com/Raguto/AlexsCaves-1.21.1) · License: **GPL-3.0**.
 
-Source updated: **2026-10-25 UTC**; commit [01aca2c4](https://github.com/ashleywr/AlexsCaves-1.21.1/commit/01aca2c4bd1df935260158db8a6040c505e97554).
+Source updated: **2026-10-27 UTC**; commit [43780641](https://github.com/ashleywr/alexs-caves-neoforge-1.21.1/commit/437806419e8e06ab43513736f0455cee848ca2b6).
 
-JAR release: **2026-10-25 UTC** · [ashley-2026.10.25-01aca2c4](https://github.com/ashleywr/AlexsCaves-1.21.1/releases/tag/ashley-2026.10.25-01aca2c4).
+JAR release: **2026-10-25 UTC** · [ashley-2026.10.25-01aca2c4](https://github.com/ashleywr/alexs-caves-neoforge-1.21.1/releases/tag/ashley-2026.10.25-01aca2c4).
 
 **Note:** This JAR also contains the TACT mod. Do not add a separate copy of TACT alongside this combined build. Minecraft is not declared in this JAR dependency list; this maintained build targets NeoForge 1.21.1.
 
-#### [alexscaves-2.0.10.1.jar](https://github.com/ashleywr/AlexsCaves-1.21.1/releases/download/ashley-2026.10.25-01aca2c4/alexscaves-2.0.10.1.jar)
+#### [alexscaves-2.0.10.1.jar](https://github.com/ashleywr/alexs-caves-neoforge-1.21.1/releases/download/ashley-2026.10.25-01aca2c4/alexscaves-2.0.10.1.jar)
 
 **NeoForge · Minecraft `not declared` · Mod `2.0.10.1, 1.5.3`**
 
@@ -117,7 +117,7 @@ NeoForge 1.21.1 port of the Alex's Caves addon.
 
 **Unofficial port / maintenance fork.** [Source](https://github.com/ashleywr/AlexsCavesExemplified-Neoforge) · [Upstream](https://github.com/CrimsonCrips/AlexsCavesExemplified) · License: **MIT**.
 
-Source updated: **2026-10-27 UTC**; commit [0d8a1454](https://github.com/ashleywr/AlexsCavesExemplified-Neoforge/commit/0d8a145444073227c9d2ad977fb2bd00dcdfc47b).
+Source updated: **2026-10-27 UTC**; commit [0a8917f8](https://github.com/ashleywr/AlexsCavesExemplified-Neoforge/commit/0a8917f8787787872dc52a007e9b74464f21277e).
 
 JAR release: **2026-10-27 UTC** · [ashley-2026.10.27-0d8a1454](https://github.com/ashleywr/AlexsCavesExemplified-Neoforge/releases/tag/ashley-2026.10.27-0d8a1454) · **Prerelease**.
 
@@ -139,7 +139,7 @@ Browse materials and their uses across installed Minecraft mods.
 
 **Original mod / tool.** [Source](https://github.com/ashleywr/AutomatedMaterialsIndex) · License: **MIT**.
 
-Source updated: **2026-10-25 UTC**; commit [dc5f40f6](https://github.com/ashleywr/AutomatedMaterialsIndex/commit/dc5f40f661fabf696e552385f6b8e42a99793388).
+Source updated: **2026-10-27 UTC**; commit [912d85d6](https://github.com/ashleywr/AutomatedMaterialsIndex/commit/912d85d6f038512cc0d04ecf8165a25dda0810f1).
 
 JAR release: **2026-10-25 UTC** · [ashley-2026.10.25-dc5f40f6](https://github.com/ashleywr/AutomatedMaterialsIndex/releases/tag/ashley-2026.10.25-dc5f40f6).
 
@@ -179,7 +179,7 @@ Development helper for deterministic Minecraft UI and world-generation checks; F
 
 **Original mod / tool.** [Source](https://github.com/ashleywr/automine-testing) · License: **MIT**.
 
-Source updated: **2026-10-25 UTC**; commit [c0df04e9](https://github.com/ashleywr/automine-testing/commit/c0df04e9466fcd0bead128cf442f13fb1ebb0692).
+Source updated: **2026-10-27 UTC**; commit [45d325dd](https://github.com/ashleywr/automine-testing/commit/45d325dd7db330d4a391eb5744788e6d72cb5e00).
 
 JAR release: **2026-10-25 UTC** · [ashley-2026.10.25-c0df04e9](https://github.com/ashleywr/automine-testing/releases/tag/ashley-2026.10.25-c0df04e9).
 
@@ -209,7 +209,7 @@ Original magical automation addon for NeoForge 1.21.1 and Thaumaturge.
 
 **Original mod / tool.** [Source](https://github.com/ashleywr/Autoturgy) · License: **MIT**.
 
-Source updated: **2026-10-25 UTC**; commit [dd27d5d5](https://github.com/ashleywr/Autoturgy/commit/dd27d5d5632aed2506c1d1f387a3fa4b99ab9042).
+Source updated: **2026-10-27 UTC**; commit [aaa0485f](https://github.com/ashleywr/Autoturgy/commit/aaa0485f4c4819358cd03032342e2c5e4b2780a0).
 
 JAR release: **2026-10-25 UTC** · [ashley-2026.10.25-dd27d5d5](https://github.com/ashleywr/Autoturgy/releases/tag/ashley-2026.10.25-dd27d5d5).
 
@@ -232,7 +232,7 @@ Unofficial NeoForge 1.21.1 build of the reviewed upstream porting snapshot, with
 
 **Unofficial upstream snapshot build.** [Source](https://github.com/ashleywr/Botania) · [Upstream](https://github.com/VazkiiMods/Botania) · License: **Botania license; separate component terms apply**.
 
-Source updated: **2026-10-26 UTC**; commit [fa83dccf](https://github.com/ashleywr/Botania/commit/fa83dccfc5c9f8803c60147cdbe417a301fb01e0).
+Source updated: **2026-10-27 UTC**; commit [f8530a65](https://github.com/ashleywr/Botania/commit/f8530a65fc4bb4d0258270fbf4bae13b44088ee9).
 
 JAR release: **2026-10-27 UTC** · [ashley-2026.10.27-de47e50e](https://github.com/ashleywr/Botania/releases/tag/ashley-2026.10.27-de47e50e) · **Prerelease**.
 
@@ -257,7 +257,7 @@ Cobblemon 1.8 integration and maintenance changes for CobbleCuisine.
 
 **Unofficial port / maintenance fork.** [Source](https://github.com/ashleywr/CobbleCuisine-1.8) · [Upstream](https://github.com/Fyre520/CobbleCuisine-Java) · License: **MIT**.
 
-Source updated: **2026-10-27 UTC**; commit [d114e556](https://github.com/ashleywr/CobbleCuisine-1.8/commit/d114e556388b74b44ed9a9d9ecc8c0494fd3ca2b).
+Source updated: **2026-10-27 UTC**; commit [d5011471](https://github.com/ashleywr/CobbleCuisine-1.8/commit/d50114717d3e72bc54196e4056224d7788beb288).
 
 JAR release: **2026-10-27 UTC** · [ashley-2026.10.27-d114e556](https://github.com/ashleywr/CobbleCuisine-1.8/releases/tag/ashley-2026.10.27-d114e556).
 
@@ -281,7 +281,7 @@ Create factory controllers and shared dashboard panels for NeoForge 1.21.1.
 
 **Unofficial port / maintenance fork.** [Source](https://github.com/ashleywr/create-factory-controller) · [Upstream](https://github.com/nbcss/create-factory-controller) · License: **MIT**.
 
-Source updated: **2026-10-27 UTC**; commit [97b4bf95](https://github.com/ashleywr/create-factory-controller/commit/97b4bf9535cf05208da833d7ce9e4afd09e66166).
+Source updated: **2026-10-27 UTC**; commit [7c3169fe](https://github.com/ashleywr/create-factory-controller/commit/7c3169fe22f758d41c92d54b93d7b3e8b495e143).
 
 JAR release: **2026-10-27 UTC** · [ashley-2026.10.27-97b4bf95](https://github.com/ashleywr/create-factory-controller/releases/tag/ashley-2026.10.27-97b4bf95).
 
@@ -304,7 +304,7 @@ Create package couriers, Little Logistics network charts and mimic panels for Ne
 
 **Original mod / tool.** [Source](https://github.com/ashleywr/create-little-networks) · License: **MIT**.
 
-Source updated: **2026-10-25 UTC**; commit [9335ca41](https://github.com/ashleywr/create-little-networks/commit/9335ca41da630b77e96fb6cce5f696a739608bb6).
+Source updated: **2026-10-27 UTC**; commit [bb9c8473](https://github.com/ashleywr/create-little-networks/commit/bb9c8473b6dde1c3abf9860ef4aef02d07aabb88).
 
 JAR release: **2026-10-25 UTC** · [ashley-2026.10.25-9335ca41](https://github.com/ashleywr/create-little-networks/releases/tag/ashley-2026.10.25-9335ca41).
 
@@ -327,7 +327,7 @@ Recovered experimental NeoForge 1.21.1 maintenance port.
 
 **Unofficial port / maintenance fork.** [Source](https://github.com/ashleywr/create-love-and-war) · [Upstream](https://www.curseforge.com/minecraft/mc-mods/create-love-war) · License: **MIT**.
 
-Source updated: **2026-10-25 UTC**; commit [f8728a52](https://github.com/ashleywr/create-love-and-war/commit/f8728a527a1126d9e87ec5dacbb3138772c2b6cb).
+Source updated: **2026-10-27 UTC**; commit [c9f22ca0](https://github.com/ashleywr/create-love-and-war/commit/c9f22ca06a1a2e7303898cb10d5cfdc7837c5363).
 
 JAR release: **2026-10-25 UTC** · [ashley-2026.10.25-f8728a52](https://github.com/ashleywr/create-love-and-war/releases/tag/ashley-2026.10.25-f8728a52).
 
@@ -348,7 +348,7 @@ Hexalia NeoForge 1.21.1 maintenance build with the local Patchouli book fix.
 
 **Unofficial port / maintenance fork.** [Source](https://github.com/ashleywr/Hexalia) · [Upstream](https://github.com/AstralyaStudios/Hexalia) · License: **MIT**.
 
-Source updated: **2026-10-25 UTC**; commit [d0945cb8](https://github.com/ashleywr/Hexalia/commit/d0945cb8279c2b305f56f5c055304e68464182cf).
+Source updated: **2026-10-27 UTC**; commit [407a5d12](https://github.com/ashleywr/Hexalia/commit/407a5d12dc8b2263a6a63543fe727b3d721e44cc).
 
 JAR release: **2026-10-27 UTC** · [ashley-2026.10.27-0a72308a](https://github.com/ashleywr/Hexalia/releases/tag/ashley-2026.10.27-0a72308a).
 
@@ -370,7 +370,7 @@ Iceberg 1.21.1 maintenance build with AzureLib armor compatibility fixes.
 
 **Unofficial port / maintenance fork.** [Source](https://github.com/ashleywr/Iceberg) · [Upstream](https://github.com/AHilyard/Iceberg) · License: **upstream LICENSE**.
 
-Source updated: **2026-10-25 UTC**; commit [f782c00b](https://github.com/ashleywr/Iceberg/commit/f782c00b5341da80f07732151522b30330226980).
+Source updated: **2026-10-27 UTC**; commit [4771bcc9](https://github.com/ashleywr/Iceberg/commit/4771bcc9ba2c8d4a518a6d99a9ade464985a7385).
 
 JAR release: **2026-10-25 UTC** · [ashley-2026.10.25-f782c00b](https://github.com/ashleywr/Iceberg/releases/tag/ashley-2026.10.25-f782c00b).
 
@@ -413,7 +413,7 @@ Minecraft 1.21.1 compatibility fork for Kaleidoscope Cookery.
 
 **Unofficial port / maintenance fork.** [Source](https://github.com/ashleywr/Kaleidoscope-Compat) · [Upstream](https://github.com/SShakusora/Kaleidoscope-Compat) · License: **MIT + CC BY-NC-SA 4.0**.
 
-Source updated: **2026-10-25 UTC**; commit [842598bf](https://github.com/ashleywr/Kaleidoscope-Compat/commit/842598bff2ca4fc0a0b75bc35dec1f8397692f91).
+Source updated: **2026-10-27 UTC**; commit [e42fd28f](https://github.com/ashleywr/Kaleidoscope-Compat/commit/e42fd28f9d1a0eacd9f3bf209601a61a45490be2).
 
 JAR release: **2026-10-25 UTC** · [ashley-2026.10.25-842598bf](https://github.com/ashleywr/Kaleidoscope-Compat/releases/tag/ashley-2026.10.25-842598bf).
 
@@ -436,7 +436,7 @@ Fabric port of KeyBind Bundles for Minecraft 1.21.1.
 
 **Unofficial port / maintenance fork.** [Source](https://github.com/ashleywr/KeyBindBundlesFabric) · [Upstream](https://github.com/MatyrobbrtMods/KeyBindBundles) · License: **MIT**.
 
-Source updated: **2026-10-25 UTC**; commit [93a8c810](https://github.com/ashleywr/KeyBindBundlesFabric/commit/93a8c810285816b0f660011f35eb62707aff9845).
+Source updated: **2026-10-27 UTC**; commit [8fb23d40](https://github.com/ashleywr/KeyBindBundlesFabric/commit/8fb23d40899052fc3651ee494dabb9a798ff4bff).
 
 JAR release: **2026-10-25 UTC** · [ashley-2026.10.25-93a8c810](https://github.com/ashleywr/KeyBindBundlesFabric/releases/tag/ashley-2026.10.25-93a8c810).
 
@@ -458,7 +458,7 @@ Deterministic league, town and trainer planning for Fabric 1.21.1.
 
 **Original mod / tool.** [Source](https://github.com/ashleywr/league-orchestrator) · License: **MIT**.
 
-Source updated: **2026-10-25 UTC**; commit [304be140](https://github.com/ashleywr/league-orchestrator/commit/304be140276fd73d646bc56e8476cd3d7de149fa).
+Source updated: **2026-10-27 UTC**; commit [923c9e59](https://github.com/ashleywr/league-orchestrator/commit/923c9e59d8e38392b9be4b1b4d49de60eb5cadfd).
 
 JAR release: **2026-10-25 UTC** · [ashley-2026.10.25-304be140](https://github.com/ashleywr/league-orchestrator/releases/tag/ashley-2026.10.25-304be140).
 
@@ -480,7 +480,7 @@ NeoForge 1.21.1 logistics fork with docking fixes and shared network transport s
 
 **Unofficial port / maintenance fork.** [Source](https://github.com/ashleywr/LittleLogistics/tree/fix/docking-station-pickup) · [Upstream](https://github.com/muradakh/LittleLogistics) · License: **LGPL-3.0 code; artwork and name reserved; Little Contraptions MIT**.
 
-Source updated: **2026-10-25 UTC**; commit [f2067cd9](https://github.com/ashleywr/LittleLogistics/commit/f2067cd91ceeb75f910c5e24e4a0b823d79badc5).
+Source updated: **2026-10-27 UTC**; commit [dcba9fe4](https://github.com/ashleywr/LittleLogistics/commit/dcba9fe407ecacf4e39198d0fe2ff44d886c68d7).
 
 **No public JAR for this work.** README reserves rights in artwork/textures/models and the mod name; public full-JAR redistribution permission is not recorded. Use the upstream project for its author-provided downloads; this entry does not advertise a binary of the current fork build.
 
@@ -534,7 +534,7 @@ Original expanded-depth ocean Overworld presets for NeoForge 1.21.1.
 
 **Original mod / tool.** [Source](https://github.com/ashleywr/magitema-ocean) · License: **MIT**.
 
-Source updated: **2026-10-25 UTC**; commit [81fb9884](https://github.com/ashleywr/magitema-ocean/commit/81fb9884a4690b7683a03e35e55f5e8a37223cbb).
+Source updated: **2026-10-27 UTC**; commit [7c55ef23](https://github.com/ashleywr/magitema-ocean/commit/7c55ef2342c3ff52783cafa13b5ff89dcd66b9c7).
 
 JAR release: **2026-10-25 UTC** · [ashley-2026.10.25-81fb9884](https://github.com/ashleywr/magitema-ocean/releases/tag/ashley-2026.10.25-81fb9884).
 
@@ -555,7 +555,7 @@ Sewing, needles and thread crafting for Minecraft 1.21.1 on NeoForge.
 
 **Original mod / tool.** [Source](https://github.com/ashleywr/musubi) · License: **MIT**.
 
-Source updated: **2026-10-25 UTC**; commit [da90604c](https://github.com/ashleywr/musubi/commit/da90604c706509ea260f8a185650bb523729627d).
+Source updated: **2026-10-27 UTC**; commit [3a2ec20e](https://github.com/ashleywr/musubi/commit/3a2ec20e6f300cbb4d457f29dbf601ea3bb06961).
 
 JAR release: **2026-10-25 UTC** · [ashley-2026.10.25-da90604c](https://github.com/ashleywr/musubi/releases/tag/ashley-2026.10.25-da90604c).
 
@@ -577,7 +577,7 @@ NeoForge 1.21.1 library port used by Tetra addons.
 
 **Unofficial port / maintenance fork.** [Source](https://github.com/ashleywr/mutil) · [Upstream](https://github.com/mickelus/mutil) · License: **MIT**.
 
-Source updated: **2026-10-25 UTC**; commit [dfcb2cbb](https://github.com/ashleywr/mutil/commit/dfcb2cbb865b758f25f84d4e5d0ab09e822c3527).
+Source updated: **2026-10-27 UTC**; commit [735ff7cd](https://github.com/ashleywr/mutil/commit/735ff7cd85bc47b8a55980c4db74892fe91fa9aa).
 
 JAR release: **2026-10-25 UTC** · [ashley-2026.10.25-dfcb2cbb](https://github.com/ashleywr/mutil/releases/tag/ashley-2026.10.25-dfcb2cbb).
 
@@ -598,7 +598,7 @@ NeoForge 1.21.1 port and maintenance fixes for Mantle.
 
 **Unofficial port / maintenance fork.** [Source](https://github.com/ashleywr/neomantle) · [Upstream](https://github.com/vancevoj/neomantle) · License: **MIT**.
 
-Source updated: **2026-10-25 UTC**; commit [9f47d201](https://github.com/ashleywr/neomantle/commit/9f47d2010cc04b79803c212f33166d0c99391b18).
+Source updated: **2026-10-27 UTC**; commit [b0b0511e](https://github.com/ashleywr/neomantle/commit/b0b0511eac6456d5987b6e865460835c4a2fa4f6).
 
 JAR release: **2026-10-25 UTC** · [ashley-2026.10.25-9f47d201](https://github.com/ashleywr/neomantle/releases/tag/ashley-2026.10.25-9f47d201).
 
@@ -619,7 +619,7 @@ NeoForge 1.21.1 port and maintenance fixes for Tinkers' Construct.
 
 **Unofficial port / maintenance fork.** [Source](https://github.com/ashleywr/neotinkers) · [Upstream](https://github.com/vancevoj/neotinkers) · License: **MIT (code); preserve asset notices**.
 
-Source updated: **2026-10-27 UTC**; commit [4ed4d56f](https://github.com/ashleywr/neotinkers/commit/4ed4d56ffd760ab0667bdb3f09081945918ab9fc).
+Source updated: **2026-10-27 UTC**; commit [d5b8499c](https://github.com/ashleywr/neotinkers/commit/d5b8499c9e660c61b69215f64c666ce3819934e1).
 
 JAR release: **2026-10-27 UTC** · [ashley-2026.10.27-4ed4d56f](https://github.com/ashleywr/neotinkers/releases/tag/ashley-2026.10.27-4ed4d56f).
 
@@ -641,7 +641,7 @@ NeoForge 1.21.1 gun library maintenance fork with resource loading improvements.
 
 **Unofficial port / maintenance fork.** [Source](https://github.com/ashleywr/NukaTeamGunLib) · [Upstream](https://github.com/Jetug/NukaTeamGunLib) · License: **LGPL-2.1**.
 
-Source updated: **2026-10-25 UTC**; commit [165ce0e2](https://github.com/ashleywr/NukaTeamGunLib/commit/165ce0e2455d8c2feb62b8057c2b9c332c8e8c7f).
+Source updated: **2026-10-27 UTC**; commit [c52a8073](https://github.com/ashleywr/NukaTeamGunLib/commit/c52a8073903c9f6d92f3ff8a68bb4c6473f22dea).
 
 JAR release: **2026-10-25 UTC** · [ashley-2026.10.25-165ce0e2](https://github.com/ashleywr/NukaTeamGunLib/releases/tag/ashley-2026.10.25-165ce0e2).
 
@@ -663,7 +663,7 @@ Log grouping and diagnostic reports for NeoForge 1.21.1 modpacks.
 
 **Original mod / tool.** [Source](https://github.com/ashleywr/pack-log-doctor) · License: **MIT**.
 
-Source updated: **2026-10-25 UTC**; commit [371c345e](https://github.com/ashleywr/pack-log-doctor/commit/371c345e6e2899b4b7af20f9e2de4a7a7541f408).
+Source updated: **2026-10-27 UTC**; commit [b44bef7b](https://github.com/ashleywr/pack-log-doctor/commit/b44bef7b5da4b4f0c835125e284108074cb653d5).
 
 JAR release: **2026-10-25 UTC** · [ashley-2026.10.25-371c345e](https://github.com/ashleywr/pack-log-doctor/releases/tag/ashley-2026.10.25-371c345e).
 
@@ -684,7 +684,7 @@ Optional, targeted compatibility and data repairs for NeoForge 1.21.1 modpacks.
 
 **Original mod / tool.** [Source](https://github.com/ashleywr/pack-repairs) · License: **MIT**.
 
-Source updated: **2026-10-25 UTC**; commit [3aba7136](https://github.com/ashleywr/pack-repairs/commit/3aba7136d0bad4414fd794635d360eecf7a7c58e).
+Source updated: **2026-10-27 UTC**; commit [ef817235](https://github.com/ashleywr/pack-repairs/commit/ef817235286fd5ccd783f1396b40863722a92151).
 
 JAR release: **2026-10-25 UTC** · [ashley-2026.10.25-3aba7136](https://github.com/ashleywr/pack-repairs/releases/tag/ashley-2026.10.25-3aba7136).
 
@@ -701,15 +701,15 @@ SHA-256: `af8ceb74addfad049db156bbf2416411e0df48e8c6c6708d2abe43b35bf2e77f`.
 
 ### Rats
 
-NeoForge 1.21.1 maintenance port with local rat AI, inventory and navigation repairs.
+My feature and maintenance fork of the existing unofficial NeoForge 1.21.1 Rats port, with behavioral repairs and selected newer backports.
 
-**Unofficial port / maintenance fork.** [Source](https://github.com/ashleywr/Rats-Fix-Port--1.21.1) · [Upstream](https://github.com/eba67/Rats-Fix-Port--1.21.1) · License: **LGPL-3.0**.
+**Feature and maintenance fork of an unofficial port.** [Source](https://github.com/ashleywr/rats-neoforge-1.21.1) · [Upstream](https://github.com/eba67/Rats-Fix-Port--1.21.1) · License: **LGPL-3.0**.
 
-Source updated: **2026-10-27 UTC**; commit [ab73288a](https://github.com/ashleywr/Rats-Fix-Port--1.21.1/commit/ab73288a6df8cf782e66c8ec06cac54916bb0948).
+Source updated: **2026-10-27 UTC**; commit [6f3b2a08](https://github.com/ashleywr/rats-neoforge-1.21.1/commit/6f3b2a08d93b8f92b9f3fe4133b6eb2d3b684640).
 
-JAR release: **2026-10-27 UTC** · [ashley-2026.10.27-ab73288a](https://github.com/ashleywr/Rats-Fix-Port--1.21.1/releases/tag/ashley-2026.10.27-ab73288a).
+JAR release: **2026-10-27 UTC** · [ashley-2026.10.27-ab73288a](https://github.com/ashleywr/rats-neoforge-1.21.1/releases/tag/ashley-2026.10.27-ab73288a).
 
-#### [Rats-Unofficial-Port-Fixed--1.21.1-8.2.3B03-ashley.1.jar](https://github.com/ashleywr/Rats-Fix-Port--1.21.1/releases/download/ashley-2026.10.27-ab73288a/Rats-Unofficial-Port-Fixed--1.21.1-8.2.3B03-ashley.1.jar)
+#### [Rats-Unofficial-Port-Fixed--1.21.1-8.2.3B03-ashley.1.jar](https://github.com/ashleywr/rats-neoforge-1.21.1/releases/download/ashley-2026.10.27-ab73288a/Rats-Unofficial-Port-Fixed--1.21.1-8.2.3B03-ashley.1.jar)
 
 **NeoForge · Minecraft `[1.21.1, 1.21.2)` · Mod `8.2.3B03-ashley.1`**
 
@@ -723,13 +723,15 @@ SHA-256: `d609369279caa302105b9b30a833c98736afc22b4c4ad306f2ad535020606423`.
 
 ### Rechanted
 
-NeoForge 1.21.1 enchanting fork with book operations and recipe viewer integration.
+My experimental Rechanted compatibility changes. Please start with the upstream project for the original mod and official downloads.
 
-**Unofficial port / maintenance fork.** [Source](https://github.com/ashleywr/Rechanted) · [Upstream](https://github.com/Rechanted-Team/Rechanted) · License: **GPL-3.0-only for the current integration; earlier MIT snapshot notice retained**.
+**Experimental compatibility fork.** [Source](https://github.com/ashleywr/Rechanted) · [Upstream](https://github.com/Rechanted-Team/Rechanted) · License: **GPL-3.0-only for the current integration; earlier MIT snapshot notice retained**.
 
-Source updated: **2026-10-27 UTC**; commit [5108ab61](https://github.com/ashleywr/Rechanted/commit/5108ab61a29222234914a84c5bbda9b73741ab36).
+Source updated: **2026-10-27 UTC**; commit [e7ddc3bc](https://github.com/ashleywr/Rechanted/commit/e7ddc3bc15318215a6f7e1aa96945b0796da6d45).
 
 JAR release: **2026-10-27 UTC** · [ashley-2026.10.27-5108ab61](https://github.com/ashleywr/Rechanted/releases/tag/ashley-2026.10.27-5108ab61).
+
+**Note:** Please start with the upstream Rechanted project for official downloads, news and support. This entry is my unofficial compatibility fork.
 
 #### [rechanted-1.0.1-ashley.1.jar](https://github.com/ashleywr/Rechanted/releases/download/ashley-2026.10.27-5108ab61/rechanted-1.0.1-ashley.1.jar)
 
@@ -749,7 +751,7 @@ NeoForge 1.21.1 Scorched Guns fork with Entity Model Features compatibility chan
 
 **Unofficial port / maintenance fork.** [Source](https://github.com/ashleywr/ScorchedGunsNeoforge) · [Upstream](https://github.com/sadeast69/ScorchedGunsNeoforge) · License: **GPL-3.0-or-later**.
 
-Source updated: **2026-10-25 UTC**; commit [ed8e1487](https://github.com/ashleywr/ScorchedGunsNeoforge/commit/ed8e14876f75084b9bcff370f45c14d1b4567356).
+Source updated: **2026-10-27 UTC**; commit [0b888ad3](https://github.com/ashleywr/ScorchedGunsNeoforge/commit/0b888ad3170c5559b8e410fbd6c2e38f28f3ba7a).
 
 JAR release: **2026-10-25 UTC** · [ashley-2026.10.25-ed8e1487](https://github.com/ashleywr/ScorchedGunsNeoforge/releases/tag/ashley-2026.10.25-ed8e1487).
 
@@ -771,7 +773,7 @@ NeoForge 1.21.1 maintenance fork with Curios integration.
 
 **Unofficial port / maintenance fork.** [Source](https://github.com/ashleywr/SilentGems) · [Upstream](https://github.com/SilentChaos512/SilentGems) · License: **MIT**.
 
-Source updated: **2026-10-25 UTC**; commit [1a2ebf0e](https://github.com/ashleywr/SilentGems/commit/1a2ebf0ece68e4f8933471d0b1622a4c108d4f18).
+Source updated: **2026-10-27 UTC**; commit [19197a18](https://github.com/ashleywr/SilentGems/commit/19197a18893804b7cf53b08a93c9d32657aee8fd).
 
 JAR release: **2026-10-25 UTC** · [ashley-2026.10.25-1a2ebf0e](https://github.com/ashleywr/SilentGems/releases/tag/ashley-2026.10.25-1a2ebf0e).
 
@@ -795,7 +797,7 @@ Minecraft 1.21.1 maintenance fork for Fabric and NeoForge.
 
 **Unofficial port / maintenance fork.** [Source](https://github.com/ashleywr/solclassic_v2) · [Upstream](https://github.com/leopoko/solclassic_v2) · License: **upstream LICENSE.txt**.
 
-Source updated: **2026-10-27 UTC**; commit [6b678d0a](https://github.com/ashleywr/solclassic_v2/commit/6b678d0a268bdc7910ef27c631ee03713ec1ca09).
+Source updated: **2026-10-27 UTC**; commit [3420346d](https://github.com/ashleywr/solclassic_v2/commit/3420346d7b260cee73520180f37737dd67646162).
 
 JAR release: **2026-10-27 UTC** · [ashley-2026.10.27-6b678d0a](https://github.com/ashleywr/solclassic_v2/releases/tag/ashley-2026.10.27-6b678d0a).
 
@@ -826,7 +828,7 @@ NeoForge 1.21.1 targeted Alex's Caves compatibility tweaks.
 
 **Unofficial port / maintenance fork.** [Source](https://github.com/ashleywr/TACT) · [Upstream](https://github.com/TelepathicGrunt/TACT) · License: **MIT**.
 
-Source updated: **2026-10-25 UTC**; commit [0d1eb7b7](https://github.com/ashleywr/TACT/commit/0d1eb7b7df6a81da6c983d9e0232a295a44ca54a).
+Source updated: **2026-10-27 UTC**; commit [8a27091b](https://github.com/ashleywr/TACT/commit/8a27091b5a9dff7a87837f882d93c62d0f0b4aba).
 
 JAR release: **2026-10-25 UTC** · [ashley-2026.10.25-0d1eb7b7](https://github.com/ashleywr/TACT/releases/tag/ashley-2026.10.25-0d1eb7b7).
 
@@ -876,7 +878,7 @@ Source updated: **2026-10-25 UTC**; commit `db387be7`.
 
 The following requirements describe the local build checked on **2026-10-25**, at commit `db387be7`.
 
-**Note:** The reviewed port is committed locally; there is no published Ashley fork for this entry. The Source link opens upstream.
+**Note:** The reviewed port is committed locally; there is no published fork of mine for this entry. The Source link opens upstream.
 
 #### `tetra-1.21.1-6.13.0.jar` (local build; no download)
 
@@ -896,7 +898,7 @@ NeoForge 1.21.1 port of the Tetra materials addon.
 
 **Unofficial port / maintenance fork.** [Source](https://github.com/ashleywr/Tetranomicon1.21.1) · [Upstream](https://github.com/Syrikal/Tetranomicon) · License: **LGPL-3.0; preserve Tetra notices**.
 
-Source updated: **2026-10-25 UTC**; commit [18177152](https://github.com/ashleywr/Tetranomicon1.21.1/commit/181771529a79d3b0bdd149e8ed68f971a81534d3).
+Source updated: **2026-10-27 UTC**; commit [c9b035a2](https://github.com/ashleywr/Tetranomicon1.21.1/commit/c9b035a26618d45b2b904672b6b8ae9769f8e409).
 
 JAR release: **2026-10-25 UTC** · [ashley-2026.10.25-18177152](https://github.com/ashleywr/Tetranomicon1.21.1/releases/tag/ashley-2026.10.25-18177152).
 
@@ -920,7 +922,7 @@ NeoForge 1.21.1 Tetra and Better Combat integration port.
 
 **Unofficial port / maintenance fork.** [Source](https://github.com/ashleywr/TetraticCombatExpanded-1.21.1) · [Upstream](https://github.com/ForestWolf99/TetraticCombatExpanded) · License: **MIT**.
 
-Source updated: **2026-10-25 UTC**; commit [d955a1d0](https://github.com/ashleywr/TetraticCombatExpanded-1.21.1/commit/d955a1d0b1d6a2c5be012a953b8ea08fe3e904ae).
+Source updated: **2026-10-27 UTC**; commit [cc7da146](https://github.com/ashleywr/TetraticCombatExpanded-1.21.1/commit/cc7da146ed4ddddb6ff3750dc619f12624095287).
 
 JAR release: **2026-10-25 UTC** · [ashley-2026.10.25-d955a1d0](https://github.com/ashleywr/TetraticCombatExpanded-1.21.1/releases/tag/ashley-2026.10.25-d955a1d0).
 
@@ -967,7 +969,7 @@ Minecraft 1.21.1 destination icon compatibility fork.
 
 **Unofficial port / maintenance fork.** [Source](https://github.com/ashleywr/Via_Romana/tree/feature/destination-icon-registry) · [Upstream](https://github.com/RasaNovum/Via_Romana) · License: **Restricted: RSL-1.0 public binary distribution requires permission**.
 
-Source updated: **2026-10-25 UTC**; commit [0acad744](https://github.com/ashleywr/Via_Romana/commit/0acad74431ec2d9ec258bbb1a2796b7262020995).
+Source updated: **2026-10-27 UTC**; commit [3fbe8951](https://github.com/ashleywr/Via_Romana/commit/3fbe895185b0cf598a8280b4764d08631e24576f).
 
 **No public JAR for this work.** Restricted: RSL-1.0 public binary distribution requires permission Use the upstream project for its author-provided downloads; this entry does not advertise a binary of the current fork build.
 
@@ -1043,7 +1045,7 @@ Amphibians, wetland wildlife and related content for NeoForge 1.21.1.
 
 **Original mod / tool.** [Source](https://github.com/ashleywr/zen-amphibia) · License: **MIT**.
 
-Source updated: **2026-10-25 UTC**; commit [04a7e19d](https://github.com/ashleywr/zen-amphibia/commit/04a7e19da2989de47fd206cb847b1bcb15e6bea4).
+Source updated: **2026-10-27 UTC**; commit [1e1d16bf](https://github.com/ashleywr/zen-amphibia/commit/1e1d16bf47ad1125b5ad487ec772f54368a1a204).
 
 JAR release: **2026-10-25 UTC** · [ashley-2026.10.25-04a7e19d](https://github.com/ashleywr/zen-amphibia/releases/tag/ashley-2026.10.25-04a7e19d).
 
@@ -1067,7 +1069,7 @@ A peaceful content mod for Minecraft 1.21.1 on NeoForge.
 
 **Original mod / tool.** [Source](https://github.com/ashleywr/zen-atelier) · License: **MIT**.
 
-Source updated: **2026-10-25 UTC**; commit [0490910e](https://github.com/ashleywr/zen-atelier/commit/0490910e7981ad69847b683ac1cecde93dae9ccb).
+Source updated: **2026-10-27 UTC**; commit [f15863fe](https://github.com/ashleywr/zen-atelier/commit/f15863fe59999304ff5a96c960890f7600bca924).
 
 JAR release: **2026-10-25 UTC** · [ashley-2026.10.25-0490910e](https://github.com/ashleywr/zen-atelier/releases/tag/ashley-2026.10.25-0490910e).
 
@@ -1089,7 +1091,7 @@ Minecraft 1.21.1 building content for Fabric and NeoForge.
 
 **Original mod / tool.** [Source](https://github.com/ashleywr/zen-diorama) · License: **MIT**.
 
-Source updated: **2026-10-25 UTC**; commit [4a317b0f](https://github.com/ashleywr/zen-diorama/commit/4a317b0feead4c8162aec133dc454a3db895f7ff).
+Source updated: **2026-10-27 UTC**; commit [7031537e](https://github.com/ashleywr/zen-diorama/commit/7031537e944909aee70315eb6a6c7942d90db3af).
 
 JAR release: **2026-10-25 UTC** · [ashley-2026.10.25-4a317b0f](https://github.com/ashleywr/zen-diorama/releases/tag/ashley-2026.10.25-4a317b0f).
 
@@ -1115,7 +1117,7 @@ SHA-256: `a011a77aa46cd866971419a784250549a4c1908f7e67b2a1fa8a75b2d1a96aa7`.
 
 All builds are offered **AS IS**, without warranty. Updates and support are best effort. Successful builds and archive checks do not establish compatibility with every modpack or gameplay path.
 
-Original mods remain under their original licenses and any separate asset terms. Ashley's original code is MIT where identified. The MIT license in this repository covers the index text and refresh code only; it does not relicense any listed mod. Follow each project's license and credits. Source-only entries intentionally have no link to an older fork binary that could be mistaken for the current build.
+Original mods remain under their original licenses and any separate asset terms. My original code is MIT where identified. The MIT license in this repository covers the index text and refresh code only; it does not relicense any listed mod. Follow each project's license and credits. Source-only entries intentionally have no link to an older fork binary that could be mistaken for the current build.
 
 This index covers the reviewed workspace projects. Koyo projects and the removed Controlify, Immersive Portals and Vanilla Vehicles projects are omitted. Other historical GitHub forks are not evidence of an automation-assisted port and are not automatically advertised here.
 

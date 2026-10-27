@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-27T05:31:27+00:00",
+  "checked_at": "2026-10-27T07:05:14+00:00",
   "projects": [
     {
       "id": "aleki-s-nifty-ships",
@@ -86,11 +86,11 @@
     {
       "id": "alex-s-caves",
       "name": "Alex's Caves",
-      "description": "Maintenance build of the unofficial NeoForge 1.21.1 port, including the pack branch fixes and integrated TACT changes.",
-      "kind": "Unofficial port / maintenance fork",
-      "repository": "ashleywr/AlexsCaves-1.21.1",
+      "description": "My feature and maintenance fork of Raguto's unofficial NeoForge 1.21.1 port, with integrated TACT and additional repairs.",
+      "kind": "Feature and maintenance fork of an unofficial port",
+      "repository": "ashleywr/alexs-caves-neoforge-1.21.1",
       "branch": "pack",
-      "source_url": "https://github.com/ashleywr/AlexsCaves-1.21.1",
+      "source_url": "https://github.com/ashleywr/alexs-caves-neoforge-1.21.1",
       "upstream": "https://github.com/Raguto/AlexsCaves-1.21.1",
       "license": "GPL-3.0",
       "status": "published",
@@ -98,20 +98,20 @@
         "This JAR also contains the TACT mod. Do not add a separate copy of TACT alongside this combined build. Minecraft is not declared in this JAR dependency list; this maintained build targets NeoForge 1.21.1."
       ],
       "source_update": {
-        "date": "2026-10-25T05:20:26Z",
-        "sha": "01aca2c4bd1df935260158db8a6040c505e97554",
-        "url": "https://github.com/ashleywr/AlexsCaves-1.21.1/commit/01aca2c4bd1df935260158db8a6040c505e97554"
+        "date": "2026-10-27T06:56:31Z",
+        "sha": "437806419e8e06ab43513736f0455cee848ca2b6",
+        "url": "https://github.com/ashleywr/alexs-caves-neoforge-1.21.1/commit/437806419e8e06ab43513736f0455cee848ca2b6"
       },
       "release": {
         "tag": "ashley-2026.10.25-01aca2c4",
         "date": "2026-10-25T05:20:43Z",
-        "url": "https://github.com/ashleywr/AlexsCaves-1.21.1/releases/tag/ashley-2026.10.25-01aca2c4",
+        "url": "https://github.com/ashleywr/alexs-caves-neoforge-1.21.1/releases/tag/ashley-2026.10.25-01aca2c4",
         "prerelease": false
       },
       "artifacts": [
         {
           "name": "alexscaves-2.0.10.1.jar",
-          "url": "https://github.com/ashleywr/AlexsCaves-1.21.1/releases/download/ashley-2026.10.25-01aca2c4/alexscaves-2.0.10.1.jar",
+          "url": "https://github.com/ashleywr/alexs-caves-neoforge-1.21.1/releases/download/ashley-2026.10.25-01aca2c4/alexscaves-2.0.10.1.jar",
           "bytes": 75013296,
           "sha256": "34738eca20e6d044743a43661951bdcc005f271632ed3954acc55c8657a3cadb",
           "variants": [
@@ -180,9 +180,9 @@
       "license": "MIT",
       "status": "published",
       "source_update": {
-        "date": "2026-10-27T05:23:52Z",
-        "sha": "0d8a145444073227c9d2ad977fb2bd00dcdfc47b",
-        "url": "https://github.com/ashleywr/AlexsCavesExemplified-Neoforge/commit/0d8a145444073227c9d2ad977fb2bd00dcdfc47b"
+        "date": "2026-10-27T06:56:31Z",
+        "sha": "0a8917f8787787872dc52a007e9b74464f21277e",
+        "url": "https://github.com/ashleywr/AlexsCavesExemplified-Neoforge/commit/0a8917f8787787872dc52a007e9b74464f21277e"
       },
       "release": {
         "tag": "ashley-2026.10.27-0d8a1454",
@@ -324,9 +324,9 @@
       "license": "MIT",
       "status": "published",
       "source_update": {
-        "date": "2026-10-25T05:25:39Z",
-        "sha": "dc5f40f661fabf696e552385f6b8e42a99793388",
-        "url": "https://github.com/ashleywr/AutomatedMaterialsIndex/commit/dc5f40f661fabf696e552385f6b8e42a99793388"
+        "date": "2026-10-27T06:56:35Z",
+        "sha": "912d85d6f038512cc0d04ecf8165a25dda0810f1",
+        "url": "https://github.com/ashleywr/AutomatedMaterialsIndex/commit/912d85d6f038512cc0d04ecf8165a25dda0810f1"
       },
       "release": {
         "tag": "ashley-2026.10.25-dc5f40f6",
@@ -526,9 +526,9 @@
       "license": "MIT",
       "status": "published",
       "source_update": {
-        "date": "2026-10-25T05:34:33Z",
-        "sha": "c0df04e9466fcd0bead128cf442f13fb1ebb0692",
-        "url": "https://github.com/ashleywr/automine-testing/commit/c0df04e9466fcd0bead128cf442f13fb1ebb0692"
+        "date": "2026-10-27T06:56:58Z",
+        "sha": "45d325dd7db330d4a391eb5744788e6d72cb5e00",
+        "url": "https://github.com/ashleywr/automine-testing/commit/45d325dd7db330d4a391eb5744788e6d72cb5e00"
       },
       "release": {
         "tag": "ashley-2026.10.25-c0df04e9",
@@ -657,9 +657,9 @@
         "Requires Thaumaturge [1.0.4,). The reviewed Thaumaturge fork is source-only; obtain an authorized build that meets this requirement."
       ],
       "source_update": {
-        "date": "2026-10-25T05:17:08Z",
-        "sha": "dd27d5d5632aed2506c1d1f387a3fa4b99ab9042",
-        "url": "https://github.com/ashleywr/Autoturgy/commit/dd27d5d5632aed2506c1d1f387a3fa4b99ab9042"
+        "date": "2026-10-27T06:56:35Z",
+        "sha": "aaa0485f4c4819358cd03032342e2c5e4b2780a0",
+        "url": "https://github.com/ashleywr/Autoturgy/commit/aaa0485f4c4819358cd03032342e2c5e4b2780a0"
       },
       "release": {
         "tag": "ashley-2026.10.25-dd27d5d5",
@@ -741,7 +741,7 @@
       "description": "Unofficial NeoForge 1.21.1 build of the reviewed upstream porting snapshot, with license packaging and an accidentally committed log omitted.",
       "kind": "Unofficial upstream snapshot build",
       "repository": "ashleywr/Botania",
-      "branch": "1.21.1-porting",
+      "branch": "release/2026-10-27-de47e50e",
       "source_url": "https://github.com/ashleywr/Botania",
       "upstream": "https://github.com/VazkiiMods/Botania",
       "license": "Botania license; separate component terms apply",
@@ -750,9 +750,9 @@
         "This snapshot requires Patchouli and Curios. Upstream discourages Fast Item Frames and Open Parties and Claims and declares a Productive Bees version conflict; see the JAR metadata below. Full-modpack runtime compatibility was not tested."
       ],
       "source_update": {
-        "date": "2026-10-26T19:47:23Z",
-        "sha": "fa83dccfc5c9f8803c60147cdbe417a301fb01e0",
-        "url": "https://github.com/ashleywr/Botania/commit/fa83dccfc5c9f8803c60147cdbe417a301fb01e0"
+        "date": "2026-10-27T06:57:00Z",
+        "sha": "f8530a65fc4bb4d0258270fbf4bae13b44088ee9",
+        "url": "https://github.com/ashleywr/Botania/commit/f8530a65fc4bb4d0258270fbf4bae13b44088ee9"
       },
       "release": {
         "tag": "ashley-2026.10.27-de47e50e",
@@ -906,9 +906,9 @@
         "This maintenance branch targets Cobblemon 1.8. The inherited README still mentions 1.6.1, and fabric.mod.json omits Fabric API and Cobblemon. Both are listed here from the build/source requirements; the exact compatible runtime range is not declared."
       ],
       "source_update": {
-        "date": "2026-10-27T05:08:45Z",
-        "sha": "d114e556388b74b44ed9a9d9ecc8c0494fd3ca2b",
-        "url": "https://github.com/ashleywr/CobbleCuisine-1.8/commit/d114e556388b74b44ed9a9d9ecc8c0494fd3ca2b"
+        "date": "2026-10-27T06:56:35Z",
+        "sha": "d50114717d3e72bc54196e4056224d7788beb288",
+        "url": "https://github.com/ashleywr/CobbleCuisine-1.8/commit/d50114717d3e72bc54196e4056224d7788beb288"
       },
       "release": {
         "tag": "ashley-2026.10.27-d114e556",
@@ -1014,9 +1014,9 @@
       "license": "MIT",
       "status": "published",
       "source_update": {
-        "date": "2026-10-27T05:02:34Z",
-        "sha": "97b4bf9535cf05208da833d7ce9e4afd09e66166",
-        "url": "https://github.com/ashleywr/create-factory-controller/commit/97b4bf9535cf05208da833d7ce9e4afd09e66166"
+        "date": "2026-10-27T06:56:35Z",
+        "sha": "7c3169fe22f758d41c92d54b93d7b3e8b495e143",
+        "url": "https://github.com/ashleywr/create-factory-controller/commit/7c3169fe22f758d41c92d54b93d7b3e8b495e143"
       },
       "release": {
         "tag": "ashley-2026.10.27-97b4bf95",
@@ -1119,9 +1119,9 @@
         "Requires the matching Little Logistics fork/API. The current Little Logistics build is source-only in this index, so this addon download alone does not provide that dependency."
       ],
       "source_update": {
-        "date": "2026-10-25T05:21:08Z",
-        "sha": "9335ca41da630b77e96fb6cce5f696a739608bb6",
-        "url": "https://github.com/ashleywr/create-little-networks/commit/9335ca41da630b77e96fb6cce5f696a739608bb6"
+        "date": "2026-10-27T06:56:38Z",
+        "sha": "bb9c8473b6dde1c3abf9860ef4aef02d07aabb88",
+        "url": "https://github.com/ashleywr/create-little-networks/commit/bb9c8473b6dde1c3abf9860ef4aef02d07aabb88"
       },
       "release": {
         "tag": "ashley-2026.10.25-9335ca41",
@@ -1209,9 +1209,9 @@
       "license": "MIT",
       "status": "published",
       "source_update": {
-        "date": "2026-10-25T05:17:26Z",
-        "sha": "f8728a527a1126d9e87ec5dacbb3138772c2b6cb",
-        "url": "https://github.com/ashleywr/create-love-and-war/commit/f8728a527a1126d9e87ec5dacbb3138772c2b6cb"
+        "date": "2026-10-27T06:56:41Z",
+        "sha": "c9f22ca06a1a2e7303898cb10d5cfdc7837c5363",
+        "url": "https://github.com/ashleywr/create-love-and-war/commit/c9f22ca06a1a2e7303898cb10d5cfdc7837c5363"
       },
       "release": {
         "tag": "ashley-2026.10.25-f8728a52",
@@ -1284,15 +1284,15 @@
       "description": "Hexalia NeoForge 1.21.1 maintenance build with the local Patchouli book fix.",
       "kind": "Unofficial port / maintenance fork",
       "repository": "ashleywr/Hexalia",
-      "branch": "release/2026-10-25-d0945cb8",
+      "branch": "release/2026-10-27-0a72308a",
       "source_url": "https://github.com/ashleywr/Hexalia",
       "upstream": "https://github.com/AstralyaStudios/Hexalia",
       "license": "MIT",
       "status": "published",
       "source_update": {
-        "date": "2026-10-25T05:21:25Z",
-        "sha": "d0945cb8279c2b305f56f5c055304e68464182cf",
-        "url": "https://github.com/ashleywr/Hexalia/commit/d0945cb8279c2b305f56f5c055304e68464182cf"
+        "date": "2026-10-27T06:56:38Z",
+        "sha": "407a5d12dc8b2263a6a63543fe727b3d721e44cc",
+        "url": "https://github.com/ashleywr/Hexalia/commit/407a5d12dc8b2263a6a63543fe727b3d721e44cc"
       },
       "release": {
         "tag": "ashley-2026.10.27-0a72308a",
@@ -1425,9 +1425,9 @@
       "license": "upstream LICENSE",
       "status": "published",
       "source_update": {
-        "date": "2026-10-25T05:34:29Z",
-        "sha": "f782c00b5341da80f07732151522b30330226980",
-        "url": "https://github.com/ashleywr/Iceberg/commit/f782c00b5341da80f07732151522b30330226980"
+        "date": "2026-10-27T06:56:39Z",
+        "sha": "4771bcc9ba2c8d4a518a6d99a9ade464985a7385",
+        "url": "https://github.com/ashleywr/Iceberg/commit/4771bcc9ba2c8d4a518a6d99a9ade464985a7385"
       },
       "release": {
         "tag": "ashley-2026.10.25-f782c00b",
@@ -1753,9 +1753,9 @@
       "license": "MIT + CC BY-NC-SA 4.0",
       "status": "published",
       "source_update": {
-        "date": "2026-10-25T05:21:27Z",
-        "sha": "842598bff2ca4fc0a0b75bc35dec1f8397692f91",
-        "url": "https://github.com/ashleywr/Kaleidoscope-Compat/commit/842598bff2ca4fc0a0b75bc35dec1f8397692f91"
+        "date": "2026-10-27T06:56:40Z",
+        "sha": "e42fd28f9d1a0eacd9f3bf209601a61a45490be2",
+        "url": "https://github.com/ashleywr/Kaleidoscope-Compat/commit/e42fd28f9d1a0eacd9f3bf209601a61a45490be2"
       },
       "release": {
         "tag": "ashley-2026.10.25-842598bf",
@@ -1863,9 +1863,9 @@
       "license": "MIT",
       "status": "published",
       "source_update": {
-        "date": "2026-10-25T05:21:40Z",
-        "sha": "93a8c810285816b0f660011f35eb62707aff9845",
-        "url": "https://github.com/ashleywr/KeyBindBundlesFabric/commit/93a8c810285816b0f660011f35eb62707aff9845"
+        "date": "2026-10-27T06:56:41Z",
+        "sha": "8fb23d40899052fc3651ee494dabb9a798ff4bff",
+        "url": "https://github.com/ashleywr/KeyBindBundlesFabric/commit/8fb23d40899052fc3651ee494dabb9a798ff4bff"
       },
       "release": {
         "tag": "ashley-2026.10.25-93a8c810",
@@ -1971,9 +1971,9 @@
       "license": "MIT",
       "status": "published",
       "source_update": {
-        "date": "2026-10-25T05:21:52Z",
-        "sha": "304be140276fd73d646bc56e8476cd3d7de149fa",
-        "url": "https://github.com/ashleywr/league-orchestrator/commit/304be140276fd73d646bc56e8476cd3d7de149fa"
+        "date": "2026-10-27T06:56:42Z",
+        "sha": "923c9e59d8e38392b9be4b1b4d49de60eb5cadfd",
+        "url": "https://github.com/ashleywr/league-orchestrator/commit/923c9e59d8e38392b9be4b1b4d49de60eb5cadfd"
       },
       "release": {
         "tag": "ashley-2026.10.25-304be140",
@@ -2226,9 +2226,9 @@
         ]
       },
       "source_update": {
-        "date": "2026-10-25T05:35:26Z",
-        "sha": "f2067cd91ceeb75f910c5e24e4a0b823d79badc5",
-        "url": "https://github.com/ashleywr/LittleLogistics/commit/f2067cd91ceeb75f910c5e24e4a0b823d79badc5"
+        "date": "2026-10-27T06:56:43Z",
+        "sha": "dcba9fe407ecacf4e39198d0fe2ff44d886c68d7",
+        "url": "https://github.com/ashleywr/LittleLogistics/commit/dcba9fe407ecacf4e39198d0fe2ff44d886c68d7"
       },
       "artifacts": [
         {
@@ -2493,9 +2493,9 @@
       "license": "MIT",
       "status": "published",
       "source_update": {
-        "date": "2026-10-25T05:17:46Z",
-        "sha": "81fb9884a4690b7683a03e35e55f5e8a37223cbb",
-        "url": "https://github.com/ashleywr/magitema-ocean/commit/81fb9884a4690b7683a03e35e55f5e8a37223cbb"
+        "date": "2026-10-27T06:56:43Z",
+        "sha": "7c55ef2342c3ff52783cafa13b5ff89dcd66b9c7",
+        "url": "https://github.com/ashleywr/magitema-ocean/commit/7c55ef2342c3ff52783cafa13b5ff89dcd66b9c7"
       },
       "release": {
         "tag": "ashley-2026.10.25-81fb9884",
@@ -2565,9 +2565,9 @@
       "license": "MIT",
       "status": "published",
       "source_update": {
-        "date": "2026-10-25T05:22:25Z",
-        "sha": "da90604c706509ea260f8a185650bb523729627d",
-        "url": "https://github.com/ashleywr/musubi/commit/da90604c706509ea260f8a185650bb523729627d"
+        "date": "2026-10-27T06:56:45Z",
+        "sha": "3a2ec20e6f300cbb4d457f29dbf601ea3bb06961",
+        "url": "https://github.com/ashleywr/musubi/commit/3a2ec20e6f300cbb4d457f29dbf601ea3bb06961"
       },
       "release": {
         "tag": "ashley-2026.10.25-da90604c",
@@ -2673,9 +2673,9 @@
       "license": "MIT",
       "status": "published",
       "source_update": {
-        "date": "2026-10-25T05:24:06Z",
-        "sha": "dfcb2cbb865b758f25f84d4e5d0ab09e822c3527",
-        "url": "https://github.com/ashleywr/mutil/commit/dfcb2cbb865b758f25f84d4e5d0ab09e822c3527"
+        "date": "2026-10-27T06:56:54Z",
+        "sha": "735ff7cd85bc47b8a55980c4db74892fe91fa9aa",
+        "url": "https://github.com/ashleywr/mutil/commit/735ff7cd85bc47b8a55980c4db74892fe91fa9aa"
       },
       "release": {
         "tag": "ashley-2026.10.25-dfcb2cbb",
@@ -2745,9 +2745,9 @@
       "license": "MIT",
       "status": "published",
       "source_update": {
-        "date": "2026-10-25T05:22:13Z",
-        "sha": "9f47d2010cc04b79803c212f33166d0c99391b18",
-        "url": "https://github.com/ashleywr/neomantle/commit/9f47d2010cc04b79803c212f33166d0c99391b18"
+        "date": "2026-10-27T06:56:45Z",
+        "sha": "b0b0511eac6456d5987b6e865460835c4a2fa4f6",
+        "url": "https://github.com/ashleywr/neomantle/commit/b0b0511eac6456d5987b6e865460835c4a2fa4f6"
       },
       "release": {
         "tag": "ashley-2026.10.25-9f47d201",
@@ -2817,9 +2817,9 @@
       "license": "MIT (code); preserve asset notices",
       "status": "published",
       "source_update": {
-        "date": "2026-10-27T04:56:47Z",
-        "sha": "4ed4d56ffd760ab0667bdb3f09081945918ab9fc",
-        "url": "https://github.com/ashleywr/neotinkers/commit/4ed4d56ffd760ab0667bdb3f09081945918ab9fc"
+        "date": "2026-10-27T06:56:47Z",
+        "sha": "d5b8499c9e660c61b69215f64c666ce3819934e1",
+        "url": "https://github.com/ashleywr/neotinkers/commit/d5b8499c9e660c61b69215f64c666ce3819934e1"
       },
       "release": {
         "tag": "ashley-2026.10.27-4ed4d56f",
@@ -2916,9 +2916,9 @@
       "license": "LGPL-2.1",
       "status": "published",
       "source_update": {
-        "date": "2026-10-25T05:23:05Z",
-        "sha": "165ce0e2455d8c2feb62b8057c2b9c332c8e8c7f",
-        "url": "https://github.com/ashleywr/NukaTeamGunLib/commit/165ce0e2455d8c2feb62b8057c2b9c332c8e8c7f"
+        "date": "2026-10-27T06:56:47Z",
+        "sha": "c52a8073903c9f6d92f3ff8a68bb4c6473f22dea",
+        "url": "https://github.com/ashleywr/NukaTeamGunLib/commit/c52a8073903c9f6d92f3ff8a68bb4c6473f22dea"
       },
       "release": {
         "tag": "ashley-2026.10.25-165ce0e2",
@@ -2999,9 +2999,9 @@
       "license": "MIT",
       "status": "published",
       "source_update": {
-        "date": "2026-10-25T05:23:19Z",
-        "sha": "371c345e6e2899b4b7af20f9e2de4a7a7541f408",
-        "url": "https://github.com/ashleywr/pack-log-doctor/commit/371c345e6e2899b4b7af20f9e2de4a7a7541f408"
+        "date": "2026-10-27T06:56:48Z",
+        "sha": "b44bef7b5da4b4f0c835125e284108074cb653d5",
+        "url": "https://github.com/ashleywr/pack-log-doctor/commit/b44bef7b5da4b4f0c835125e284108074cb653d5"
       },
       "release": {
         "tag": "ashley-2026.10.25-371c345e",
@@ -3071,9 +3071,9 @@
       "license": "MIT",
       "status": "published",
       "source_update": {
-        "date": "2026-10-25T05:18:05Z",
-        "sha": "3aba7136d0bad4414fd794635d360eecf7a7c58e",
-        "url": "https://github.com/ashleywr/pack-repairs/commit/3aba7136d0bad4414fd794635d360eecf7a7c58e"
+        "date": "2026-10-27T07:03:13Z",
+        "sha": "ef817235286fd5ccd783f1396b40863722a92151",
+        "url": "https://github.com/ashleywr/pack-repairs/commit/ef817235286fd5ccd783f1396b40863722a92151"
       },
       "release": {
         "tag": "ashley-2026.10.25-3aba7136",
@@ -3134,29 +3134,29 @@
     {
       "id": "rats",
       "name": "Rats",
-      "description": "NeoForge 1.21.1 maintenance port with local rat AI, inventory and navigation repairs.",
-      "kind": "Unofficial port / maintenance fork",
-      "repository": "ashleywr/Rats-Fix-Port--1.21.1",
+      "description": "My feature and maintenance fork of the existing unofficial NeoForge 1.21.1 Rats port, with behavioral repairs and selected newer backports.",
+      "kind": "Feature and maintenance fork of an unofficial port",
+      "repository": "ashleywr/rats-neoforge-1.21.1",
       "branch": "Rats-8.2.3B02",
-      "source_url": "https://github.com/ashleywr/Rats-Fix-Port--1.21.1",
+      "source_url": "https://github.com/ashleywr/rats-neoforge-1.21.1",
       "upstream": "https://github.com/eba67/Rats-Fix-Port--1.21.1",
       "license": "LGPL-3.0",
       "status": "published",
       "source_update": {
-        "date": "2026-10-27T05:19:24Z",
-        "sha": "ab73288a6df8cf782e66c8ec06cac54916bb0948",
-        "url": "https://github.com/ashleywr/Rats-Fix-Port--1.21.1/commit/ab73288a6df8cf782e66c8ec06cac54916bb0948"
+        "date": "2026-10-27T06:56:50Z",
+        "sha": "6f3b2a08d93b8f92b9f3fe4133b6eb2d3b684640",
+        "url": "https://github.com/ashleywr/rats-neoforge-1.21.1/commit/6f3b2a08d93b8f92b9f3fe4133b6eb2d3b684640"
       },
       "release": {
         "tag": "ashley-2026.10.27-ab73288a",
         "date": "2026-10-27T05:19:37Z",
-        "url": "https://github.com/ashleywr/Rats-Fix-Port--1.21.1/releases/tag/ashley-2026.10.27-ab73288a",
+        "url": "https://github.com/ashleywr/rats-neoforge-1.21.1/releases/tag/ashley-2026.10.27-ab73288a",
         "prerelease": false
       },
       "artifacts": [
         {
           "name": "Rats-Unofficial-Port-Fixed--1.21.1-8.2.3B03-ashley.1.jar",
-          "url": "https://github.com/ashleywr/Rats-Fix-Port--1.21.1/releases/download/ashley-2026.10.27-ab73288a/Rats-Unofficial-Port-Fixed--1.21.1-8.2.3B03-ashley.1.jar",
+          "url": "https://github.com/ashleywr/rats-neoforge-1.21.1/releases/download/ashley-2026.10.27-ab73288a/Rats-Unofficial-Port-Fixed--1.21.1-8.2.3B03-ashley.1.jar",
           "bytes": 8366774,
           "sha256": "d609369279caa302105b9b30a833c98736afc22b4c4ad306f2ad535020606423",
           "variants": [
@@ -3260,18 +3260,21 @@
     {
       "id": "rechanted",
       "name": "Rechanted",
-      "description": "NeoForge 1.21.1 enchanting fork with book operations and recipe viewer integration.",
-      "kind": "Unofficial port / maintenance fork",
+      "description": "My experimental Rechanted compatibility changes. Please start with the upstream project for the original mod and official downloads.",
+      "kind": "Experimental compatibility fork",
       "repository": "ashleywr/Rechanted",
       "branch": "compat/enchantment-power-providers",
       "source_url": "https://github.com/ashleywr/Rechanted",
       "upstream": "https://github.com/Rechanted-Team/Rechanted",
       "license": "GPL-3.0-only for the current integration; earlier MIT snapshot notice retained",
       "status": "published",
+      "notes": [
+        "Please start with the upstream Rechanted project for official downloads, news and support. This entry is my unofficial compatibility fork."
+      ],
       "source_update": {
-        "date": "2026-10-27T05:05:51Z",
-        "sha": "5108ab61a29222234914a84c5bbda9b73741ab36",
-        "url": "https://github.com/ashleywr/Rechanted/commit/5108ab61a29222234914a84c5bbda9b73741ab36"
+        "date": "2026-10-27T06:56:50Z",
+        "sha": "e7ddc3bc15318215a6f7e1aa96945b0796da6d45",
+        "url": "https://github.com/ashleywr/Rechanted/commit/e7ddc3bc15318215a6f7e1aa96945b0796da6d45"
       },
       "release": {
         "tag": "ashley-2026.10.27-5108ab61",
@@ -3359,9 +3362,9 @@
       "license": "GPL-3.0-or-later",
       "status": "published",
       "source_update": {
-        "date": "2026-10-25T05:23:52Z",
-        "sha": "ed8e14876f75084b9bcff370f45c14d1b4567356",
-        "url": "https://github.com/ashleywr/ScorchedGunsNeoforge/commit/ed8e14876f75084b9bcff370f45c14d1b4567356"
+        "date": "2026-10-27T06:56:50Z",
+        "sha": "0b888ad3170c5559b8e410fbd6c2e38f28f3ba7a",
+        "url": "https://github.com/ashleywr/ScorchedGunsNeoforge/commit/0b888ad3170c5559b8e410fbd6c2e38f28f3ba7a"
       },
       "release": {
         "tag": "ashley-2026.10.25-ed8e1487",
@@ -3561,9 +3564,9 @@
         "Silent Lib is used directly by the source and the build pins 10.5.1, but the packaged dependency list omits it. Install compatible Silent Lib; its source-declared range is included here. Silent Gear is an optional integration."
       ],
       "source_update": {
-        "date": "2026-10-25T05:26:11Z",
-        "sha": "1a2ebf0ece68e4f8933471d0b1622a4c108d4f18",
-        "url": "https://github.com/ashleywr/SilentGems/commit/1a2ebf0ece68e4f8933471d0b1622a4c108d4f18"
+        "date": "2026-10-27T06:56:52Z",
+        "sha": "19197a18893804b7cf53b08a93c9d32657aee8fd",
+        "url": "https://github.com/ashleywr/SilentGems/commit/19197a18893804b7cf53b08a93c9d32657aee8fd"
       },
       "release": {
         "tag": "ashley-2026.10.25-1a2ebf0e",
@@ -3651,9 +3654,9 @@
       "license": "upstream LICENSE.txt",
       "status": "published",
       "source_update": {
-        "date": "2026-10-27T04:56:21Z",
-        "sha": "6b678d0a268bdc7910ef27c631ee03713ec1ca09",
-        "url": "https://github.com/ashleywr/solclassic_v2/commit/6b678d0a268bdc7910ef27c631ee03713ec1ca09"
+        "date": "2026-10-27T06:56:53Z",
+        "sha": "3420346d7b260cee73520180f37737dd67646162",
+        "url": "https://github.com/ashleywr/solclassic_v2/commit/3420346d7b260cee73520180f37737dd67646162"
       },
       "release": {
         "tag": "ashley-2026.10.27-6b678d0a",
@@ -3803,9 +3806,9 @@
         "The Alex's Caves build linked in this index already includes TACT. Use this standalone JAR only with an Alex's Caves build that does not already contain it."
       ],
       "source_update": {
-        "date": "2026-10-25T05:24:07Z",
-        "sha": "0d1eb7b7df6a81da6c983d9e0232a295a44ca54a",
-        "url": "https://github.com/ashleywr/TACT/commit/0d1eb7b7df6a81da6c983d9e0232a295a44ca54a"
+        "date": "2026-10-27T06:56:57Z",
+        "sha": "8a27091b5a9dff7a87837f882d93c62d0f0b4aba",
+        "url": "https://github.com/ashleywr/TACT/commit/8a27091b5a9dff7a87837f882d93c62d0f0b4aba"
       },
       "release": {
         "tag": "ashley-2026.10.25-0d1eb7b7",
@@ -3962,7 +3965,7 @@
         "url": null
       },
       "notes": [
-        "The reviewed port is committed locally; there is no published Ashley fork for this entry. The Source link opens upstream."
+        "The reviewed port is committed locally; there is no published fork of mine for this entry. The Source link opens upstream."
       ],
       "snapshot": {
         "built_at": "2026-10-25",
@@ -4116,9 +4119,9 @@
         "Requires a compatible NeoForge 1.21.1 Tetra build. The reviewed Tetra port is source-only here; its older author releases are not a substitute for this required port version."
       ],
       "source_update": {
-        "date": "2026-10-25T05:26:24Z",
-        "sha": "181771529a79d3b0bdd149e8ed68f971a81534d3",
-        "url": "https://github.com/ashleywr/Tetranomicon1.21.1/commit/181771529a79d3b0bdd149e8ed68f971a81534d3"
+        "date": "2026-10-27T06:56:54Z",
+        "sha": "c9b035a26618d45b2b904672b6b8ae9769f8e409",
+        "url": "https://github.com/ashleywr/Tetranomicon1.21.1/commit/c9b035a26618d45b2b904672b6b8ae9769f8e409"
       },
       "release": {
         "tag": "ashley-2026.10.25-18177152",
@@ -4218,9 +4221,9 @@
         "Requires a compatible NeoForge 1.21.1 Tetra build. The reviewed Tetra port is source-only here; its older author releases are not a substitute for this required port version."
       ],
       "source_update": {
-        "date": "2026-10-25T05:26:37Z",
-        "sha": "d955a1d0b1d6a2c5be012a953b8ea08fe3e904ae",
-        "url": "https://github.com/ashleywr/TetraticCombatExpanded-1.21.1/commit/d955a1d0b1d6a2c5be012a953b8ea08fe3e904ae"
+        "date": "2026-10-27T06:56:55Z",
+        "sha": "cc7da146ed4ddddb6ff3750dc619f12624095287",
+        "url": "https://github.com/ashleywr/TetraticCombatExpanded-1.21.1/commit/cc7da146ed4ddddb6ff3750dc619f12624095287"
       },
       "release": {
         "tag": "ashley-2026.10.25-d955a1d0",
@@ -4669,9 +4672,9 @@
         ]
       },
       "source_update": {
-        "date": "2026-10-25T05:39:28Z",
-        "sha": "0acad74431ec2d9ec258bbb1a2796b7262020995",
-        "url": "https://github.com/ashleywr/Via_Romana/commit/0acad74431ec2d9ec258bbb1a2796b7262020995"
+        "date": "2026-10-27T06:56:57Z",
+        "sha": "3fbe895185b0cf598a8280b4764d08631e24576f",
+        "url": "https://github.com/ashleywr/Via_Romana/commit/3fbe895185b0cf598a8280b4764d08631e24576f"
       },
       "artifacts": [
         {
@@ -5046,9 +5049,9 @@
         "This build targets Create 6 on NeoForge 1.21.1; the packaged minimum says [0.6.0,), which is broader than that tested build target."
       ],
       "source_update": {
-        "date": "2026-10-25T05:16:56Z",
-        "sha": "04a7e19da2989de47fd206cb847b1bcb15e6bea4",
-        "url": "https://github.com/ashleywr/zen-amphibia/commit/04a7e19da2989de47fd206cb847b1bcb15e6bea4"
+        "date": "2026-10-27T06:56:31Z",
+        "sha": "1e1d16bf47ad1125b5ad487ec772f54368a1a204",
+        "url": "https://github.com/ashleywr/zen-amphibia/commit/1e1d16bf47ad1125b5ad487ec772f54368a1a204"
       },
       "release": {
         "tag": "ashley-2026.10.25-04a7e19d",
@@ -5136,9 +5139,9 @@
       "license": "MIT",
       "status": "published",
       "source_update": {
-        "date": "2026-10-25T05:39:32Z",
-        "sha": "0490910e7981ad69847b683ac1cecde93dae9ccb",
-        "url": "https://github.com/ashleywr/zen-atelier/commit/0490910e7981ad69847b683ac1cecde93dae9ccb"
+        "date": "2026-10-27T06:56:31Z",
+        "sha": "f15863fe59999304ff5a96c960890f7600bca924",
+        "url": "https://github.com/ashleywr/zen-atelier/commit/f15863fe59999304ff5a96c960890f7600bca924"
       },
       "release": {
         "tag": "ashley-2026.10.25-0490910e",
@@ -5226,9 +5229,9 @@
       "license": "MIT",
       "status": "published",
       "source_update": {
-        "date": "2026-10-25T05:26:50Z",
-        "sha": "4a317b0feead4c8162aec133dc454a3db895f7ff",
-        "url": "https://github.com/ashleywr/zen-diorama/commit/4a317b0feead4c8162aec133dc454a3db895f7ff"
+        "date": "2026-10-27T06:56:58Z",
+        "sha": "7031537e944909aee70315eb6a6c7942d90db3af",
+        "url": "https://github.com/ashleywr/zen-diorama/commit/7031537e944909aee70315eb6a6c7942d90db3af"
       },
       "release": {
         "tag": "ashley-2026.10.25-4a317b0f",

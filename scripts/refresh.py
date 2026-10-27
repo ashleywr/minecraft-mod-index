@@ -193,7 +193,7 @@ def render(catalog, links):
     published = sum(p["status"] == "published" for p in projects)
     held = sum(p["status"] == "source-only" for p in projects)
     local_builds = sum(p["status"] == "local-build" for p in projects)
-    lines = ["# Ashley's Minecraft Mod Index", "",
+    lines = ["# My Minecraft Mod Index", "",
              "Automation-assisted Minecraft mod ports, upgrades, compatibility fixes and original mods — in one searchable place.", "",
              f"**{len(projects)} projects · {published} with public JAR downloads · {held} source-only entries · {local_builds} local snapshots without public JARs.**", "",
              "Index checked: **" + catalog["checked_at"][:10] + " (UTC)**. Source dates are the latest commits on the listed maintained branches; release dates are when GitHub published the selected JAR release. A documentation-only commit can change a source date. Dates do not promise ongoing maintenance.", "",
@@ -248,7 +248,7 @@ def render(catalog, links):
                 lines += ["SHA-256: " + code(artifact["sha256"]) + ".", ""]
     lines += ["## Availability, credit and licenses", "",
               "All builds are offered **AS IS**, without warranty. Updates and support are best effort. Successful builds and archive checks do not establish compatibility with every modpack or gameplay path.", "",
-              "Original mods remain under their original licenses and any separate asset terms. Ashley's original code is MIT where identified. The MIT license in this repository covers the index text and refresh code only; it does not relicense any listed mod. Follow each project's license and credits. Source-only entries intentionally have no link to an older fork binary that could be mistaken for the current build.", "",
+              "Original mods remain under their original licenses and any separate asset terms. My original code is MIT where identified. The MIT license in this repository covers the index text and refresh code only; it does not relicense any listed mod. Follow each project's license and credits. Source-only entries intentionally have no link to an older fork binary that could be mistaken for the current build.", "",
               "This index covers the reviewed workspace projects. Koyo projects and the removed Controlify, Immersive Portals and Vanilla Vehicles projects are omitted. Other historical GitHub forks are not evidence of an automation-assisted port and are not automatically advertised here.", "",
               "## Updating this index", "",
               "Run the **Refresh mod index** workflow from this repository's Actions tab, or use Python 3.11+ locally:", "",

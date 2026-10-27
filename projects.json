@@ -14,11 +14,11 @@
   {
     "id": "alex-s-caves",
     "name": "Alex's Caves",
-    "description": "Maintenance build of the unofficial NeoForge 1.21.1 port, including the pack branch fixes and integrated TACT changes.",
-    "kind": "Unofficial port / maintenance fork",
-    "repository": "ashleywr/AlexsCaves-1.21.1",
+    "description": "My feature and maintenance fork of Raguto's unofficial NeoForge 1.21.1 port, with integrated TACT and additional repairs.",
+    "kind": "Feature and maintenance fork of an unofficial port",
+    "repository": "ashleywr/alexs-caves-neoforge-1.21.1",
     "branch": "pack",
-    "source_url": "https://github.com/ashleywr/AlexsCaves-1.21.1",
+    "source_url": "https://github.com/ashleywr/alexs-caves-neoforge-1.21.1",
     "upstream": "https://github.com/Raguto/AlexsCaves-1.21.1",
     "license": "GPL-3.0",
     "status": "published",
@@ -83,7 +83,7 @@
     "description": "Unofficial NeoForge 1.21.1 build of the reviewed upstream porting snapshot, with license packaging and an accidentally committed log omitted.",
     "kind": "Unofficial upstream snapshot build",
     "repository": "ashleywr/Botania",
-    "branch": "1.21.1-porting",
+    "branch": "release/2026-10-27-de47e50e",
     "source_url": "https://github.com/ashleywr/Botania",
     "upstream": "https://github.com/VazkiiMods/Botania",
     "license": "Botania license; separate component terms apply",
@@ -170,7 +170,7 @@
     "description": "Hexalia NeoForge 1.21.1 maintenance build with the local Patchouli book fix.",
     "kind": "Unofficial port / maintenance fork",
     "repository": "ashleywr/Hexalia",
-    "branch": "release/2026-10-25-d0945cb8",
+    "branch": "release/2026-10-27-0a72308a",
     "source_url": "https://github.com/ashleywr/Hexalia",
     "upstream": "https://github.com/AstralyaStudios/Hexalia",
     "license": "MIT",
@@ -464,11 +464,11 @@
   {
     "id": "rats",
     "name": "Rats",
-    "description": "NeoForge 1.21.1 maintenance port with local rat AI, inventory and navigation repairs.",
-    "kind": "Unofficial port / maintenance fork",
-    "repository": "ashleywr/Rats-Fix-Port--1.21.1",
+    "description": "My feature and maintenance fork of the existing unofficial NeoForge 1.21.1 Rats port, with behavioral repairs and selected newer backports.",
+    "kind": "Feature and maintenance fork of an unofficial port",
+    "repository": "ashleywr/rats-neoforge-1.21.1",
     "branch": "Rats-8.2.3B02",
-    "source_url": "https://github.com/ashleywr/Rats-Fix-Port--1.21.1",
+    "source_url": "https://github.com/ashleywr/rats-neoforge-1.21.1",
     "upstream": "https://github.com/eba67/Rats-Fix-Port--1.21.1",
     "license": "LGPL-3.0",
     "status": "published"
@@ -476,14 +476,17 @@
   {
     "id": "rechanted",
     "name": "Rechanted",
-    "description": "NeoForge 1.21.1 enchanting fork with book operations and recipe viewer integration.",
-    "kind": "Unofficial port / maintenance fork",
+    "description": "My experimental Rechanted compatibility changes. Please start with the upstream project for the original mod and official downloads.",
+    "kind": "Experimental compatibility fork",
     "repository": "ashleywr/Rechanted",
     "branch": "compat/enchantment-power-providers",
     "source_url": "https://github.com/ashleywr/Rechanted",
     "upstream": "https://github.com/Rechanted-Team/Rechanted",
     "license": "GPL-3.0-only for the current integration; earlier MIT snapshot notice retained",
-    "status": "published"
+    "status": "published",
+    "notes": [
+      "Please start with the upstream Rechanted project for official downloads, news and support. This entry is my unofficial compatibility fork."
+    ]
   },
   {
     "id": "scorched-guns-emf-fix",
@@ -579,7 +582,7 @@
       "url": null
     },
     "notes": [
-      "The reviewed port is committed locally; there is no published Ashley fork for this entry. The Source link opens upstream."
+      "The reviewed port is committed locally; there is no published fork of mine for this entry. The Source link opens upstream."
     ],
     "snapshot": {
       "built_at": "2026-10-25",
